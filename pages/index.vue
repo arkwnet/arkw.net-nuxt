@@ -1,5 +1,10 @@
 <template>
-  <Tutorial/>
+	<div>
+		<Header />
+		<Navi />
+		<Top />
+		<Footer />
+	</div>
 </template>
 
 <script>

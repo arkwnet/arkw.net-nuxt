@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'arkw.net-nuxt',
+    title: 'Arakawa',
     htmlAttrs: {
       lang: 'en'
     },
@@ -16,11 +16,19 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+	script: [
+		{ type: 'text/javascript', src: 'js/jquery.js', body: true },
+		{ type: 'text/javascript', src: 'js/slick.min.js', body: true },
+		{ type: 'text/javascript', src: 'js/main.js', body: true }
+	]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+	{ src: '~/static/css/slick.css' },
+	{ src: '~/static/css/slick-theme.css' },
+	{ src: '~/assets/sass/app.scss', lang: 'scss' }
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
