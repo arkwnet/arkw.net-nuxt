@@ -1,10 +1,10 @@
 <template>
-	<div>
-		<Header />
-		<Navi />
-		<Top />
-		<Footer />
-	</div>
+  <div>
+    <Header />
+    <Navi />
+    <Top />
+    <Footer />
+  </div>
 </template>
 
 <script>

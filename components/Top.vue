@@ -320,15 +320,15 @@
 			<!-- 製品情報 -->
 			<h1 class="heading">ソフトウェア</h1>
 			<div class="pr_menu">
-				<a href="javascript:changeProductsMenu('windows')"><div class="pr_menu_item pr_menu_selected" id="pr_menu_windows">PCソフトウェア</div></a>
-				<a href="javascript:changeProductsMenu('web')"><div class="pr_menu_item" id="pr_menu_web">ウェブアプリ</div></a>
-				<a href="javascript:changeProductsMenu('dev')"><div class="pr_menu_item" id="pr_menu_dev">開発者向け</div></a>
+				<a href="javascript:changeProductsMenu('windows')"><div id="pr_menu_windows" class="pr_menu_item pr_menu_selected">PCソフトウェア</div></a>
+				<a href="javascript:changeProductsMenu('web')"><div id="pr_menu_web" class="pr_menu_item">ウェブアプリ</div></a>
+				<a href="javascript:changeProductsMenu('dev')"><div id="pr_menu_dev" class="pr_menu_item">開発者向け</div></a>
 			</div>
 			<p>
 				<div class="pr_list_bg">
 					
 					<!-- 製品情報：Windows -->
-					<div class="pr_list" id="pr_item_windows">
+					<div id="pr_item_windows" class="pr_list">
 						<div class="pr_list_box">
 							<a href="https://arkw.net/products/pc_game/qubefall/">
 								<div class="topics">
@@ -418,7 +418,7 @@
 					</div>
 					
 					<!-- 製品情報：ウェブアプリ -->
-					<div class="pr_list" id="pr_item_web">
+					<div id="pr_item_web" class="pr_list">
 						<div class="pr_list_box">
 							<a href="https://arkw.net/products/web/prohaya/">
 								<div class="topics">
@@ -522,7 +522,7 @@
 					</div>
 					
 					<!-- 製品情報：開発者向け -->
-					<div class="pr_list" id="pr_item_dev">
+					<div id="pr_item_dev" class="pr_list">
 						<div class="pr_list_box">
 							<a href="https://arkw.net/products/dev/AoiEngine/">
 								<div class="topics">
