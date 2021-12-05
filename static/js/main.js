@@ -23,7 +23,6 @@ const slideShow = [
 ]
 
 window.onload = function () {
-  createSlideShow()
   $('.slider').slick({
     autoplay: true,
     arrows: false,
@@ -43,19 +42,4 @@ function changeProductsMenu(a) {
     $('#pr_item_' + a).show(100)
     pmid = a
   }
-}
-
-function createSlideShow() {
-  let output = ''
-  output += '<div class="slider">'
-  for (let i = 0; i < slideShow.length; i++) {
-    output +=
-      '<a href="' +
-      slideShow[i].URL +
-      '" target="blank"><div><img src="img/header/' +
-      slideShow[i].Image +
-      '.png"></div></a>'
-  }
-  output += '</div>'
-  $('.navi').html(output)
 }
