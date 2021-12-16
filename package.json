@@ -13,7 +13,7 @@
     "lint": "npm run lint:js && npm run lint:style"
   },
   "dependencies": {
-    "core-js": "^3.19.3"
+    "core-js": "^3.20.0"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.16.5",
