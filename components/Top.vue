@@ -4,6 +4,7 @@
 			
 			<!-- トピックス -->
 			<h1 class="heading">トピックス</h1>
+			<!--
 			<div class="warn_box">
 				<p>
 					<span>デジゲー博2021で「QubeFall」をご購入の方へ</span>
@@ -13,18 +14,8 @@
 					を確認しております。修正パッチを<a href="https://arkw.work/doujin/">こちら</a>からダウンロードできますので、お手数ですが適用をお願い致します。
 				</p>
 			</div>
+			-->
 			<p>
-				<a href="https://arkw.work/doujin/">
-					<div class="topics">
-						<div class="topics_icon"><img src="~/assets/img/topics/digihaku.png"></div>
-						<div class="topics_main">
-							<h1>デジゲー博2021に出展しました</h1>
-							<p>
-								11月14日（日）に秋葉原UDXで開催された「デジゲー博2021」にて、作品の展示と頒布を行いました。詳細はこちらをクリックして下さい。
-							</p>
-						</div>
-					</div>
-				</a>
 				<a href="https://note.com/arkw0/n/n5289722646f0" target="blank">
 					<div class="topics">
 						<div class="topics_icon"><img src="~/assets/img/topics/windef.png"></div>
@@ -55,36 +46,41 @@
 			<p>
 				<table>
 					<tr>
-						<th>2021/11/26</th>
-						<td>
-							ウェブアプリ「Ahoxa」 Ver.1.5.2を公開<br>
-							「Shiori Server」のページを更新
-						</td>
-					</tr>
-					<tr>
-						<th>2021/11/23</th>
-						<td>
-							ウェブアプリ「Ahoxa」 Ver.1.5.1を公開
-						</td>
-					</tr>
-					<tr>
-						<th>2021/11/20</th>
-						<td>
-							「三菱 ミニカ H42V」「Shiori Server」のページを更新
-						</td>
-					</tr>
-					<tr>
-						<th>2021/11/17</th>
+						<th>2022/01/18</th>
 						<td>
 							トップページを更新<br>
-							「荒川の同人活動」ページを更新
+							ウェブアプリ「謝罪しろ！ジェネレータ」を更新
 						</td>
 					</tr>
 					<tr>
-						<th>2021/11/16</th>
+						<th>2022/01/17</th>
 						<td>
-							Windows向けフリーゲーム「QubeFall」 Ver.1.1.1を公開<br>
-							ウェブアプリ「Ahoxa」 Ver.1.5.0を公開
+							ウェブアプリ「謝罪しろ！ジェネレータ」を更新
+						</td>
+					</tr>
+					<tr>
+						<th>2022/01/16</th>
+						<td>
+							ウェブアプリ「謝罪しろ！ジェネレータ」を公開
+						</td>
+					</tr>
+					<tr>
+						<th>2022/01/15</th>
+						<td>
+							トップページのプロフィールを更新<br>
+							ウェブアプリ「Ahoxa」Ver.2.0.2を公開
+						</td>
+					</tr>
+					<tr>
+						<th>2022/01/07</th>
+						<td>
+							トップページのデザインを一部変更
+						</td>
+					</tr>
+					<tr>
+						<th>2022/01/05</th>
+						<td>
+							「三菱 ミニカ H42V」のページを更新
 						</td>
 					</tr>
 				</table>
@@ -122,7 +118,7 @@
 			<br>
 			<h2>スキル</h2>
 			<p>
-				<img src="~/assets/img/skills/html5.png" class="main_skill" title="HTML5"><img src="~/assets/img/skills/css.png" class="main_skill" title="CSS3"><img src="~/assets/img/skills/js.png" class="main_skill" title="JavaScript"><img src="~/assets/img/skills/nwjs.png" class="main_skill" title="NW.js"><img src="~/assets/img/skills/ai.png" class="main_skill" title="Adobe Illustrator"><img src="~/assets/img/skills/aviutl.png" class="main_skill" title="AviUtl"><img src="~/assets/img/skills/ongeki.png" class="main_skill" title="オンゲキ bright"><img src="~/assets/img/skills/chunithm.png" class="main_skill" title="チュウニズム NEW"><img src="~/assets/img/skills/csharp.png" class="main_skill" title="C#"><img src="~/assets/img/skills/electron.png" class="main_skill" title="Electron"><img src="~/assets/img/skills/php.png" class="main_skill" title="PHP"><img src="~/assets/img/skills/id.png" class="main_skill" title="Adobe InDesign"><img src="~/assets/img/skills/linux.png" class="main_skill" title="Linux">
+				<img src="~/assets/img/skills/html5.png" class="main_skill" title="HTML5"><img src="~/assets/img/skills/css.png" class="main_skill" title="CSS3"><img src="~/assets/img/skills/js.png" class="main_skill" title="JavaScript"><img src="~/assets/img/skills/vue.png" class="main_skill" title="Vue.js"><img src="~/assets/img/skills/ai.png" class="main_skill" title="Adobe Illustrator"><img src="~/assets/img/skills/ongeki.png" class="main_skill" title="オンゲキ bright"><img src="~/assets/img/skills/chunithm.png" class="main_skill" title="チュウニズム NEW"><img src="~/assets/img/skills/csharp.png" class="main_skill" title="C#"><img src="~/assets/img/skills/nuxt.png" class="main_skill" title="Nuxt.js"><img src="~/assets/img/skills/electron.png" class="main_skill" title="Electron"><img src="~/assets/img/skills/php.png" class="main_skill" title="PHP"><img src="~/assets/img/skills/id.png" class="main_skill" title="Adobe InDesign"><img src="~/assets/img/skills/linux.png" class="main_skill" title="Linux">
 			</p>
 			<br>
 			<h2>外部制作実績</h2>
@@ -273,6 +269,7 @@
 			<h2>イベント登壇歴</h2>
 			<p>
 				<table>
+					<tr><th>2021/12/26</th><td><a href="https://shizdailt.connpass.com/event/233650/" target="blank">静大情報LT大会 -2021年12月-</a></td></tr>
 					<tr><th>2021/11/04</th><td><a href="https://talent.supporterz.jp/events/d618540f-6eaa-4972-9a6a-9538d453ecf4/" target="blank">サポーターズ学生ライトニングトーク ～2021秋の終り編～</a></td></tr>
 					<tr><th>2021/10/30</th><td><a href="https://shizdailt.connpass.com/event/227253/" target="blank">静大情報LT大会 -2021年10月-</a></td></tr>
 					<tr><th>2021/08/26</th><td><a href="https://talent.supporterz.jp/events/343cee73-1059-4058-9a25-c900c896fbda/" target="blank">サポーターズ学生ライトニングトーク ～2021夏の終り編～</a></td></tr>
@@ -318,15 +315,15 @@
 			<!-- 製品情報 -->
 			<h1 class="heading">ソフトウェア</h1>
 			<div class="pr_menu">
-				<a href="javascript:changeProductsMenu('windows')"><div id="pr_menu_windows" class="pr_menu_item pr_menu_selected">PCソフトウェア</div></a>
-				<a href="javascript:changeProductsMenu('web')"><div id="pr_menu_web" class="pr_menu_item">ウェブアプリ</div></a>
-				<a href="javascript:changeProductsMenu('dev')"><div id="pr_menu_dev" class="pr_menu_item">開発者向け</div></a>
+				<a href="javascript:changeProductsMenu('windows')"><div class="pr_menu_item pr_menu_selected" id="pr_menu_windows">PCソフトウェア</div></a>
+				<a href="javascript:changeProductsMenu('web')"><div class="pr_menu_item" id="pr_menu_web">ウェブアプリ</div></a>
+				<a href="javascript:changeProductsMenu('dev')"><div class="pr_menu_item" id="pr_menu_dev">開発者向け</div></a>
 			</div>
 			<p>
 				<div class="pr_list_bg">
 					
 					<!-- 製品情報：Windows -->
-					<div id="pr_item_windows" class="pr_list">
+					<div class="pr_list" id="pr_item_windows">
 						<div class="pr_list_box">
 							<a href="https://arkw.net/products/pc_game/qubefall/">
 								<div class="topics">
@@ -416,7 +413,7 @@
 					</div>
 					
 					<!-- 製品情報：ウェブアプリ -->
-					<div id="pr_item_web" class="pr_list">
+					<div class="pr_list" id="pr_item_web">
 						<div class="pr_list_box">
 							<a href="https://arkw.net/products/web/prohaya/">
 								<div class="topics">
@@ -436,6 +433,15 @@
 									</div>
 								</div>
 							</a>
+							<a href="https://arkw.net/products/web/pronama_clock/">
+								<div class="topics">
+									<div class="topics_icon"><img src="~/assets/img/products/pronama_clock.png"></div>
+									<div class="topics_main">
+										<h1>プロ生時計</h1>
+										<p>オープンソースのデジタル時計「Ahoxa」にプロ生テーマを収録！</p>
+									</div>
+								</div>
+							</a>
 							<a href="https://arkw.net/products/web/ahoxa/">
 								<div class="topics">
 									<div class="topics_icon"><img src="~/assets/img/products/ahoxa.png"></div>
@@ -451,6 +457,15 @@
 									<div class="topics_main">
 										<h1>ドカベンメーカー</h1>
 										<p>「ドカベン」のロゴ風画像を作成できるウェブアプリ</p>
+									</div>
+								</div>
+							</a>
+							<a href="https://arkw.net/products/web/shazai/">
+								<div class="topics">
+									<div class="topics_icon"><img src="~/assets/img/products/shazai.png"></div>
+									<div class="topics_main">
+										<h1>謝罪しろ！ジェネレータ</h1>
+										<p>伊勢原名物「謝罪しろ！」看板がウェブブラウザで作り放題</p>
 									</div>
 								</div>
 							</a>
@@ -520,7 +535,7 @@
 					</div>
 					
 					<!-- 製品情報：開発者向け -->
-					<div id="pr_item_dev" class="pr_list">
+					<div class="pr_list" id="pr_item_dev">
 						<div class="pr_list_box">
 							<a href="https://arkw.net/products/dev/AoiEngine/">
 								<div class="topics">
