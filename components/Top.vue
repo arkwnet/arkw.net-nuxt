@@ -1,11 +1,11 @@
 <template>
 	<div class="main">
 		<div class="main_right">
-			
+
 			<!-- トピックス -->
 			<h1 class="heading">トピックス</h1>
 			<!--
-			<div class="warn_box">
+			<div class="warning">
 				<p>
 					<span>デジゲー博2021で「QubeFall」をご購入の方へ</span>
 					デジゲー博2021のICONブース（X-07）で頒布した「QubeFall（パッケージ版）」にて、<br>
@@ -40,11 +40,23 @@
 				</a>
 			</p>
 			<br>
-			
+
 			<!-- 更新情報 -->
 			<h1 class="heading">更新情報</h1>
 			<p>
 				<table>
+					<tr>
+						<th>2022/01/24</th>
+						<td>
+							ウェブアプリ「Ahoxa」Ver.2.0.3を公開
+						</td>
+					</tr>
+					<tr>
+						<th>2022/01/21</th>
+						<td>
+							ウェブアプリ「謝罪しろ！ジェネレータ」を更新
+						</td>
+					</tr>
 					<tr>
 						<th>2022/01/18</th>
 						<td>
@@ -64,31 +76,12 @@
 							ウェブアプリ「謝罪しろ！ジェネレータ」を公開
 						</td>
 					</tr>
-					<tr>
-						<th>2022/01/15</th>
-						<td>
-							トップページのプロフィールを更新<br>
-							ウェブアプリ「Ahoxa」Ver.2.0.2を公開
-						</td>
-					</tr>
-					<tr>
-						<th>2022/01/07</th>
-						<td>
-							トップページのデザインを一部変更
-						</td>
-					</tr>
-					<tr>
-						<th>2022/01/05</th>
-						<td>
-							「三菱 ミニカ H42V」のページを更新
-						</td>
-					</tr>
 				</table>
 			</p>
 			<p>
-				<a href="history.html">過去の更新履歴を見る</a>
+				<a href="/history">過去の更新履歴を見る</a>
 			</p><br>
-			
+
 			<!-- プロフィール -->
 			<h1 class="heading">プロフィール</h1>
 			<p>
@@ -308,22 +301,22 @@
 					<tr><th>自動車</th><td><a href="https://arkw.work/h42v/">三菱 ミニカ H42V</a><span class="spec">（2008年式 ライラ 2WD 5MT）</span></td></tr>
 				</table>
 			</p>
-			
+
 		</div>
 		<div class="main_left">
-			
+
 			<!-- 製品情報 -->
 			<h1 class="heading">ソフトウェア</h1>
 			<div class="pr_menu">
-				<a href="javascript:changeProductsMenu('windows')"><div class="pr_menu_item pr_menu_selected" id="pr_menu_windows">PCソフトウェア</div></a>
-				<a href="javascript:changeProductsMenu('web')"><div class="pr_menu_item" id="pr_menu_web">ウェブアプリ</div></a>
-				<a href="javascript:changeProductsMenu('dev')"><div class="pr_menu_item" id="pr_menu_dev">開発者向け</div></a>
+				<a href="javascript:changeProductsMenu('windows')"><div id="pr_menu_windows" class="pr_menu_item pr_menu_selected">PCソフトウェア</div></a>
+				<a href="javascript:changeProductsMenu('web')"><div id="pr_menu_web" class="pr_menu_item">ウェブアプリ</div></a>
+				<a href="javascript:changeProductsMenu('dev')"><div id="pr_menu_dev" class="pr_menu_item">開発者向け</div></a>
 			</div>
 			<p>
 				<div class="pr_list_bg">
-					
+
 					<!-- 製品情報：Windows -->
-					<div class="pr_list" id="pr_item_windows">
+					<div id="pr_item_windows" class="pr_list">
 						<div class="pr_list_box">
 							<a href="https://arkw.net/products/pc_game/qubefall/">
 								<div class="topics">
@@ -411,9 +404,9 @@
 						<a href="https://arkw.net/products/win/old/Jikagaki_1.0.1.zip"><img src="~/assets/img/products/folder-zipper.png" class="main_social">直書きランチャー Ver.1.0.1</a><br>
 						<a href="https://arkw.net/products/win/old/ShiseiChecker_1.0.zip"><img src="~/assets/img/products/folder-zipper.png" class="main_social">姿勢チェッカー for Windows Ver.1.0</a><br>
 					</div>
-					
+
 					<!-- 製品情報：ウェブアプリ -->
-					<div class="pr_list" id="pr_item_web">
+					<div id="pr_item_web" class="pr_list">
 						<div class="pr_list_box">
 							<a href="https://arkw.net/products/web/prohaya/">
 								<div class="topics">
@@ -533,9 +526,9 @@
 						<a href="https://arkw.net/products/web/tools/imgsize/"><img src="https://arkw.net/products/web/tools/icon_imgsize_16.png" class="main_social">画像サイズ表示</a><br>
 						<a href="https://arkw.net/products/web/tools/dummyimg/"><img src="https://arkw.net/products/web/tools/icon_dummyimg_16.png" class="main_social">ダミー画像生成</a><br>
 					</div>
-					
+
 					<!-- 製品情報：開発者向け -->
-					<div class="pr_list" id="pr_item_dev">
+					<div id="pr_item_dev" class="pr_list">
 						<div class="pr_list_box">
 							<a href="https://arkw.net/products/dev/AoiEngine/">
 								<div class="topics">
@@ -602,10 +595,10 @@
 							</a>
 						</div>
 					</div>
-					
+
 				</div>
 			</p><br>
-			
+
 			<!-- コンテンツ -->
 			<h1 class="heading">コンテンツ</h1>
 			<p>
@@ -617,7 +610,7 @@
 				<a href="https://arkw.net/contents/bg_archive/">背景画像アーカイブ</a><br>
 				<a href="https://arkw.net/contents/axella/">Team Axella 跡地</a><br>
 			</p><br>
-			
+
 			<!-- リンク集 -->
 			<h1 class="heading">リンク集</h1>
 			<p>

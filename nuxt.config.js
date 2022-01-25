@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Arakawa',
+    title: 'Arakawa Laboratory',
     htmlAttrs: {
       lang: 'ja',
     },
@@ -42,6 +42,15 @@ export default {
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
     '@nuxtjs/google-analytics',
+    [
+      '@nuxtjs/google-fonts',
+      {
+        families: {
+          Roboto: [400, 700],
+          'Noto+Sans+JP': [400, 700]
+        }
+      }
+    ]
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

@@ -1,0 +1,21 @@
+.warning {
+	margin: 10px 0;
+	padding: 10px;
+	background-color: $red;
+	color: $white;
+
+	span {
+		margin-bottom: 8px;
+		display: block;
+		font-size: 20px;
+		line-height: 28px;
+	}
+
+	p {
+		padding-left: 5px;
+	}
+
+	a {
+		color: $white;
+	}
+}

@@ -1,2 +1,13 @@
+@import 'color';
 @import 'main';
 @import 'responsive';
+@import 'sub';
+
+@import 'components/header';
+@import 'components/navi';
+@import 'components/footer';
+
+@import 'components/topics';
+@import 'components/products';
+@import 'components/works';
+@import 'components/box';
