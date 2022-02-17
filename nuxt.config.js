@@ -14,7 +14,11 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+		{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+		{ rel: 'preconnect', href: 'https://fonts.gstatic.com' },
+		{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Roboto:wght@400;700&display=swap' }
+    ],
     script: [
       { type: 'text/javascript', src: 'js/jquery.js', body: true },
       { type: 'text/javascript', src: 'js/slick.min.js', body: true },
@@ -42,15 +46,6 @@ export default {
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
     '@nuxtjs/google-analytics',
-    [
-      '@nuxtjs/google-fonts',
-      {
-        families: {
-          Roboto: [400, 700],
-          'Noto+Sans+JP': [400, 700]
-        }
-      }
-    ]
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
