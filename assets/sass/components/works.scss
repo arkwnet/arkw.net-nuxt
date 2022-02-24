@@ -10,7 +10,7 @@
 }
 
 .works-box {
-	width: 341px;
+	width: calc(50% - 10px);
 	height: 80px;
 	margin-left: 2px;
 	margin-right: 5px;
@@ -19,12 +19,13 @@
 	position: relative;
 	background-color: $arkw-color;
 	border-radius: 5px;
+	background-size: cover;
 	float: left;
 }
 
 .works-box-text {
-	width: 341px;
-	height: 80px;
+	width: 100%;
+	height: 100%;
 	position: absolute;
 	left: 0;
 	top: 0;
