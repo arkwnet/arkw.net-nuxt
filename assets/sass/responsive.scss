@@ -1,85 +1,89 @@
 // Responsive CSS
 
-@media screen and ( max-width: 1280px ){
-	.navi {
-		width: 100%;
-		box-sizing: border-box;
-		padding: 20px;
-	}
+@media screen and (max-width: 1280px) {
+  .navi {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+  }
 }
 
-@media screen and ( max-width: 1240px ){
-	.wrapper {
-		width: 100%;
-	}
-	
-	.header, .footer {
-		padding-left: 20px;
-	}
-	
-	.main, .main_left, .main_right {
-		width: 100%;
-		padding-left: 10px;
-		padding-right: 30px;
-	}
-	
-	.main_right {
-		float: left;
-	}
+@media screen and (max-width: 1240px) {
+  .wrapper {
+    width: 100%;
+  }
 
-	.topics {
-		margin-bottom: 10px;
-	}
+  .header,
+  .footer {
+    padding-left: 20px;
+  }
 
-	.pr_list_box {
-		overflow: hidden;
+  .main,
+  .main_left,
+  .main_right {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 30px;
+  }
 
-		.topics {
-			width: 45%;
-			margin-right: 5%;
-			float: left;
+  .main_right {
+    float: left;
+  }
 
-			.topics_main {
-				h1, p {
-					overflow: hidden;
-					text-overflow: ellipsis;
-				}
+  .topics {
+    margin-bottom: 10px;
+  }
 
-				h1 {
-					white-space: nowrap;
-				}
-				
-				p {
-					display: -webkit-box;
-					-webkit-box-orient: vertical;
-					-webkit-line-clamp: 2;
-				}
-			}
-		}
-	}
+  .pr_list_box {
+    overflow: hidden;
+
+    .topics {
+      width: 45%;
+      margin-right: 5%;
+      float: left;
+
+      .topics_main {
+        h1,
+        p {
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+
+        h1 {
+          white-space: nowrap;
+        }
+
+        p {
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+        }
+      }
+    }
+  }
 }
 
-@media screen and ( max-width: 755px ){
-	.works {
-		height: 300px;
-		overflow-y: scroll;
-	}
+@media screen and (max-width: 755px) {
+  .works {
+    height: 300px;
+    overflow-y: scroll;
+  }
 
-	.works-box {
-		width: 99%;
-		background-size: cover;
-		box-shadow: none;
-	}
+  .works-box {
+    width: 99%;
+    background-size: cover;
+    box-shadow: none;
+  }
 
-	.works-box-text {
-		width: 100%;
-		opacity: 1;
-	}
+  .works-box-text {
+    width: 100%;
+    opacity: 1;
+  }
 
-	.pr_list_box {
-		.topics {
-			width: 100%;
-			margin-right: 0;
-		}
-	}
+  .pr_list_box {
+    .topics {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
 }

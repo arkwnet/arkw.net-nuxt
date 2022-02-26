@@ -1,95 +1,96 @@
 .works {
-	margin: 10px 0;
-	margin-left: 2px;
-	overflow: hidden;
-	box-sizing: border-box;
+  margin: 10px 0;
+  margin-left: 2px;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .works-wrapper {
-	padding-bottom: 5px;
+  padding-bottom: 5px;
 }
 
 .works-box {
-	width: calc(50% - 10px);
-	height: 80px;
-	margin-left: 2px;
-	margin-right: 5px;
-	margin-top: 2px;
-	margin-bottom: 5px;
-	position: relative;
-	background-color: $arkw-color;
-	border-radius: 5px;
-	background-size: cover;
-	float: left;
+  width: calc(50% - 10px);
+  height: 80px;
+  margin-left: 2px;
+  margin-right: 5px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  position: relative;
+  background-color: $arkw-color;
+  border-radius: 5px;
+  background-size: cover;
+  float: left;
 }
 
 .works-box-text {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	left: 0;
-	top: 0;
-	background-color: rgba(0, 0, 0, 0.7);
-	color: $white;
-	border-radius: 5px;
-	opacity: 0;
-	transition-property: opacity;
-	transition-duration: 0.2s;
-	transition-timing-function: ease-in-out;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: $white;
+  border-radius: 5px;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
 
-	h1 {
-		width: 95%;
-		position: absolute;
-		left: 10px;
-		top: 4px;
-		font-size: 18px;
-		font-weight: normal;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		white-space: nowrap;
-	}
+  h1 {
+    width: 95%;
+    position: absolute;
+    left: 10px;
+    top: 4px;
+    font-size: 18px;
+    font-weight: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
 
-	h2 {
-		position: absolute;
-		left: 10px;
-		top: 2px;
-		font-size: 14px;
-		font-weight: normal;
-	}
+  h2 {
+    position: absolute;
+    left: 10px;
+    top: 2px;
+    font-size: 14px;
+    font-weight: normal;
+  }
 }
 
-.works a:hover, .works-box-text:hover {
-	opacity: 1;
+.works a:hover,
+.works-box-text:hover {
+  opacity: 1;
 }
 
 .works-box-inside {
-	position: absolute;
-	left: 10px;
-	top: 55px;
-	overflow: hidden;
+  position: absolute;
+  left: 10px;
+  top: 55px;
+  overflow: hidden;
 
-	div {
-		margin-right: 6px;
-		padding: 0 6px;
-		padding-bottom: 1px;
-		border-radius: 10px;
-		font-size: 10px;
-		float: left;
+  div {
+    margin-right: 6px;
+    padding: 0 6px;
+    padding-bottom: 1px;
+    border-radius: 10px;
+    font-size: 10px;
+    float: left;
 
-		&.web {
-			background-color: #673AB7;
-		}
+    &.web {
+      background-color: #673ab7;
+    }
 
-		&.graphic {
-			background-color: #2196F3;
-		}
+    &.graphic {
+      background-color: #2196f3;
+    }
 
-		&.system {
-			background-color: #607D8B;
-		}
+    &.system {
+      background-color: #607d8b;
+    }
 
-		&.movie {
-			background-color: #f44336;
-		}
-	}
+    &.movie {
+      background-color: #f44336;
+    }
+  }
 }
