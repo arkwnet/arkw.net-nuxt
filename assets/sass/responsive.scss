@@ -19,14 +19,14 @@
   }
 
   .main,
-  .main_left,
-  .main_right {
+  .main .left,
+  .main .right {
     width: 100%;
     padding-left: 10px;
     padding-right: 30px;
   }
 
-  .main_right {
+  .main .right {
     float: left;
   }
 

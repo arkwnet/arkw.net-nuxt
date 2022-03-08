@@ -31,14 +31,15 @@ window.onload = function () {
 }
 
 function changeProductsMenu(a) {
+  const className = "selected";
   if (pmid != a) {
-    $('#pr_menu_windows').removeClass('pr_menu_selected')
-    $('#pr_menu_web').removeClass('pr_menu_selected')
-    $('#pr_menu_dev').removeClass('pr_menu_selected')
+    $('#pr_menu_windows').removeClass(className)
+    $('#pr_menu_web').removeClass(className)
+    $('#pr_menu_dev').removeClass(className)
     $('#pr_item_windows').hide(100)
     $('#pr_item_web').hide(100)
     $('#pr_item_dev').hide(100)
-    $('#pr_menu_' + a).addClass('pr_menu_selected')
+    $('#pr_menu_' + a).addClass(className)
     $('#pr_item_' + a).show(100)
     pmid = a
   }
