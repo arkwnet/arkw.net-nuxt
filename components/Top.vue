@@ -112,9 +112,73 @@
       </p>
       <br>
       <h2>スキル</h2>
-      <p>
-        <img src="~/assets/img/skills/html5.png" class="main_skill" title="HTML5"><img src="~/assets/img/skills/css.png" class="main_skill" title="CSS3"><img src="~/assets/img/skills/js.png" class="main_skill" title="JavaScript"><img src="~/assets/img/skills/vue.png" class="main_skill" title="Vue.js"><img src="~/assets/img/skills/ai.png" class="main_skill" title="Adobe Illustrator"><img src="~/assets/img/skills/ongeki.png" class="main_skill" title="オンゲキ bright"><img src="~/assets/img/skills/chunithm.png" class="main_skill" title="チュウニズム NEW"><img src="~/assets/img/skills/csharp.png" class="main_skill" title="C#"><img src="~/assets/img/skills/nuxt.png" class="main_skill" title="Nuxt.js"><img src="~/assets/img/skills/electron.png" class="main_skill" title="Electron"><img src="~/assets/img/skills/php.png" class="main_skill" title="PHP"><img src="~/assets/img/skills/id.png" class="main_skill" title="Adobe InDesign"><img src="~/assets/img/skills/linux.png" class="main_skill" title="Linux">
-      </p>
+      <div class="skill">
+        <div class="box">
+          <img src="~/assets/img/skills/html.png">
+          <div class="progress-background"></div>
+          <div class="progress lv-5"></div>
+        </div>
+        <div class="box">
+          <img src="~/assets/img/skills/css.png">
+          <div class="progress-background"></div>
+          <div class="progress lv-5"></div>
+        </div>
+        <div class="box">
+          <img src="~/assets/img/skills/javascript.png">
+          <div class="progress-background"></div>
+          <div class="progress lv-4"></div>
+        </div>
+        <div class="box">
+          <img src="~/assets/img/skills/vue.png">
+          <div class="progress-background"></div>
+          <div class="progress lv-4"></div>
+        </div>
+        <div class="box">
+          <img src="~/assets/img/skills/nuxt.png">
+          <div class="progress-background"></div>
+          <div class="progress lv-4"></div>
+        </div>
+        <div class="box">
+          <img src="~/assets/img/skills/ongeki.png">
+          <div class="progress-background"></div>
+          <div class="progress lv-3"></div>
+        </div>
+        <div class="box">
+          <img src="~/assets/img/skills/chunithm.png">
+          <div class="progress-background"></div>
+          <div class="progress lv-3"></div>
+        </div>
+        <div class="box">
+          <img src="~/assets/img/skills/illustrator.png">
+          <div class="progress-background"></div>
+          <div class="progress lv-3"></div>
+        </div>
+		<div class="box">
+          <img src="~/assets/img/skills/indesign.png">
+          <div class="progress-background"></div>
+          <div class="progress lv-3"></div>
+        </div>
+        <div class="box">
+          <img src="~/assets/img/skills/electron.png">
+          <div class="progress-background"></div>
+          <div class="progress lv-3"></div>
+        </div>
+        <div class="box">
+          <img src="~/assets/img/skills/csharp.png">
+          <div class="progress-background"></div>
+          <div class="progress lv-3"></div>
+        </div>
+		<div class="box">
+          <img src="~/assets/img/skills/linux.png">
+          <div class="progress-background"></div>
+          <div class="progress lv-2"></div>
+        </div>
+		<div class="box">
+          <img src="~/assets/img/skills/php.png">
+          <div class="progress-background"></div>
+          <div class="progress lv-2"></div>
+        </div>
+      </div>
       <br>
       <h2>外部制作実績</h2>
       <div class="works">

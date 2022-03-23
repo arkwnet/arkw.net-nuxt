@@ -1,0 +1,59 @@
+.skill {
+  margin: 10px 0;
+  overflow: hidden;
+
+  .box {
+    width: 80px;
+    height: 95px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    position: relative;
+    float: left;
+    background-color: #607D8B;
+
+    img {
+      width: 80px;
+      height: 95px;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    .progress-background {
+      width: 60px;
+      height: 3px;
+      position: absolute;
+      left: 4px;
+      top: 87px;
+      background-color: #FAFAFA;
+    }
+
+    .progress {
+      height: 3px;
+      position: absolute;
+      left: 4px;
+      top: 87px;
+      background-color: #CDDC39;
+
+      &.lv-5 {
+        width: 60px;
+      }
+
+      &.lv-4 {
+        width: 48px;
+      }
+
+      &.lv-3 {
+        width: 36px;
+      }
+
+      &.lv-2 {
+        width: 24px;
+      }
+
+      &.lv-1 {
+        width: 12px;
+      }
+    }
+  }
+}
