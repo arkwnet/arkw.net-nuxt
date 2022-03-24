@@ -52,7 +52,13 @@ export default {
   modules: [],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    babel: {
+      presets({ isServer }, [preset, options]) {
+        options.loose = true
+      },
+    },
+  },
 
   googleAnalytics: {
     id: 'UA-103554097-1'
