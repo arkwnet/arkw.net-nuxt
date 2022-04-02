@@ -2,8 +2,8 @@
 
 @media screen and (max-width: 1280px) {
   .navi {
-    width: 100%;
     box-sizing: border-box;
+    width: 100%;
     padding: 20px;
   }
 }
@@ -22,8 +22,8 @@
   .main .left,
   .main .right {
     width: 100%;
-    padding-left: 10px;
     padding-right: 30px;
+    padding-left: 10px;
   }
 
   .main .right {
@@ -34,15 +34,15 @@
     margin-bottom: 10px;
   }
 
-  .pr_list_box {
+  .products .box {
     overflow: hidden;
 
     .topics {
+      float: left;
       width: 45%;
       margin-right: 5%;
-      float: left;
 
-      .topics_main {
+      .main {
         h1,
         p {
           overflow: hidden;
@@ -54,7 +54,7 @@
         }
 
         p {
-          display: -webkit-box;
+          display: box;
           -webkit-box-orient: vertical;
           -webkit-line-clamp: 2;
         }
@@ -80,7 +80,7 @@
     opacity: 1;
   }
 
-  .pr_list_box {
+  .products .box {
     .topics {
       width: 100%;
       margin-right: 0;

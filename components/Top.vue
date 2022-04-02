@@ -676,7 +676,7 @@
       <!-- コンテンツ -->
       <h1 class="heading">コンテンツ</h1>
       <p>
-        <a href="https://arkw.work/shiori_sv/"><img src="~/assets/img/links/shiori.svg" class="main_left_banner" width="180"></a><br>
+        <a href="https://arkw.work/shiori_sv/"><img src="~/assets/img/links/shiori.svg" class="link-banner" width="180"></a><br>
         <a href="https://arkw.work/doujin/">荒川の同人活動</a><br>
         <a href="http://arkw.client.jp">Arakawa No-SSL</a><br>
         <a href="https://arkw.net/blog/">Arakawa Blog</a><br>

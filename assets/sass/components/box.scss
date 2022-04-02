@@ -1,12 +1,12 @@
 .warning {
-  margin: 10px 0;
   padding: 10px;
-  background-color: $red;
+  margin: 10px 0;
   color: $white;
+  background-color: $red;
 
   span {
-    margin-bottom: 8px;
     display: block;
+    margin-bottom: 8px;
     font-size: 20px;
     line-height: 28px;
   }

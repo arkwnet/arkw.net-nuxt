@@ -3,37 +3,37 @@
   overflow: hidden;
 
   .box {
+    position: relative;
+    float: left;
     width: 80px;
     height: 95px;
     margin-right: 8px;
     margin-bottom: 8px;
-    position: relative;
-    float: left;
-    background-color: #607D8B;
+    background-color: #607d8b;
 
     img {
+      position: absolute;
+      top: 0;
+      left: 0;
       width: 80px;
       height: 95px;
-      position: absolute;
-      left: 0;
-      top: 0;
     }
 
     .progress-background {
+      position: absolute;
+      top: 87px;
+      left: 4px;
       width: 60px;
       height: 3px;
-      position: absolute;
-      left: 4px;
-      top: 87px;
-      background-color: #FAFAFA;
+      background-color: #fafafa;
     }
 
     .progress {
-      height: 3px;
       position: absolute;
-      left: 4px;
       top: 87px;
-      background-color: #CDDC39;
+      left: 4px;
+      height: 3px;
+      background-color: #cddc39;
 
       &.lv-5 {
         width: 60px;

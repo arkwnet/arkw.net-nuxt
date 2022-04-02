@@ -1,3 +1,4 @@
+/* stylelint-disable selector-id-pattern */
 .products {
   overflow: hidden;
 
@@ -6,21 +7,21 @@
   }
 
   .item {
+    float: left;
+    padding: 5px 10px;
     margin-top: 5px;
     margin-right: 10px;
-    padding: 5px 10px;
-    float: left;
-    background-color: $arkw-color-light;
     color: $arkw-color;
+    background-color: $arkw-color-light;
     border-radius: 15px;
   }
 
   .selected {
-    background-color: $arkw-color;
     color: $arkw-color-light;
-    transition-property: background-color, color, text-shadow;
-    transition-duration: 0.1s;
+    background-color: $arkw-color;
     transition-timing-function: ease-in-out;
+    transition-duration: 0.1s;
+    transition-property: background-color, color, text-shadow;
   }
 }
 

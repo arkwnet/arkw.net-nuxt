@@ -27,11 +27,15 @@
     "eslint-plugin-nuxt": "^3.2.0",
     "eslint-plugin-vue": "^8.5.0",
     "nuxt": "^2.2.0",
+    "postcss": "^8.4.12",
     "prettier": "^2.6.1",
     "sass": "^1.49.10",
     "sass-loader": "^10.1.1",
     "stylelint": "^14.6.1",
     "stylelint-config-prettier": "^9.0.3",
-    "stylelint-config-standard": "^25.0.0"
+    "stylelint-config-recess-order": "^3.0.0",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-config-standard-scss": "^3.0.0",
+    "stylelint-prettier": "^2.0.0"
   }
 }
