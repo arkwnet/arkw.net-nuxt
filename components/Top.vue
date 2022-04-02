@@ -387,7 +387,7 @@
 
           <!-- 製品情報：Windows -->
           <div id="pr_item_windows" class="products">
-            <div class="pr_list_box">
+            <div class="box">
               <a href="https://arkw.net/products/pc_game/qubefall/">
                 <div class="topics">
                   <div class="icon"><img src="~/assets/img/products/qubefall.png"></div>
@@ -479,7 +479,7 @@
 
           <!-- 製品情報：ウェブアプリ -->
           <div id="pr_item_web" class="products">
-            <div class="pr_list_box">
+            <div class="box">
               <a href="https://arkw.net/products/web/prohaya/">
                 <div class="topics">
                   <div class="icon"><img src="~/assets/img/products/prohaya.png"></div>
@@ -603,7 +603,7 @@
 
           <!-- 製品情報：開発者向け -->
           <div id="pr_item_dev" class="products">
-            <div class="pr_list_box">
+            <div class="box">
               <a href="https://arkw.net/products/dev/AoiEngine/">
                 <div class="topics">
                   <div class="icon"><img src="~/assets/img/products/aoi.png"></div>
