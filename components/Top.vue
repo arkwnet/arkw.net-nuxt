@@ -44,45 +44,7 @@
       <br>
 
       <!-- 更新情報 -->
-      <h1 class="heading">更新情報</h1>
-      <p>
-        <table>
-          <tr>
-            <th>2022/01/24</th>
-            <td>
-              ウェブアプリ「Ahoxa」Ver.2.0.3を公開
-            </td>
-          </tr>
-          <tr>
-            <th>2022/01/21</th>
-            <td>
-              ウェブアプリ「謝罪しろ！ジェネレータ」を更新
-            </td>
-          </tr>
-          <tr>
-            <th>2022/01/18</th>
-            <td>
-              トップページを更新<br>
-              ウェブアプリ「謝罪しろ！ジェネレータ」を更新
-            </td>
-          </tr>
-          <tr>
-            <th>2022/01/17</th>
-            <td>
-              ウェブアプリ「謝罪しろ！ジェネレータ」を更新
-            </td>
-          </tr>
-          <tr>
-            <th>2022/01/16</th>
-            <td>
-              ウェブアプリ「謝罪しろ！ジェネレータ」を公開
-            </td>
-          </tr>
-        </table>
-      </p>
-      <p>
-        <a href="/history">過去の更新履歴を見る</a>
-      </p><br>
+      <UpdateInformation />
 
       <!-- プロフィール -->
       <h1 class="heading">プロフィール</h1>
@@ -710,3 +672,12 @@
     </div>
   </div>
 </template>
+
+<script>
+import UpdateInformation from "./Top/UpdateInformation.vue";
+export default {
+  components: {
+    UpdateInformation
+  }
+}
+</script>

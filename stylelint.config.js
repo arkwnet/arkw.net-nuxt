@@ -15,4 +15,5 @@ module.exports = {
     "components/*.vue",
     "pages/*.vue",
   ],
+  customSyntax: "postcss-html",
 }
