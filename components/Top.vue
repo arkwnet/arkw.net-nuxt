@@ -115,7 +115,7 @@
           <div class="progress-background"></div>
           <div class="progress lv-3"></div>
         </div>
-		<div class="box">
+        <div class="box">
           <img src="~/assets/img/skills/indesign.png">
           <div class="progress-background"></div>
           <div class="progress lv-3"></div>
@@ -130,12 +130,12 @@
           <div class="progress-background"></div>
           <div class="progress lv-3"></div>
         </div>
-		<div class="box">
+        <div class="box">
           <img src="~/assets/img/skills/linux.png">
           <div class="progress-background"></div>
           <div class="progress lv-2"></div>
         </div>
-		<div class="box">
+        <div class="box">
           <img src="~/assets/img/skills/php.png">
           <div class="progress-background"></div>
           <div class="progress lv-2"></div>
