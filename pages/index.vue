@@ -350,78 +350,14 @@
           <!-- 製品情報：Windows -->
           <div id="pr_item_windows" class="products">
             <div class="box">
-              <a href="https://arkw.net/products/pc_game/qubefall/">
-                <div class="topics">
-                  <div class="icon"><img src="~/assets/img/products/qubefall.png"></div>
-                  <div class="main">
-                    <h1>QubeFall</h1>
-                    <p>キューブを操り、敵を蹴散らす3Dアクションパズルゲーム</p>
-                  </div>
-                </div>
-              </a>
-              <a href="https://arkw.net/products/win/wsm/">
-                <div class="topics">
-                  <div class="icon"><img src="~/assets/img/products/wsm.png"></div>
-                  <div class="main">
-                    <h1>WinSmartWatch</h1>
-                    <p>スマートウォッチをモチーフとしたデスクトップアクセサリ</p>
-                  </div>
-                </div>
-              </a>
-              <a href="https://arkw.net/products/win/cpr/">
-                <div class="topics">
-                  <div class="icon"><img src="~/assets/img/products/cpr.png"></div>
-                  <div class="main">
-                    <h1>コピペレコーダー</h1>
-                    <p>クリップボードのコピー履歴を保持し、再利用できるソフトウェア</p>
-                  </div>
-                </div>
-              </a>
-              <a href="https://arkw.net/products/win/eims/">
-                <div class="topics">
-                  <div class="icon"><img src="~/assets/img/products/eims.png"></div>
-                  <div class="main">
-                    <h1>はじめての写真管理S</h1>
-                    <p>視覚的かつシンプルに大量の写真を管理できるソフトウェア</p>
-                  </div>
-                </div>
-              </a>
-              <a href="https://arkw.net/webgeki/wg/">
-                <div class="topics">
-                  <div class="icon"><img src="~/assets/img/products/webgeki.png"></div>
-                  <div class="main">
-                    <h1>ウェブ撃</h1>
-                    <p>オープンソースの次世代型ウェブサイト制作ツール</p>
-                  </div>
-                </div>
-              </a>
-              <a href="https://nagaharu.github.io/">
-                <div class="topics">
-                  <div class="icon"><img src="~/assets/img/products/nghr.png"></div>
-                  <div class="main">
-                    <h1>Nagaharu</h1>
-                    <p>シンプルに使えるオープンソースの文書作成ソフトウェア</p>
-                  </div>
-                </div>
-              </a>
-              <a href="https://arkw.net/products/win/TypingFactory/">
-                <div class="topics">
-                  <div class="icon"><img src="~/assets/img/products/typing.png"></div>
-                  <div class="main">
-                    <h1>タイピングファクトリー</h1>
-                    <p>英単語や地名など短い文を連続して入力するタイピングゲーム</p>
-                  </div>
-                </div>
-              </a>
-              <a href="https://arkw.net/products/win/TriEditorLE/">
-                <div class="topics">
-                  <div class="icon"><img src="~/assets/img/products/tried.png"></div>
-                  <div class="main">
-                    <h1>TriEditor LE</h1>
-                    <p>学習用途に特化したHTML/CSS用のテキストエディタ</p>
-                  </div>
-                </div>
-              </a>
+              <Product url="https://arkw.net/products/pc_game/qubefall/" icon="qubefall" title="QubeFall" description="キューブを操り、敵を蹴散らす3Dアクションパズルゲーム" />
+              <Product url="https://arkw.net/products/win/TypingFactory/" icon="typing" title="タイピングファクトリー" description="英単語や地名など短い文を連続して入力するタイピングゲーム" />
+              <Product url="https://arkw.net/products/win/wsm/" icon="wsm" title="WinSmartWatch" description="スマートウォッチをモチーフとしたデスクトップアクセサリ" />
+              <Product url="https://arkw.net/products/win/cpr/" icon="cpr" title="コピペレコーダー" description="クリップボードのコピー履歴を保持し、再利用できるソフトウェア" />
+              <Product url="https://arkw.net/products/win/eims/" icon="eims" title="はじめての写真管理S" description="視覚的かつシンプルに大量の写真を管理できるソフトウェア" />
+              <Product url="https://arkw.net/webgeki/wg/" icon="webgeki" title="ウェブ撃" description="オープンソースの次世代型ウェブサイト制作ツール" />
+              <Product url="https://arkw.net/products/win/TriEditorLE/" icon="tried" title="TriEditor LE" description="学習用途に特化したHTML/CSS用のテキストエディタ" />
+              <Product url="https://nagaharu.github.io/" icon="nghr" title="Nagaharu" description="シンプルに使えるオープンソースの文書作成ソフトウェア" />
             </div>
             <br>
             <p><b>開発終了 － Windows 8.1/10</b></p>
@@ -442,114 +378,18 @@
           <!-- 製品情報：ウェブアプリ -->
           <div id="pr_item_web" class="products">
             <div class="box">
-              <a href="https://arkw.net/products/web/prohaya/">
-                <div class="topics">
-                  <div class="icon"><img src="~/assets/img/products/prohaya.png"></div>
-                  <div class="main">
-                    <h1>プロ生早押しクイズ</h1>
-                    <p>プロ生ちゃんや情報処理研究会のキャラクターと早押しクイズで対決！</p>
-                  </div>
-                </div>
-              </a>
-              <a href="https://psk.arkw.net/">
-                <div class="topics">
-                  <div class="icon"><img src="~/assets/img/products/psk.png"></div>
-                  <div class="main">
-                    <h1>プロ生進捗管理</h1>
-                    <p>その日に出した進捗を気軽に記録できるウェブサービス</p>
-                  </div>
-                </div>
-              </a>
-              <a href="https://arkw.net/products/web/pronama_clock/">
-                <div class="topics">
-                  <div class="icon"><img src="~/assets/img/products/pronama_clock.png"></div>
-                  <div class="main">
-                    <h1>プロ生時計</h1>
-                    <p>オープンソースのデジタル時計「Ahoxa」にプロ生テーマを収録！</p>
-                  </div>
-                </div>
-              </a>
-              <a href="https://arkw.net/products/web/ahoxa/">
-                <div class="topics">
-                  <div class="icon"><img src="~/assets/img/products/ahoxa.png"></div>
-                  <div class="main">
-                    <h1>Ahoxa</h1>
-                    <p>全画面で時計を表示するオープンソースのウェブアプリ</p>
-                  </div>
-                </div>
-              </a>
-              <a href="https://arkw.net/products/web/dokaben/">
-                <div class="topics">
-                  <div class="icon"><img src="~/assets/img/products/dokaben.png"></div>
-                  <div class="main">
-                    <h1>ドカベンメーカー</h1>
-                    <p>「ドカベン」のロゴ風画像を作成できるウェブアプリ</p>
-                  </div>
-                </div>
-              </a>
-              <a href="https://arkw.net/products/web/shazai/">
-                <div class="topics">
-                  <div class="icon"><img src="~/assets/img/products/shazai.png"></div>
-                  <div class="main">
-                    <h1>謝罪しろ！ジェネレータ</h1>
-                    <p>伊勢原名物「謝罪しろ！」看板がウェブブラウザで作り放題</p>
-                  </div>
-                </div>
-              </a>
-              <a href="https://arkw.net/products/web/hakase/">
-                <div class="topics">
-                  <div class="icon"><img src="~/assets/img/products/hakase.png"></div>
-                  <div class="main">
-                    <h1>教えて！ハカセ ジェネレータ</h1>
-                    <p>「教えて！○○ハカセ」の画像を作成できるウェブアプリ</p>
-                  </div>
-                </div>
-              </a>
-              <a href="https://arkw.net/products/web/smsg/">
-                <div class="topics">
-                  <div class="icon"><img src="~/assets/img/products/smsh.png"></div>
-                  <div class="main">
-                    <h1>支離滅裂な思考・発言 ジェネレータ</h1>
-                    <p>「支離滅裂な思考・発言」の画像を作成できるウェブアプリ</p>
-                  </div>
-                </div>
-              </a>
-              <a href="https://arkw.net/products/web/kintetsu/">
-                <div class="topics">
-                  <div class="icon"><img src="~/assets/img/products/kintetsu.png"></div>
-                  <div class="main">
-                    <h1>近鉄車番検索</h1>
-                    <p>近鉄車両の車両番号、両数、電算記号などを検索できるウェブアプリ</p>
-                  </div>
-                </div>
-              </a>
-              <a href="https://arkw.net/products/web/meitetsu/">
-                <div class="topics">
-                  <div class="icon"><img src="~/assets/img/products/meitetsu.png"></div>
-                  <div class="main">
-                    <h1>名鉄車番検索</h1>
-                    <p>名鉄車両の車両番号、両数、電算略号などを検索できるウェブアプリ</p>
-                  </div>
-                </div>
-              </a>
-              <a href="https://arkw.net/products/web/atck/">
-                <div class="topics">
-                  <div class="icon"><img src="~/assets/img/products/atck.png"></div>
-                  <div class="main">
-                    <h1>Article Checker</h1>
-                    <p>文章を検査し、「日本語の使い方」や「読みやすさ」をチェックするツール</p>
-                  </div>
-                </div>
-              </a>
-              <a href="https://arkw.net/products/web/mygen/">
-                <div class="topics">
-                  <div class="icon"><img src="~/assets/img/products/mygen.png"></div>
-                  <div class="main">
-                    <h1>マイ元号メーカー</h1>
-                    <p>2019年エイプリルフール企画</p>
-                  </div>
-                </div>
-              </a>
+              <Product url="https://arkw.net/products/web/prohaya/" icon="prohaya" title="プロ生早押しクイズ" description="プロ生ちゃんや情報処理研究会のキャラクターと早押しクイズで対決!" />
+              <Product url="https://psk.arkw.net/" icon="psk" title="プロ生進捗管理" description="その日に出した進捗を気軽に記録できるウェブサービス" />
+              <Product url="https://arkw.net/products/web/pronama_clock/" icon="pronama_clock" title="プロ生時計" description="オープンソースのデジタル時計「Ahoxa」にプロ生テーマを収録!" />
+              <Product url="https://arkw.net/products/web/ahoxa/" icon="ahoxa" title="Ahoxa" description="全画面で時計を表示するオープンソースのウェブアプリ" />
+              <Product url="https://arkw.net/products/web/kintetsu/" icon="kintetsu" title="近鉄車番検索" description="近鉄車両の車両番号、両数、電算記号などを検索できるウェブアプリ" />
+              <Product url="https://arkw.net/products/web/meitetsu/" icon="meitetsu" title="名鉄車番検索" description="名鉄車両の車両番号、両数、電算記号などを検索できるウェブアプリ" />
+              <Product url="https://arkw.net/products/web/atck/" icon="atck" title="Article Checker" description="文章を検査し、「日本語の使い方」や「読みやすさ」をチェックするツール" />
+              <Product url="https://arkw.net/products/web/ahoxa/" icon="dokaben" title="ドカベンメーカー" description="「ドカベン」のロゴ風画像を作成できるウェブアプリ" />
+              <Product url="https://arkw.net/products/web/shazai/" icon="shazai" title="謝罪しろ! ジェネレータ" description="伊勢原名物「謝罪しろ!」看板がウェブブラウザで作り放題" />
+              <Product url="https://arkw.net/products/web/hakase/" icon="hakase" title="教えて! ハカセ ジェネレータ" description="「教えて! ○○ハカセ」の画像を作成できるウェブアプリ" />
+              <Product url="https://arkw.net/products/web/smsg/" icon="smsg" title="支離滅裂な思考・発言 ジェネレータ" description="「支離滅裂な思考・発言」の画像を作成できるウェブアプリ" />
+              <Product url="https://arkw.net/products/web/mygen/" icon="mygen" title="マイ元号メーカー" description="2019年エイプリルフール企画" />
             </div>
             <br>
             <p><b>Arakawa Web Tools</b></p>
@@ -566,69 +406,13 @@
           <!-- 製品情報：開発者向け -->
           <div id="pr_item_dev" class="products">
             <div class="box">
-              <a href="https://arkw.net/products/dev/AoiEngine/">
-                <div class="topics">
-                  <div class="icon"><img src="~/assets/img/products/aoi.png"></div>
-                  <div class="main">
-                    <h1>AoiEngine</h1>
-                    <p>コンテンツ開発を効率化するJavaScriptゲームエンジン</p>
-                  </div>
-                </div>
-              </a>
-              <a href="https://arkw.net/products/dev/arkw_tmpl/">
-                <div class="topics">
-                  <div class="icon"><img src="~/assets/img/products/atmpl.png"></div>
-                  <div class="main">
-                    <h1>Arakawa Template</h1>
-                    <p>汎用的なウェブサイト用CSSテンプレート</p>
-                  </div>
-                </div>
-              </a>
-              <a href="https://github.com/arkwnet/AkariFramework" target="blank">
-                <div class="topics">
-                  <div class="icon"><img src="~/assets/img/products/akari.png"></div>
-                  <div class="main">
-                    <h1>AkariFramework</h1>
-                    <p>シンプルなCSSフレームワーク（Bijou CSS Framework ベース）</p>
-                  </div>
-                </div>
-              </a>
-              <a href="https://arkw.net/products/dev/katamuki_js/">
-                <div class="topics">
-                  <div class="icon"><img src="~/assets/img/products/katamuki.png"></div>
-                  <div class="main">
-                    <h1>Katamuki.js</h1>
-                    <p>ウェブページ上の文字を綺麗に表示できるJavaScriptライブラリ</p>
-                  </div>
-                </div>
-              </a>
-              <a href="https://arkw.net/products/dev/emotion_cover/">
-                <div class="topics">
-                  <div class="icon"><img src="~/assets/img/products/emotion_cover.png"></div>
-                  <div class="main">
-                    <h1>Emotion Cover</h1>
-                    <p>HTML5 Canvas/JavaScript製のスライドショースクリプト</p>
-                  </div>
-                </div>
-              </a>
-              <a href="https://github.com/arkwnet/SimplifiedCMS2" target="blank">
-                <div class="topics">
-                  <div class="icon"><img src="~/assets/img/products/scms2.png"></div>
-                  <div class="main">
-                    <h1>Simplified CMS 2</h1>
-                    <p>PHP製の簡易型CMS</p>
-                  </div>
-                </div>
-              </a>
-              <a href="https://github.com/arkwnet/SimplifiedCMS" target="blank">
-                <div class="topics">
-                  <div class="icon"><img src="~/assets/img/products/scms.png"></div>
-                  <div class="main">
-                    <h1>Simplified CMS</h1>
-                    <p>PHP製の超簡易型CMS</p>
-                  </div>
-                </div>
-              </a>
+              <Product url="https://arkw.net/products/dev/AoiEngine/" icon="aoi" title="AoiEngine" description="コンテンツ開発を効率化するJavaScriptゲームエンジン" />
+              <Product url="https://arkw.net/products/dev/arkw_tmpl/" icon="atmpl" title="Arakawa Template" description="汎用的なウェブサイト用CSSテンプレート" />
+              <Product url="https://github.com/arkwnet/AkariFramework" icon="akari" title="AkariFramework" description="シンプルなCSSフレームワーク (Bijou CSS Framework ベース)" />
+              <Product url="https://arkw.net/products/dev/katamuki_js/" icon="katamuki" title="Katamuki.js" description="ウェブページ上の文字を綺麗に表示できるJavaScriptライブラリ" />
+              <Product url="https://arkw.net/products/dev/emotion_cover/" icon="emotion_cover" title="Emotion Cover" description="HTML5 Canvas/JavaScript製のスライドショースクリプト" />
+              <Product url="https://github.com/arkwnet/SimplifiedCMS2" icon="scms2" title="Simplified CMS 2" description="PHP製の簡易型CMS" />
+              <Product url="https://github.com/arkwnet/SimplifiedCMS" icon="scms" title="Simplified CMS" description="PHP製の超簡易型CMS" />
             </div>
           </div>
 
@@ -675,9 +459,11 @@
 </template>
 
 <script>
+import Product from "../components/Product";
 import UpdateInformation from "../components/Top/UpdateInformation";
 export default {
   components: {
+    Product,
     UpdateInformation
   },
   layout: "default",
