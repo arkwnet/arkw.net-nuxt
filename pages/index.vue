@@ -54,13 +54,8 @@
           <div class="main">
             <h1>Sora Arakawa (arkw)</h1>
             <p>
-              男性／2001年4月11日生／静岡大学 情報学部 行動情報学科 2年／静岡県浜松市在住／愛知県岡崎市出身
+              男性／2001年4月11日生／静岡大学 情報学部 行動情報学科 3年／静岡県浜松市在住／愛知県岡崎市出身
             </p>
-            <!--
-            <p>
-              <a href="#">My Profile (English, In preparation)</a> ／ <a href="#">我的简介 (简体中文, 正在准备)</a><br>
-            </p>
-            -->
           </div>
         </div>
       </p>
@@ -145,94 +140,38 @@
       <h2>外部制作実績</h2>
       <div class="works">
         <div class="works-wrapper">
-          <a href="https://preppers.business/" target="blank">
-            <div class="works-box" style="background-image: url(img/works/202109.png);">
-              <div class="works-box-text">
-                <h2>2021年9月</h2>
-                <h1>株式会社プレッパーズ</h1>
-                <div class="works-box-inside">
-                  <div class="web">ウェブデザイン</div>
-                  <div class="graphic">グラフィック</div>
-                  <div class="system">システム開発</div>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a href="https://gakujochan.com/" target="blank">
-            <div class="works-box" style="background-image: url(img/works/202106.png);">
-              <div class="works-box-text">
-                <h2>2021年6月</h2>
-                <h1>学情チャンプロジェクト</h1>
-                <div class="works-box-inside">
-                  <div class="web">ウェブデザイン</div>
-                  <div class="graphic">グラフィック</div>
-                  <div class="system">システム開発</div>
-                </div>
-              </div>
-            </div>
-          </a>
-          <div class="works-box" style="background-image: url(img/works/202105.png);">
-            <div class="works-box-text">
-              <h2>2021年5月</h2>
-              <h1>静岡大学ITソルーション室</h1>
-              <div class="works-box-inside">
-                <div class="web">ウェブサイト制作</div>
-              </div>
-            </div>
-          </div>
-          <a href="https://xr-hamaria.github.io/" target="blank">
-            <div class="works-box" style="background-image: url(img/works/202102.png);">
-              <div class="works-box-text">
-                <h2>2021年2月</h2>
-                <h1>静岡大学xRサークルはまりあ</h1>
-                <div class="works-box-inside">
-                  <div class="web">ウェブサイト制作</div>
-                </div>
-              </div>
-            </div>
-          </a>
-          <div class="works-box" style="background-image: url(img/works/202101.png);">
-            <div class="works-box-text">
-              <h2>2021年1月</h2>
-              <h1>デジタルサイネージ「ITS DigiSign 2」</h1>
-              <div class="works-box-inside">
-                <div class="system">プログラム</div>
-                <div class="graphic">グラフィック</div>
-              </div>
-            </div>
-          </div>
-          <div class="works-box" style="background-image: url(img/works/202011.png);">
-            <div class="works-box-text">
-              <h2>2020年11月</h2>
-              <h1>VRゲーム「VRSpeedRun」</h1>
-              <div class="works-box-inside">
-                <div class="graphic">グラフィック</div>
-              </div>
-            </div>
-          </div>
-          <div class="works-box" style="background-image: url(img/works/202010.png);">
-            <div class="works-box-text">
-              <h2>2020年10月</h2>
-              <h1>デジタルサイネージ「ITS DigiSign」</h1>
-              <div class="works-box-inside">
-                <div class="system">プログラム</div>
-                <div class="graphic">グラフィック</div>
-              </div>
-            </div>
-          </div>
-          <a href="https://xr-hamaria.github.io/virtual-inf" target="blank">
-            <div class="works-box" style="background-image: url(img/works/202008.png);">
-              <div class="works-box-text">
-                <h2>2020年8月</h2>
-                <h1>静岡大学 バーチャル情報学部</h1>
-                <div class="works-box-inside">
-                  <div class="system">プログラム</div>
-                  <div class="graphic">グラフィック</div>
-                  <div class="movie">ムービー</div>
-                </div>
-              </div>
-            </div>
-          </a>
+          <Work
+            url="https://preppers.business/" icon="202109" date="2021年9月" title="株式会社プレッパーズ"
+            :type="[{id: 'web', name: 'ウェブデザイン'}, {id: 'graphic', name: 'グラフィック'}, {id: 'system', name: 'システム開発'}]"
+          />
+          <Work
+            url="https://gakujochan.com/" icon="202106" date="2021年6月" title="学情チャンプロジェクト"
+            :type="[{id: 'web', name: 'ウェブデザイン'}, {id: 'graphic', name: 'グラフィック'}, {id: 'system', name: 'システム開発'}]"
+          />
+          <Work
+            icon="202105" date="2021年5月" title="静岡大学ITソルーション室"
+            :type="[{id: 'web', name: 'ウェブサイト制作'}]"
+          />
+          <Work
+            url="https://xr-hamaria.github.io/" icon="202102" date="2021年2月" title="静岡大学xRサークルはまりあ"
+            :type="[{id: 'web', name: 'ウェブサイト制作'}]"
+          />
+          <Work
+            icon="202101" date="2021年1月" title="デジタルサイネージ「ITS DigiSign 2」"
+            :type="[{id: 'system', name: 'プログラム'}, {id: 'graphic', name: 'グラフィック'}]"
+          />
+          <Work
+            icon="202011" date="2020年11月" title="VRゲーム「VRSpeedRun」"
+            :type="[{id: 'graphic', name: 'グラフィック'}]"
+          />
+          <Work
+            icon="202010" date="2020年10月" title="デジタルサイネージ「ITS DigiSign」"
+            :type="[{id: 'system', name: 'プログラム'}, {id: 'graphic', name: 'グラフィック'}]"
+          />
+          <Work
+            url="https://xr-hamaria.github.io/virtual-inf" icon="202008" date="2020年08月" title="静岡大学 バーチャル情報学部"
+            :type="[{id: 'system', name: 'プログラム'}, {id: 'graphic', name: 'グラフィック'}, {id: 'movie', name: 'ムービー'}]"
+          />
         </div>
       </div>
       <p>
@@ -461,10 +400,12 @@
 <script>
 import Product from "../components/Product";
 import UpdateInformation from "../components/Top/UpdateInformation";
+import Work from "../components/Top/Work";
 export default {
   components: {
     Product,
-    UpdateInformation
+    UpdateInformation,
+    Work
   },
   layout: "default",
 }
