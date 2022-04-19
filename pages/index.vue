@@ -70,71 +70,19 @@
       <br>
       <h2>スキル</h2>
       <div class="skill">
-        <div class="box">
-          <img src="~/assets/img/skills/html.png">
-          <div class="progress-background"></div>
-          <div class="progress lv-5"></div>
-        </div>
-        <div class="box">
-          <img src="~/assets/img/skills/css.png">
-          <div class="progress-background"></div>
-          <div class="progress lv-5"></div>
-        </div>
-        <div class="box">
-          <img src="~/assets/img/skills/javascript.png">
-          <div class="progress-background"></div>
-          <div class="progress lv-4"></div>
-        </div>
-        <div class="box">
-          <img src="~/assets/img/skills/vue.png">
-          <div class="progress-background"></div>
-          <div class="progress lv-4"></div>
-        </div>
-        <div class="box">
-          <img src="~/assets/img/skills/nuxt.png">
-          <div class="progress-background"></div>
-          <div class="progress lv-4"></div>
-        </div>
-        <div class="box">
-          <img src="~/assets/img/skills/ongeki.png">
-          <div class="progress-background"></div>
-          <div class="progress lv-3"></div>
-        </div>
-        <div class="box">
-          <img src="~/assets/img/skills/chunithm.png">
-          <div class="progress-background"></div>
-          <div class="progress lv-3"></div>
-        </div>
-        <div class="box">
-          <img src="~/assets/img/skills/illustrator.png">
-          <div class="progress-background"></div>
-          <div class="progress lv-3"></div>
-        </div>
-        <div class="box">
-          <img src="~/assets/img/skills/indesign.png">
-          <div class="progress-background"></div>
-          <div class="progress lv-3"></div>
-        </div>
-        <div class="box">
-          <img src="~/assets/img/skills/electron.png">
-          <div class="progress-background"></div>
-          <div class="progress lv-3"></div>
-        </div>
-        <div class="box">
-          <img src="~/assets/img/skills/csharp.png">
-          <div class="progress-background"></div>
-          <div class="progress lv-3"></div>
-        </div>
-        <div class="box">
-          <img src="~/assets/img/skills/linux.png">
-          <div class="progress-background"></div>
-          <div class="progress lv-2"></div>
-        </div>
-        <div class="box">
-          <img src="~/assets/img/skills/php.png">
-          <div class="progress-background"></div>
-          <div class="progress lv-2"></div>
-        </div>
+        <Skill icon="html" title="HTML5" lv="5" />
+        <Skill icon="css" title="CSS3" lv="5" />
+        <Skill icon="javascript" title="JavaScript" lv="4" />
+        <Skill icon="vue" title="Vue.js" lv="4" />
+        <Skill icon="nuxt" title="Nuxt.js" lv="4" />
+        <Skill icon="ongeki" title="オンゲキ bright MEMORY" lv="3" />
+        <Skill icon="chunithm" title="チュウニズム NEW" lv="3" />
+        <Skill icon="illustrator" title="Adobe Illustrator" lv="3" />
+        <Skill icon="indesign" title="Adobe InDesign" lv="3" />
+        <Skill icon="electron" title="Electron" lv="3" />
+        <Skill icon="csharp" title="C#" lv="2" />
+        <Skill icon="linux" title="Linux" lv="2" />
+        <Skill icon="php" title="PHP" lv="2" />
       </div>
       <br>
       <h2>外部制作実績</h2>
@@ -400,11 +348,13 @@
 <script>
 import Product from "../components/Product";
 import UpdateInformation from "../components/Top/UpdateInformation";
+import Skill from "../components/Top/Skill";
 import Work from "../components/Top/Work";
 export default {
   components: {
     Product,
     UpdateInformation,
+    Skill,
     Work
   },
   layout: "default",
