@@ -14,22 +14,22 @@
 export default {
   props: {
     url: {
-      type: Object,
+      type: String,
       require: true,
       default: null,
     },
     icon: {
-      type: Object,
+      type: String,
       require: true,
       default: null,
     },
     title: {
-      type: Object,
+      type: String,
       require: true,
       default: null,
     },
     description: {
-      type: Object,
+      type: String,
       require: true,
       default: null,
     },

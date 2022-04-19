@@ -10,17 +10,17 @@
 export default {
   props: {
     icon: {
-      type: Object,
+      type: String,
       require: true,
       default: null,
     },
     title: {
-      type: Object,
+      type: String,
       require: true,
       default: null,
     },
     lv: {
-      type: Object,
+      type: String,
       require: true,
       default: null,
     },

@@ -16,22 +16,22 @@
 export default {
   props: {
     icon: {
-      type: Object,
+      type: String,
       require: true,
       default: null,
     },
     title: {
-      type: Object,
+      type: String,
       require: true,
       default: null,
     },
     date: {
-      type: Object,
+      type: String,
       require: true,
       default: null,
     },
     type: {
-      type: Object,
+      type: Array,
       default: null,
     },
   },
