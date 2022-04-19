@@ -40,7 +40,7 @@ export default {
     }
   },
   mounted() {
-    this.path = require("~/assets/img/products/" + this.icon + ".png")
+    this.path = require("~/assets/img/" + this.icon + ".png")
   },
 }
 </script>
