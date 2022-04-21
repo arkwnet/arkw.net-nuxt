@@ -1,9 +1,9 @@
 <template>
-  <div class="works-box" :style="style">
-    <div class="works-box-text">
+  <div class="box" :style="style">
+    <div class="text">
       <h2>{{ date }}</h2>
       <h1>{{ title }}</h1>
-      <div class="works-box-inside">
+      <div class="inside">
         <div v-for="(t, index) in type" :key="index" :class="t.id">
           {{ t.name }}
         </div>
@@ -41,7 +41,7 @@ export default {
     }
   },
   mounted() {
-    this.style = "background-image: url(img/works/" + this.icon + ".png);"
+    this.style = "background-image: url('img/works/" + this.icon + ".png');"
   },
 }
 </script>

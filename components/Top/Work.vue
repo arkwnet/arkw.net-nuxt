@@ -44,7 +44,7 @@ export default {
     }
   },
   mounted() {
-    this.style = "background-image: url(img/works/" + this.icon + ".png);"
+    this.style = "background-image: url('img/works/" + this.icon + ".png');"
   },
 }
 </script>

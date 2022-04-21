@@ -1,93 +1,93 @@
 .works {
   box-sizing: border-box;
   margin: 10px 0;
-  margin-left: 2px;
   overflow: hidden;
-}
 
-.works-wrapper {
-  padding-bottom: 5px;
-}
+  .wrapper {
+    padding-bottom: 5px;
 
-.works-box {
-  position: relative;
-  float: left;
-  width: calc(50% - 10px);
-  height: 100px;
-  margin: 2px 5px;
-  background-color: $arkw-color;
-  background-size: cover;
-  border-radius: 5px;
-}
+    .box {
+      position: relative;
+      float: left;
+      width: calc(50% - 10px);
+      height: 100px;
+      margin: 2px 0;
+      margin-right: 5px;
+      background-color: $arkw-color;
+      background-size: cover;
+      border-radius: 5px;
 
-.works-box-text {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  color: $white;
-  background-color: rgb(0 0 0 / 70%);
-  border-radius: 5px;
-  opacity: 0;
-  transition-timing-function: ease-in-out;
-  transition-duration: 0.2s;
-  transition-property: opacity;
+      .text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        color: $white;
+        background-color: rgb(0 0 0 / 70%);
+        border-radius: 5px;
+        opacity: 0;
+        transition-timing-function: ease-in-out;
+        transition-duration: 0.2s;
+        transition-property: opacity;
 
-  h1 {
-    position: absolute;
-    top: 12px;
-    left: 10px;
-    width: 95%;
-    overflow: hidden;
-    font-size: 18px;
-    font-weight: normal;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
+        h1 {
+          position: absolute;
+          top: 12px;
+          left: 10px;
+          width: 95%;
+          overflow: hidden;
+          font-size: 18px;
+          font-weight: normal;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
 
-  h2 {
-    position: absolute;
-    top: 6px;
-    left: 10px;
-    font-size: 14px;
-    font-weight: normal;
+        h2 {
+          position: absolute;
+          top: 6px;
+          left: 10px;
+          font-size: 14px;
+          font-weight: normal;
+        }
+
+        .inside {
+          position: absolute;
+          top: 68px;
+          left: 10px;
+          overflow: hidden;
+
+          div {
+            float: left;
+            padding: 0 6px;
+            padding-bottom: 1px;
+            margin-right: 6px;
+            font-size: 10px;
+            border-radius: 10px;
+
+            &.web {
+              background-color: #673ab7;
+            }
+
+            &.graphic {
+              background-color: #2196f3;
+            }
+
+            &.system {
+              background-color: #607d8b;
+            }
+
+            &.movie {
+              background-color: #f44336;
+            }
+          }
+        }
+      }
+    }
   }
 }
 
 .works a:hover,
-.works-box-text:hover {
+.works .box .text:hover {
   opacity: 1;
-}
-
-.works-box-inside {
-  position: absolute;
-  top: 68px;
-  left: 10px;
-  overflow: hidden;
-
-  div {
-    float: left;
-    padding: 0 6px;
-    padding-bottom: 1px;
-    margin-right: 6px;
-    font-size: 10px;
-    border-radius: 10px;
-
-    &.web {
-      background-color: #673ab7;
-    }
-
-    &.graphic {
-      background-color: #2196f3;
-    }
-
-    &.system {
-      background-color: #607d8b;
-    }
-
-    &.movie {
-      background-color: #f44336;
-    }
-  }
 }
