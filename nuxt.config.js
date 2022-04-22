@@ -48,11 +48,19 @@ export default {
     "@nuxtjs/eslint-module",
     // https://go.nuxtjs.dev/stylelint
     "@nuxtjs/stylelint-module",
-    "@nuxtjs/google-analytics",
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ["@nuxtjs/axios"],
+  modules: [
+    ["@nuxtjs/axios"],
+    [
+      "@nuxtjs/google-gtag",
+      {
+        id: "G-SCQWSHWQSB",
+        debug: true,
+      },
+    ],
+  ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
@@ -61,9 +69,5 @@ export default {
         options.loose = true
       },
     },
-  },
-
-  googleAnalytics: {
-    id: "UA-103554097-1",
   },
 }
