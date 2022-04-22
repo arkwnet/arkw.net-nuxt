@@ -36,43 +36,20 @@
       <!-- プロフィール -->
       <h1 class="heading">プロフィール</h1>
       <Card
-        url="https://note.com/arkw0/n/n14530024c13d"
         icon="icon"
         title="Sora Arakawa (arkw)"
         description="男性／2001年4月11日生／静岡大学 情報学部 行動情報学科 3年／静岡県浜松市在住／愛知県岡崎市出身"
       />
-      <p>
-        <a href="https://twitter.com/arkwnet" target="blank">
-          <img src="~/assets/img/social/tw.png" class="social" />
-          公式・告知用Twitter（@arkwnet）
-        </a>
-        <br />
-        <a href="https://twitter.com/arkw0" target="blank">
-          <img src="~/assets/img/social/tw.png" class="social" />
-          個人Twitter（@arkw0）
-        </a>
-        <br />
-        <a href="https://note.com/arkw0" target="blank">
-          <img src="~/assets/img/social/note.png" class="social" />
-          note
-        </a>
-        <br />
-        <a href="https://github.com/arkwnet" target="blank">
-          <img src="~/assets/img/social/gh.png" class="social" />
-          GitHub
-        </a>
-        <br />
-        <a href="https://speakerdeck.com/arkw" target="blank">
-          <img src="~/assets/img/social/sd.png" class="social" />
-          Speaker Deck
-        </a>
-        <br />
-        <a href="https://www.slideshare.net/SoraArakawa" target="blank">
-          <img src="~/assets/img/social/ss.png" class="social" />
-          SlideShare
-        </a>
-        <br />
-      </p>
+      <div class="chip">
+        <Chip url="https://twitter.com/arkw0" icon="tw" name="Twitter" />
+        <Chip url="https://note.com/arkw0" icon="note" name="note" />
+        <Chip url="https://github.com/arkwnet" icon="gh" name="GitHub" />
+        <Chip
+          url="https://speakerdeck.com/arkw"
+          icon="sd"
+          name="Speacker Deck"
+        />
+      </div>
       <br />
       <h2>スキル</h2>
       <div class="skill">
@@ -1027,12 +1004,14 @@
 <script>
 import Card from "../components/Card"
 import UpdateInformation from "../components/Top/UpdateInformation"
+import Chip from "../components/Top/Chip"
 import Skill from "../components/Top/Skill"
 import Work from "../components/Top/Work"
 export default {
   components: {
     Card,
     UpdateInformation,
+    Chip,
     Skill,
     Work,
   },
