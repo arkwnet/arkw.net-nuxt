@@ -1,17 +1,18 @@
 <template>
-  <a :href="`${url}`">
-    <div class="topics">
-      <div class="icon"><img :src="path" /></div>
-      <div class="main">
-        <h1>{{ title }}</h1>
-        <p>{{ description }}</p>
-      </div>
-    </div>
+  <a v-if="url != null" :href="`${url}`" target="blank">
+    <CardInside :icon="icon" :title="title" :description="description" />
+  </a>
+  <a v-else>
+    <CardInside :icon="icon" :title="title" :description="description" />
   </a>
 </template>
 
 <script>
+import CardInside from "./CardInside.vue"
 export default {
+  components: {
+    CardInside,
+  },
   props: {
     url: {
       type: String,
@@ -33,14 +34,6 @@ export default {
       require: true,
       default: null,
     },
-  },
-  data() {
-    return {
-      path: "",
-    }
-  },
-  mounted() {
-    this.path = require("~/assets/img/" + this.icon + ".png")
   },
 }
 </script>

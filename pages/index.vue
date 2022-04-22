@@ -4,17 +4,6 @@
     <div class="right">
       <!-- トピックス -->
       <h1 class="heading">トピックス</h1>
-      <!--
-      <div class="warning">
-        <p>
-          <span>デジゲー博2021で「QubeFall」をご購入の方へ</span>
-          デジゲー博2021のICONブース（X-07）で頒布した「QubeFall（パッケージ版）」にて、<br>
-          ・ネームエントリーが正常にできないバグ<br>
-          ・一部条件においてBGMが停止しないバグ<br>
-          を確認しております。修正パッチを<a href="https://arkw.work/doujin/">こちら</a>からダウンロードできますので、お手数ですが適用をお願い致します。
-        </p>
-      </div>
-      -->
       <Card
         url="https://note.com/arkw0/n/n5289722646f0"
         icon="topics/windef"
