@@ -1,22 +1,20 @@
 <template>
   <div class="navi">
     <div class="slider">
-      <a href="#" target="blank">
-        <div
-          style="
-            background: url('img/header/dummy_red.png') 0 0 no-repeat;
-            background-size: contain;
-          "
-        ></div>
-      </a>
-      <a href="#" target="blank">
-        <div
-          style="
-            background: url('img/header/dummy_blue.png') 0 0 no-repeat;
-            background-size: contain;
-          "
-        ></div>
-      </a>
+      <NaviImage image="dummy_red.png" />
+      <NaviImage
+        url="https://arkw.net/products/pc_game/qubefall"
+        image="dummy_blue.png"
+      />
     </div>
   </div>
 </template>
+
+<script>
+import NaviImage from "./NaviImage"
+export default {
+  components: {
+    NaviImage,
+  },
+}
+</script>
