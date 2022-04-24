@@ -27,7 +27,6 @@ window.onload = function () {
     autoplay: true,
     arrows: false,
   })
-  $("body").css("font-family", "Noto Sans JP")
 }
 
 function changeProductsMenu(a) {
