@@ -5,3 +5,10 @@
   color: $arkw-color;
   background-color: $arkw-color-light;
 }
+
+@media screen and (max-width: 1240px) {
+  .footer {
+    margin-top: 20px;
+    padding: 30px 20px;
+  }
+}
