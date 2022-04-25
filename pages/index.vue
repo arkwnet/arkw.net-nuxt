@@ -36,7 +36,7 @@
         <Chip
           url="https://speakerdeck.com/arkw"
           icon="sd"
-          name="Speacker Deck"
+          name="Speaker Deck"
         />
       </div>
       <br />
