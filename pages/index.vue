@@ -185,74 +185,13 @@
       </p>
       <br />
       <h2>資格</h2>
-      <ul>
-        <li>普通自動車第一種免許（MT）</li>
-        <li>ITパスポート</li>
-        <li>
-          TOEIC L&R 835点（Listening 455＋Reading 380、2020年11月 IPテスト）
-        </li>
-        <li>実用英語技能検定 準2級</li>
-        <li>中国語検定試験 4級</li>
-        <li>第4級アマチュア無線技士</li>
-      </ul>
+      <ProfileList src="certification" />
       <br />
       <h2>所属</h2>
-      <ul>
-        <li>
-          <a href="https://xr-hamaria.github.io/" target="blank">
-            静岡大学 xRサークルはまりあ
-          </a>
-        </li>
-        <li>
-          <a href="https://iconcreator.web.fc2.com/" target="blank">
-            静岡大学 ICON
-          </a>
-        </li>
-        <li><a href="https://www.g-second.net/" target="blank">G-Second</a></li>
-        <li>
-          <a href="https://www.scout-aoi.jp/" target="blank">
-            ボーイスカウト 三河葵地区
-          </a>
-        </li>
-      </ul>
+      <ProfileList src="organization" />
       <br />
       <h2>受賞歴</h2>
-      <ul>
-        <li>
-          マスコットアプリ文化祭2020 プロ生ちゃん賞 「
-          <a href="https://arkw.net/products/web/prohaya/">
-            プロ生早押しクイズ
-          </a>
-          」
-        </li>
-        <li>
-          マスコットアプリ文化祭2019 HSPTV!賞 「
-          <a href="https://psk.arkw.net/">プロ生進捗管理</a>
-          」
-        </li>
-        <li>
-          第16回ふるさと岡崎メディアコンクール 児童生徒部門 高校の部
-          審査員特別賞 「
-          <a href="https://arkw.net/products/win/TriEditorLE/">TriEditor LE</a>
-          」
-        </li>
-        <li>
-          HSPプログラムコンテスト2017 (有)テクノキット賞 「
-          <a href="https://arkw.net/products/win/eim2/">はじめての写真管理2</a>
-          」
-        </li>
-        <li>PCNこどもプロコン2016冬 PCN特別賞</li>
-        <li>PCNこどもプロコン2016夏 jig.jp賞</li>
-        <li>HSPプログラムコンテスト2016 学生賞</li>
-        <li>HSPプログラムコンテスト2015 学生賞</li>
-        <li>
-          全国小中学生作品コンクール パソコン部門 文部科学大臣奨励賞（2013年）
-        </li>
-        <li>
-          全国小中学生作品コンクール パソコン部門
-          中央出版社長賞（2011年、2012年）
-        </li>
-      </ul>
+      <ProfileList src="award" />
       <br />
       <h2>イベント登壇歴</h2>
       <table>
@@ -996,6 +935,7 @@ import UpdateInformation from "../components/Top/UpdateInformation"
 import Chip from "../components/Top/Chip"
 import Skill from "../components/Top/Skill"
 import Work from "../components/Top/Work"
+import ProfileList from "../components/Top/ProfileList"
 export default {
   components: {
     Card,
@@ -1003,6 +943,7 @@ export default {
     Chip,
     Skill,
     Work,
+    ProfileList,
   },
   layout: "default",
 }
