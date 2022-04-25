@@ -19,7 +19,11 @@
       <br />
 
       <!-- 更新情報 -->
+      <h1 class="heading">更新履歴</h1>
       <UpdateInformation />
+      <p>
+        <a href="/history">過去の更新履歴を見る</a>
+      </p>
       <br />
 
       <!-- プロフィール -->
@@ -194,224 +198,7 @@
       <ProfileList src="award" />
       <br />
       <h2>イベント登壇歴</h2>
-      <table>
-        <tr>
-          <th>2021/12/26</th>
-          <td>
-            <a
-              href="https://shizdailt.connpass.com/event/233650/"
-              target="blank"
-            >
-              静大情報LT大会 -2021年12月-
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <th>2021/11/04</th>
-          <td>
-            <a
-              href="https://talent.supporterz.jp/events/d618540f-6eaa-4972-9a6a-9538d453ecf4/"
-              target="blank"
-            >
-              サポーターズ学生ライトニングトーク ～2021秋の終り編～
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <th>2021/10/30</th>
-          <td>
-            <a
-              href="https://shizdailt.connpass.com/event/227253/"
-              target="blank"
-            >
-              静大情報LT大会 -2021年10月-
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <th>2021/08/26</th>
-          <td>
-            <a
-              href="https://talent.supporterz.jp/events/343cee73-1059-4058-9a25-c900c896fbda/"
-              target="blank"
-            >
-              サポーターズ学生ライトニングトーク ～2021夏の終り編～
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <th>2021/08/08</th>
-          <td>
-            <a
-              href="https://shizdailt.connpass.com/event/221048/"
-              target="blank"
-            >
-              静大情報LT大会 -2021年8月-
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <th>2021/03/12</th>
-          <td>
-            <a href="https://talent.supporterz.jp/geeksai/2021/" target="blank">
-              技育祭2021
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <th>2021/03/06</th>
-          <td>
-            <a
-              href="https://team-kitten.connpass.com/event/200574/"
-              target="blank"
-            >
-              KittenLT3
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <th>2021/02/14</th>
-          <td>
-            <a
-              href="https://shizdailt.connpass.com/event/203058/"
-              target="blank"
-            >
-              静大情報LT大会 -2021年2月-
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <th>2020/11/15</th>
-          <td>
-            <a
-              href="https://team-kitten.connpass.com/event/190309/"
-              target="blank"
-            >
-              KittenLT2
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <th>2020/09/28</th>
-          <td>
-            <a
-              href="https://shizdailt.connpass.com/event/189874/"
-              target="blank"
-            >
-              静大情報LT大会 -2020年9月-
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <th>2020/09/08</th>
-          <td>
-            <a href="https://gree.connpass.com/event/187716/" target="blank">
-              #VRSionUp!8「WebVRオンラインイベント開発」
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <th>2020/08/24</th>
-          <td>
-            <a href="https://vrtokyo.connpass.com/event/181759/" target="blank">
-              WebXR Tech Tokyo #2 @ cluster
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <th>2020/05/09</th>
-          <td>
-            <a
-              href="https://student-lt.connpass.com/event/174185/"
-              target="blank"
-            >
-              第4回バーチャル学生LT On YouTube LIVE
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <th>2019/06/09</th>
-          <td>
-            <a
-              href="https://student-lt.connpass.com/event/130894/"
-              target="blank"
-            >
-              第25回 学生エンジニアLT大会 in 名古屋
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <th>2019/03/17</th>
-          <td>
-            <a
-              href="https://student-lt.connpass.com/event/114855/"
-              target="blank"
-            >
-              高専カンファレンス×学生LT in 名古屋
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <th>2018/11/24</th>
-          <td>
-            <a
-              href="https://pronama.jp/2018/11/09/pronama-57-at-nagoya/"
-              target="blank"
-            >
-              プログラミング生放送勉強会 第57回＠名古屋
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <th>2018/10/14</th>
-          <td>
-            <a href="https://prolt.connpass.com/event/91719/" target="blank">
-              プログラミングLT 2018
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <th>2017/11/23</th>
-          <td>
-            <a href="https://pronama.jp/2017/10/28/pronama-50/" target="blank">
-              プログラミング生放送勉強会 第50回＠名古屋
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <th>2017/09/02</th>
-          <td>
-            <a
-              href="http://www.wankuma.com/seminar/20170902nagoya42/"
-              target="blank"
-            >
-              わんくま同盟 名古屋勉強会 #42
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <th>2016/11/26</th>
-          <td>
-            <a
-              href="https://pronama.jp/2016/03/16/pronama-2016/"
-              target="blank"
-            >
-              プログラミング生放送勉強会 第45回＠名古屋
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <th>2015/12/12</th>
-          <td>
-            <a
-              href="https://pronama.jp/2015/11/27/pronama-38-at-nagoya/"
-              target="blank"
-            >
-              プログラミング生放送勉強会 第38回＠名古屋
-            </a>
-          </td>
-        </tr>
-      </table>
+      <ProfileTable src="event" />
       <br />
       <h2>使用機材</h2>
       <table>
@@ -936,6 +723,7 @@ import Chip from "../components/Top/Chip"
 import Skill from "../components/Top/Skill"
 import Work from "../components/Top/Work"
 import ProfileList from "../components/Top/ProfileList"
+import ProfileTable from "../components/Top/ProfileTable"
 export default {
   components: {
     Card,
@@ -944,6 +732,7 @@ export default {
     Skill,
     Work,
     ProfileList,
+    ProfileTable,
   },
   layout: "default",
 }
