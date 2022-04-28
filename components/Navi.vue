@@ -1,11 +1,11 @@
 <template>
   <div class="navi">
     <div class="slider">
-      <NaviImage image="dummy_red.png" />
       <NaviImage
-        url="https://arkw.net/products/pc_game/qubefall"
-        image="dummy_blue.png"
+        url="https://arkw.net/products/pc_game/qubefall/"
+        image="qubefall.png"
       />
+      <NaviImage image="dummy_red.png" />
     </div>
   </div>
 </template>
