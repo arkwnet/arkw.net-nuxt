@@ -2,17 +2,13 @@
   <table>
     <tr v-for="outputSingle in output" :key="outputSingle.head">
       <th>{{ outputSingle.head }}</th>
-      <td>
-        <a
-          v-if="outputSingle.url != null"
-          :href="`${outputSingle.url}`"
-          target="blank"
-        >
+      <td v-if="outputSingle.url != null">
+        <a :href="`${outputSingle.url}`" target="blank">
           {{ outputSingle.data }}
         </a>
-        <a v-else>
-          {{ outputSingle.data }}
-        </a>
+      </td>
+      <td v-else>
+        {{ outputSingle.data }}
       </td>
     </tr>
   </table>

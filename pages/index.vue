@@ -136,54 +136,7 @@
           />
         </div>
       </div>
-      <table>
-        <tr>
-          <th>2019/04</th>
-          <td>「知ろう! ボーイスカウト」ロゴデザイン、組版</td>
-        </tr>
-        <tr>
-          <th>2019/04</th>
-          <td>
-            「
-            <a href="http://bvetk.webcrow.jp/" target="blank">
-              中部新都市運輸区
-            </a>
-            」ロゴデザイン、ウェブサイト制作
-          </td>
-        </tr>
-        <tr>
-          <th>2018/07</th>
-          <td>
-            「
-            <a href="https://hishoutai.arkw.net/" target="blank">
-              17NSJ参加隊 愛知第21隊『飛翔隊』
-            </a>
-            」ロゴデザイン、ウェブサイト制作
-          </td>
-        </tr>
-        <tr>
-          <th>2018/07</th>
-          <td>「じーせかぺーぱー Vol.1」紙面デザイン</td>
-        </tr>
-        <tr>
-          <th>2018/07</th>
-          <td>「オフラインGぷろ! 2018年夏号」ロゴデザイン、組版</td>
-        </tr>
-        <tr>
-          <th>2017/10</th>
-          <td>
-            「
-            <a href="https://satoyama-nogyo.com/" target="blank">
-              里山農業プロジェクト
-            </a>
-            」ウェブサイト制作
-          </td>
-        </tr>
-        <tr>
-          <th>2017/08</th>
-          <td>「G-Second WEB Version 5」ウェブデザイン</td>
-        </tr>
-      </table>
+      <ProfileTable src="works" />
       <p>
         その他、ソフトウェア開発・ウェブデザイン・グラフィックデザイン・映像編集などの実績多数
       </p>
