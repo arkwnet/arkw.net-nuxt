@@ -1,647 +1,265 @@
 <template>
-  <div class="main">
-    <!-- 右カラム -->
-    <div class="right">
-      <!-- トピックス -->
-      <h1 class="heading">トピックス</h1>
-      <Card
-        url="https://note.com/arkw0/n/n5289722646f0"
-        icon="topics/windef"
-        title="「Windows セキュリティの重要な警告」ダイアログ"
-        description="当サイトからダウンロードしたソフトウェアの起動時に「Windows セキュリティの重要な警告」ダイアログが表示された場合の対処法"
-      />
-      <Card
-        url="https://note.com/arkw0/n/n14530024c13d"
-        icon="topics/winss"
-        title="「WindowsによってPCが保護されました」ダイアログ"
-        description="当サイトからダウンロードしたソフトウェアの起動時に「WindowsによってPCが保護されました」ダイアログが表示された場合の対処法"
-      />
-      <br />
+  <div>
+    <!-- トピックス -->
+    <h1 class="heading">トピックス</h1>
+    <Card
+      url="https://note.com/arkw0/n/n5289722646f0"
+      icon="topics/windef"
+      title="「Windows セキュリティの重要な警告」ダイアログ"
+      description="当サイトからダウンロードしたソフトウェアの起動時に「Windows セキュリティの重要な警告」ダイアログが表示された場合の対処法"
+    />
+    <Card
+      url="https://note.com/arkw0/n/n14530024c13d"
+      icon="topics/winss"
+      title="「WindowsによってPCが保護されました」ダイアログ"
+      description="当サイトからダウンロードしたソフトウェアの起動時に「WindowsによってPCが保護されました」ダイアログが表示された場合の対処法"
+    />
+    <br />
 
-      <!-- 更新情報 -->
-      <h1 class="heading">更新履歴</h1>
-      <UpdateInformation />
-      <p>
-        <a href="/history">過去の更新履歴を見る</a>
-      </p>
-      <br />
+    <!-- 更新情報 -->
+    <h1 class="heading">更新履歴</h1>
+    <UpdateInformation />
+    <p>
+      <a href="/history">過去の更新履歴を見る</a>
+    </p>
+    <br />
 
-      <!-- プロフィール -->
-      <h1 class="heading">プロフィール</h1>
-      <Card
-        icon="icon"
-        title="Sora Arakawa (arkw)"
-        description="男性／2001年4月11日生／静岡大学 情報学部 行動情報学科 3年／静岡県浜松市在住／愛知県岡崎市出身"
+    <!-- プロフィール -->
+    <h1 class="heading">プロフィール</h1>
+    <Card
+      icon="icon"
+      title="Sora Arakawa (arkw)"
+      description="男性／2001年4月11日生／静岡大学 情報学部 行動情報学科 3年／静岡県浜松市在住／愛知県岡崎市出身／個人サークル「Arakawa Laboratory」代表 "
+    />
+    <div class="chip">
+      <Chip url="https://twitter.com/arkw0" icon="twitter.svg" name="Twitter" />
+      <Chip url="https://note.com/arkw0" icon="note.svg" name="note" />
+      <Chip url="https://github.com/arkwnet" icon="github.svg" name="GitHub" />
+      <Chip
+        url="https://speakerdeck.com/arkw"
+        icon="speakerdeck.svg"
+        name="Speaker Deck"
       />
-      <div class="chip">
-        <Chip url="https://twitter.com/arkw0" icon="tw" name="Twitter" />
-        <Chip url="https://note.com/arkw0" icon="note" name="note" />
-        <Chip url="https://github.com/arkwnet" icon="gh" name="GitHub" />
-        <Chip
-          url="https://speakerdeck.com/arkw"
-          icon="sd"
-          name="Speaker Deck"
-        />
-      </div>
-      <br />
-      <h2>スキル</h2>
-      <div class="skill">
-        <Skill icon="html" title="HTML5" lv="5" />
-        <Skill icon="css" title="CSS3" lv="5" />
-        <Skill icon="javascript" title="JavaScript" lv="4" />
-        <Skill icon="vue" title="Vue.js" lv="4" />
-        <Skill icon="nuxt" title="Nuxt.js" lv="4" />
-        <Skill icon="ongeki" title="オンゲキ bright MEMORY" lv="3" />
-        <Skill icon="chunithm" title="チュウニズム NEW" lv="3" />
-        <Skill icon="illustrator" title="Adobe Illustrator" lv="3" />
-        <Skill icon="indesign" title="Adobe InDesign" lv="3" />
-        <Skill icon="electron" title="Electron" lv="3" />
-        <Skill icon="csharp" title="C#" lv="2" />
-        <Skill icon="linux" title="Linux" lv="2" />
-        <Skill icon="php" title="PHP" lv="2" />
-      </div>
-      <br />
-      <h2>外部制作実績</h2>
-      <div class="works">
-        <div class="wrapper">
-          <Work
-            url="https://preppers.business/"
-            icon="202109"
-            date="2021年9月"
-            title="株式会社プレッパーズ"
-            :type="[
-              { id: 'web', name: 'ウェブデザイン' },
-              { id: 'graphic', name: 'グラフィック' },
-              { id: 'system', name: 'システム開発' },
-            ]"
-          />
-          <Work
-            url="https://gakujochan.com/"
-            icon="202106"
-            date="2021年6月"
-            title="学情チャンプロジェクト"
-            :type="[
-              { id: 'web', name: 'ウェブデザイン' },
-              { id: 'graphic', name: 'グラフィック' },
-              { id: 'system', name: 'システム開発' },
-            ]"
-          />
-          <Work
-            icon="202105"
-            date="2021年5月"
-            title="静岡大学ITソルーション室"
-            :type="[{ id: 'web', name: 'ウェブサイト制作' }]"
-          />
-          <Work
-            url="https://xr-hamaria.github.io/"
-            icon="202102"
-            date="2021年2月"
-            title="静岡大学xRサークルはまりあ"
-            :type="[{ id: 'web', name: 'ウェブサイト制作' }]"
-          />
-          <Work
-            icon="202101"
-            date="2021年1月"
-            title="デジタルサイネージ「ITS DigiSign 2」"
-            :type="[
-              { id: 'system', name: 'プログラム' },
-              { id: 'graphic', name: 'グラフィック' },
-            ]"
-          />
-          <Work
-            icon="202011"
-            date="2020年11月"
-            title="VRゲーム「VRSpeedRun」"
-            :type="[{ id: 'graphic', name: 'グラフィック' }]"
-          />
-          <Work
-            icon="202010"
-            date="2020年10月"
-            title="デジタルサイネージ「ITS DigiSign」"
-            :type="[
-              { id: 'system', name: 'プログラム' },
-              { id: 'graphic', name: 'グラフィック' },
-            ]"
-          />
-          <Work
-            url="https://xr-hamaria.github.io/virtual-inf"
-            icon="202008"
-            date="2020年08月"
-            title="静岡大学 バーチャル情報学部"
-            :type="[
-              { id: 'system', name: 'プログラム' },
-              { id: 'graphic', name: 'グラフィック' },
-              { id: 'movie', name: 'ムービー' },
-            ]"
-          />
-        </div>
-      </div>
-      <ProfileTable src="works" />
-      <p>
-        その他、ソフトウェア開発・ウェブデザイン・グラフィックデザイン・映像編集などの実績多数
-      </p>
-      <br />
-      <h2>資格</h2>
-      <ProfileList src="certification" />
-      <br />
-      <h2>所属</h2>
-      <ProfileList src="organization" />
-      <br />
-      <h2>受賞歴</h2>
-      <ProfileList src="award" />
-      <br />
-      <h2>イベント登壇歴</h2>
-      <ProfileTable src="event" />
-      <br />
-      <h2>使用機材</h2>
-      <table>
-        <tr>
-          <th>メインPC</th>
-          <td>
-            HP ENVY 15 X360
-            <span class="spec">
-              （AMD Ryzen 5 2500U、16GB RAM、Windows 10）
-            </span>
-          </td>
-        </tr>
-        <tr>
-          <th>サブPC</th>
-          <td>
-            mouse C1
-            <span class="spec">
-              （Intel Celeron N4100、8GB RAM、Windows 10）
-            </span>
-            <br />
-            ASUS VivoBook E203NA
-            <span class="spec">
-              （Intel Celeron N3350、4GB RAM、Ubuntu 20.04）
-            </span>
-          </td>
-        </tr>
-        <tr>
-          <th>サーバPC</th>
-          <td>
-            <a href="https://arkw.work/shiori_sv">Shiori Server</a>
-            <span class="spec">
-              （Orange Pi Zero LTS、Allwinner H2+、256MB RAM、Armbian buster）
-            </span>
-            <br />
-            Akari Server
-            <span class="spec">
-              （Raspberry Pi 1 Model B+、Broadcom BCM2835、512MB RAM、Raspberry
-              Pi OS bullseye）
-            </span>
-          </td>
-        </tr>
-        <tr>
-          <th>スマートフォン</th>
-          <td>
-            geanee ADP-503G
-            <span class="spec">
-              （MediaTek MT6737M、1GB RAM、Android 10 Go Edition）
-            </span>
-            <br />
-            HUAWEI GR5
-            <span class="spec">
-              （Snapdragon 615 MSM8939、2GB RAM、Android 5.1）
-            </span>
-          </td>
-        </tr>
-        <tr>
-          <th>タブレット端末</th>
-          <td>
-            BLUEDOT BNT-71W
-            <span class="spec">（MediaTek MT8163V、1GB RAM、Android 5.1）</span>
-          </td>
-        </tr>
-        <tr>
-          <th>デジタルカメラ</th>
-          <td>Canon PowerShot SX620HS</td>
-        </tr>
-        <tr>
-          <th>プリンタ</th>
-          <td>
-            Canon iP2700
-            <span class="spec">（4色インクジェット）</span>
-            <br />
-            KKmoon POS-5890K
-            <span class="spec">（58mmレシート）</span>
-          </td>
-        </tr>
-        <tr>
-          <th>スキャナ</th>
-          <td>Canon CanoScan LiDE 30</td>
-        </tr>
-        <tr>
-          <th>ICレコーダー</th>
-          <td>SANYO DIPLY ICR-PS004M</td>
-        </tr>
-        <tr>
-          <th>自動車</th>
-          <td>
-            <a href="https://arkw.work/h42v/">三菱 ミニカ H42V</a>
-            <span class="spec">（2008年式 ライラ 2WD 5MT）</span>
-          </td>
-        </tr>
-      </table>
+      <Chip
+        url="https://connpass.com/user/arkw0/"
+        icon="connpass.png"
+        name="connpass"
+      />
     </div>
-
-    <!-- 左カラム -->
-    <div class="left">
-      <!-- 製品情報 -->
-      <h1 class="heading">ソフトウェア</h1>
-      <div class="products">
-        <a href="javascript:changeProductsMenu('windows')">
-          <div id="pr_menu_windows" class="item selected">PCソフトウェア</div>
-        </a>
-        <a href="javascript:changeProductsMenu('web')">
-          <div id="pr_menu_web" class="item">ウェブアプリ</div>
-        </a>
-        <a href="javascript:changeProductsMenu('dev')">
-          <div id="pr_menu_dev" class="item">開発者向け</div>
-        </a>
-      </div>
-      <div class="products-background">
-        <!-- 製品情報：Windows -->
-        <div id="pr_item_windows" class="products">
-          <div class="box">
-            <Card
-              url="https://arkw.net/products/pc_game/qubefall/"
-              icon="products/qubefall"
-              title="QubeFall"
-              description="キューブを操り、敵を蹴散らす3Dアクションパズルゲーム"
-            />
-            <Card
-              url="https://arkw.net/products/win/TypingFactory/"
-              icon="products/typing"
-              title="タイピングファクトリー"
-              description="英単語や地名など短い文を連続して入力するタイピングゲーム"
-            />
-            <Card
-              url="https://arkw.net/products/win/wsm/"
-              icon="products/wsm"
-              title="WinSmartWatch"
-              description="スマートウォッチをモチーフとしたデスクトップアクセサリ"
-            />
-            <Card
-              url="https://arkw.net/products/win/cpr/"
-              icon="products/cpr"
-              title="コピペレコーダー"
-              description="クリップボードのコピー履歴を保持し、再利用できるソフトウェア"
-            />
-            <Card
-              url="https://arkw.net/products/win/eims/"
-              icon="products/eims"
-              title="はじめての写真管理S"
-              description="視覚的かつシンプルに大量の写真を管理できるソフトウェア"
-            />
-            <Card
-              url="https://arkw.net/webgeki/wg/"
-              icon="products/webgeki"
-              title="ウェブ撃"
-              description="オープンソースの次世代型ウェブサイト制作ツール"
-            />
-            <Card
-              url="https://arkw.net/products/win/TriEditorLE/"
-              icon="products/tried"
-              title="TriEditor LE"
-              description="学習用途に特化したHTML/CSS用のテキストエディタ"
-            />
-            <Card
-              url="https://nagaharu.github.io/"
-              icon="products/nghr"
-              title="Nagaharu"
-              description="シンプルに使えるオープンソースの文書作成ソフトウェア"
-            />
-          </div>
-          <br />
-          <p><b>開発終了 － Windows 8.1/10</b></p>
-          <p>
-            <a href="https://arkw.net/products/win/eim2/">
-              <img src="~/assets/img/products/eim2.png" class="social" />
-              はじめての写真管理2
-            </a>
-            <br />
-            <a href="https://arkw.net/products/win/old/EImageManage_1.1.2.exe">
-              <img src="~/assets/img/products/download.png" class="social" />
-              はじめての写真管理 Ver.1.1.2 インストーラー版
-            </a>
-            <br />
-            <a href="https://arkw.net/products/win/old/EImageManage_1.1.2.zip">
-              <img
-                src="~/assets/img/products/folder-zipper.png"
-                class="social"
-              />
-              はじめての写真管理 Ver.1.1.2 ポータブル版
-            </a>
-            <br />
-            <a href="https://arkw.net/products/win/old/EDigitalDiary_1.0.zip">
-              <img
-                src="~/assets/img/products/folder-zipper.png"
-                class="social"
-              />
-              はじめてのデジタル日記 Ver.1.0
-            </a>
-            <br />
-            <a href="https://arkw.net/products/win/old/EasyAddress_1.0.1.zip">
-              <img
-                src="~/assets/img/products/folder-zipper.png"
-                class="social"
-              />
-              かんたん住所録 Ver.1.0.1 修正版
-            </a>
-            <br />
-            <a href="https://arkw.net/products/win/old/e_page_editor_1.0.1.zip">
-              <img
-                src="~/assets/img/products/folder-zipper.png"
-                class="social"
-              />
-              E-Page Editor Ver.1.0.1
-            </a>
-            <br />
-            <a href="https://arkw.net/products/win/old/Okoshimon_1.0.1.zip">
-              <img
-                src="~/assets/img/products/folder-zipper.png"
-                class="social"
-              />
-              おこしもん Ver.1.0.1
-            </a>
-            <br />
-            <a href="https://arkw.net/products/win/old/SimpleShinchoku_1.0.zip">
-              <img
-                src="~/assets/img/products/folder-zipper.png"
-                class="social"
-              />
-              シンプル進捗管理 Ver.1.0
-            </a>
-            <br />
-            <a href="https://arkw.net/products/win/old/Jikagaki_1.0.1.zip">
-              <img
-                src="~/assets/img/products/folder-zipper.png"
-                class="social"
-              />
-              直書きランチャー Ver.1.0.1
-            </a>
-            <br />
-            <a href="https://arkw.net/products/win/old/ShiseiChecker_1.0.zip">
-              <img
-                src="~/assets/img/products/folder-zipper.png"
-                class="social"
-              />
-              姿勢チェッカー for Windows Ver.1.0
-            </a>
-            <br />
-          </p>
-        </div>
-
-        <!-- 製品情報：ウェブアプリ -->
-        <div id="pr_item_web" class="products">
-          <div class="box">
-            <Card
-              url="https://arkw.net/products/web/prohaya/"
-              icon="products/prohaya"
-              title="プロ生早押しクイズ"
-              description="プロ生ちゃんや情報処理研究会のキャラクターと早押しクイズで対決!"
-            />
-            <Card
-              url="https://psk.arkw.net/"
-              icon="products/psk"
-              title="プロ生進捗管理"
-              description="その日に出した進捗を気軽に記録できるウェブサービス"
-            />
-            <Card
-              url="https://arkw.net/products/web/pronama_clock/"
-              icon="products/pronama_clock"
-              title="プロ生時計"
-              description="オープンソースのデジタル時計「Ahoxa」にプロ生テーマを収録!"
-            />
-            <Card
-              url="https://arkw.net/products/web/ahoxa/"
-              icon="products/ahoxa"
-              title="Ahoxa"
-              description="全画面で時計を表示するオープンソースのウェブアプリ"
-            />
-            <Card
-              url="https://arkw.net/products/web/kintetsu/"
-              icon="products/kintetsu"
-              title="近鉄車番検索"
-              description="近鉄車両の車両番号、両数、電算記号などを検索できるウェブアプリ"
-            />
-            <Card
-              url="https://arkw.net/products/web/meitetsu/"
-              icon="products/meitetsu"
-              title="名鉄車番検索"
-              description="名鉄車両の車両番号、両数、電算記号などを検索できるウェブアプリ"
-            />
-            <Card
-              url="https://arkw.net/products/web/atck/"
-              icon="products/atck"
-              title="Article Checker"
-              description="文章を検査し、「日本語の使い方」や「読みやすさ」をチェックするツール"
-            />
-            <Card
-              url="https://arkw.net/products/web/ahoxa/"
-              icon="products/dokaben"
-              title="ドカベンメーカー"
-              description="「ドカベン」のロゴ風画像を作成できるウェブアプリ"
-            />
-            <Card
-              url="https://arkw.net/products/web/shazai/"
-              icon="products/shazai"
-              title="謝罪しろ! ジェネレータ"
-              description="伊勢原名物「謝罪しろ!」看板がウェブブラウザで作り放題"
-            />
-            <Card
-              url="https://arkw.net/products/web/hakase/"
-              icon="products/hakase"
-              title="教えて! ハカセ ジェネレータ"
-              description="「教えて! ○○ハカセ」の画像を作成できるウェブアプリ"
-            />
-            <Card
-              url="https://arkw.net/products/web/smsg/"
-              icon="products/smsg"
-              title="支離滅裂な思考・発言 ジェネレータ"
-              description="「支離滅裂な思考・発言」の画像を作成できるウェブアプリ"
-            />
-            <Card
-              url="https://arkw.net/products/web/mygen/"
-              icon="products/mygen"
-              title="マイ元号メーカー"
-              description="2019年エイプリルフール企画"
-            />
-          </div>
-          <br />
-          <p><b>Arakawa Web Tools</b></p>
-          <p>
-            <a href="https://arkw.net/products/web/tools/kutouten/">
-              <img
-                src="https://arkw.net/products/web/tools/icon_kutouten_16.png"
-                class="social"
-              />
-              句読点変換
-            </a>
-            <br />
-            <a href="https://arkw.net/products/web/tools/indent/">
-              <img
-                src="https://arkw.net/products/web/tools/icon_indent_16.png"
-                class="social"
-              />
-              インデント変換
-            </a>
-            <br />
-            <a href="https://arkw.net/products/web/tools/wordcount/">
-              <img
-                src="https://arkw.net/products/web/tools/icon_wordcount_16.png"
-                class="social"
-              />
-              文字数カウント
-            </a>
-            <br />
-            <a href="https://arkw.net/products/web/tools/dekamoji/">
-              <img
-                src="https://arkw.net/products/web/tools/icon_dekamoji_16.png"
-                class="social"
-              />
-              デカ文字エディタ
-            </a>
-            <br />
-            <a href="https://arkw.net/products/web/tools/imgsize/">
-              <img
-                src="https://arkw.net/products/web/tools/icon_imgsize_16.png"
-                class="social"
-              />
-              画像サイズ表示
-            </a>
-            <br />
-            <a href="https://arkw.net/products/web/tools/dummyimg/">
-              <img
-                src="https://arkw.net/products/web/tools/icon_dummyimg_16.png"
-                class="social"
-              />
-              ダミー画像生成
-            </a>
-          </p>
-        </div>
-
-        <!-- 製品情報：開発者向け -->
-        <div id="pr_item_dev" class="products">
-          <div class="box">
-            <Card
-              url="https://arkw.net/products/dev/AoiEngine/"
-              icon="products/aoi"
-              title="AoiEngine"
-              description="コンテンツ開発を効率化するJavaScriptゲームエンジン"
-            />
-            <Card
-              url="https://arkw.net/products/dev/arkw_tmpl/"
-              icon="products/atmpl"
-              title="Arakawa Template"
-              description="汎用的なウェブサイト用CSSテンプレート"
-            />
-            <Card
-              url="https://github.com/arkwnet/AkariFramework"
-              icon="products/akari"
-              title="AkariFramework"
-              description="シンプルなCSSフレームワーク (Bijou CSS Framework ベース)"
-            />
-            <Card
-              url="https://arkw.net/products/dev/katamuki_js/"
-              icon="products/katamuki"
-              title="Katamuki.js"
-              description="ウェブページ上の文字を綺麗に表示できるJavaScriptライブラリ"
-            />
-            <Card
-              url="https://arkw.net/products/dev/emotion_cover/"
-              icon="products/emotion_cover"
-              title="Emotion Cover"
-              description="HTML5 Canvas/JavaScript製のスライドショースクリプト"
-            />
-            <Card
-              url="https://github.com/arkwnet/SimplifiedCMS2"
-              icon="products/scms2"
-              title="Simplified CMS 2"
-              description="PHP製の簡易型CMS"
-            />
-            <Card
-              url="https://github.com/arkwnet/SimplifiedCMS"
-              icon="products/scms"
-              title="Simplified CMS"
-              description="PHP製の超簡易型CMS"
-            />
-          </div>
-        </div>
-      </div>
-      <br />
-
-      <!-- コンテンツ -->
-      <h1 class="heading">コンテンツ</h1>
-      <p>
-        <a href="https://arkw.work/shiori_sv/">
-          <img
-            src="~/assets/img/links/shiori.svg"
-            class="link-banner"
-            width="180"
-          />
-        </a>
-        <br />
-        <a href="https://arkw.work/doujin/">荒川の同人活動</a>
-        <br />
-        <a href="http://arkw.client.jp">Arakawa No-SSL</a>
-        <br />
-        <a href="https://arkw.net/blog/">Arakawa Blog</a>
-        <br />
-        <a href="https://arkw.net/old/" target="blank">旧トップページ</a>
-        <br />
-        <a href="https://arkw.net/contents/bg_archive/">背景画像アーカイブ</a>
-        <br />
-        <a href="https://arkw.net/contents/axella/">Team Axella 跡地</a>
-        <br />
-      </p>
-      <br />
-
-      <!-- リンク集 -->
-      <h1 class="heading">リンク集</h1>
-      <p>
-        <Link href="http://yotiosoft.com/" src="yotiosoft.svg" width="180" />
-        <Link
-          href="https://nona-takahara.github.io/"
-          src="taka_impact.png"
-          width="180"
-        />
-        <Link href="http://bvetk.webcrow.jp/" src="bvetk.png" width="180" />
-        <Link href="https://gakujochan.com/" src="gakujo.png" width="180" />
-        <Link
-          href="https://hishoutai.arkw.net/"
-          src="hishoutai.png"
-          width="180"
-        />
-        <Link href="http://kusoft.moo.jp/" text="KUsoft" />
-        <Link href="https://xeltica.work/" text="Xeltica Studio" />
-        <Link href="https://yude.jp/" text="yude.jp" />
-        <Link href="https://pass-case.com/" text="Pass-case" />
-        <Link href="https://satoyama-nogyo.com/" text="里山農業プロジェクト" />
-      </p>
-      <br />
-      <p>
-        <Link
-          href="https://www.shizuoka.ac.jp/"
-          src="shizuoka.gif"
-          width="180"
-        />
-        <Link href="http://hsp.tv/" src="hsptv_bnr.gif" />
-        <Link href="https://www.wizforest.com/" text="魔法使いの森" />
-        <Link href="https://uotaka.hamazo.tv/" text="うおたか奮闘記" />
-        <Link href="http://ramlife.net/" text="ラム・ライフ" />
-        <Link href="http://shinohara03.starfree.jp/" text="Optinum Surviter" />
-      </p>
-      <br />
+    <h2>学歴・職歴</h2>
+    <ProfileTable src="history" />
+    <br />
+    <h2>スキル</h2>
+    <div class="skill">
+      <Skill icon="html" title="HTML5" lv="5" />
+      <Skill icon="css" title="CSS3" lv="5" />
+      <Skill icon="javascript" title="JavaScript" lv="4" />
+      <Skill icon="vue" title="Vue.js" lv="4" />
+      <Skill icon="nuxt" title="Nuxt.js" lv="4" />
+      <Skill icon="ongeki" title="オンゲキ bright MEMORY" lv="3" />
+      <Skill icon="chunithm" title="チュウニズム NEW" lv="3" />
+      <Skill icon="illustrator" title="Adobe Illustrator" lv="3" />
+      <Skill icon="indesign" title="Adobe InDesign" lv="3" />
+      <Skill icon="electron" title="Electron" lv="3" />
+      <Skill icon="csharp" title="C#" lv="2" />
+      <Skill icon="linux" title="Linux" lv="2" />
+      <Skill icon="php" title="PHP" lv="2" />
     </div>
+    <br />
+    <h2>外部制作実績</h2>
+    <div class="works">
+      <div class="wrapper">
+        <Work
+          url="https://preppers.business/"
+          icon="202109"
+          date="2021年9月"
+          title="株式会社プレッパーズ"
+          :type="[
+            { id: 'web', name: 'ウェブデザイン' },
+            { id: 'graphic', name: 'グラフィック' },
+            { id: 'system', name: 'システム開発' },
+          ]"
+        />
+        <Work
+          url="https://gakujochan.com/"
+          icon="202106"
+          date="2021年6月"
+          title="学情チャンプロジェクト"
+          :type="[
+            { id: 'web', name: 'ウェブデザイン' },
+            { id: 'graphic', name: 'グラフィック' },
+            { id: 'system', name: 'システム開発' },
+          ]"
+        />
+        <Work
+          icon="202105"
+          date="2021年5月"
+          title="静岡大学ITソルーション室"
+          :type="[{ id: 'web', name: 'ウェブサイト制作' }]"
+        />
+        <Work
+          url="https://xr-hamaria.github.io/"
+          icon="202102"
+          date="2021年2月"
+          title="静岡大学xRサークルはまりあ"
+          :type="[{ id: 'web', name: 'ウェブサイト制作' }]"
+        />
+        <Work
+          icon="202101"
+          date="2021年1月"
+          title="デジタルサイネージ「ITS DigiSign 2」"
+          :type="[
+            { id: 'system', name: 'プログラム' },
+            { id: 'graphic', name: 'グラフィック' },
+          ]"
+        />
+        <Work
+          icon="202011"
+          date="2020年11月"
+          title="VRゲーム「VRSpeedRun」"
+          :type="[{ id: 'graphic', name: 'グラフィック' }]"
+        />
+        <Work
+          icon="202010"
+          date="2020年10月"
+          title="デジタルサイネージ「ITS DigiSign」"
+          :type="[
+            { id: 'system', name: 'プログラム' },
+            { id: 'graphic', name: 'グラフィック' },
+          ]"
+        />
+        <Work
+          url="https://xr-hamaria.github.io/virtual-inf"
+          icon="202008"
+          date="2020年08月"
+          title="静岡大学 バーチャル情報学部"
+          :type="[
+            { id: 'system', name: 'プログラム' },
+            { id: 'graphic', name: 'グラフィック' },
+            { id: 'movie', name: 'ムービー' },
+          ]"
+        />
+      </div>
+    </div>
+    <ProfileTable src="works" />
+    <p>
+      その他、ソフトウェア開発・ウェブデザイン・グラフィックデザイン・映像編集などの実績多数
+    </p>
+    <br />
+    <h2>資格</h2>
+    <ProfileList src="certification" />
+    <br />
+    <h2>所属</h2>
+    <ProfileList src="organization" />
+    <br />
+    <h2>受賞歴</h2>
+    <ProfileList src="award" />
+    <br />
+    <h2>イベント登壇歴</h2>
+    <ProfileTable src="event" />
+    <br />
+    <h2>使用機材</h2>
+    <table>
+      <tr>
+        <th>メインPC</th>
+        <td>
+          HP ENVY 15 X360
+          <span class="spec">(AMD Ryzen 5 2500U、16GB RAM、Windows 10)</span>
+        </td>
+      </tr>
+      <tr>
+        <th>サブPC</th>
+        <td>
+          mouse C1
+          <span class="spec">(Intel Celeron N4100、8GB RAM、Windows 11)</span>
+          <br />
+          ASUS VivoBook E203NA
+          <span class="spec">(Intel Celeron N3350、4GB RAM、Ubuntu 20.04)</span>
+        </td>
+      </tr>
+      <tr>
+        <th>サーバPC</th>
+        <td>
+          <a href="https://arkw.work/shiori_sv">Shiori Server</a>
+          <span class="spec">
+            (Orange Pi Zero LTS、Allwinner H2+、256MB RAM、Armbian buster)
+          </span>
+          <br />
+        </td>
+      </tr>
+      <tr>
+        <th>スマートフォン</th>
+        <td>
+          FCNT arrows Be4 Plus F-41B
+          <span class="spec">
+            (Qualcomm Snapdragon 460、4GB RAM、Android 11)
+          </span>
+          <br />
+          geanee ADP-503G
+          <span class="spec">
+            (MediaTek MT6737M、1GB RAM、Android 10 Go Edition)
+          </span>
+          <br />
+          HUAWEI GR5
+          <span class="spec">
+            (Qualcomm Snapdragon 615、2GB RAM、Android 5.1)
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <th>タブレット端末</th>
+        <td>
+          Apple iPad 第9世代 Wi-Fiモデル
+          <span class="spec">(Apple A13 Bionic、iPadOS 15)</span>
+          <br />
+          BLUEDOT BNT-71W
+          <span class="spec">(MediaTek MT8163V、1GB RAM、Android 5.1)</span>
+        </td>
+      </tr>
+      <tr>
+        <th>ハンディターミナル</th>
+        <td>
+          SUNMI V1s
+          <span class="spec">
+            (ARM Cortex-A7 Quad-core、1GB RAM、Android 6.0、58mmレシート)
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <th>デジタルカメラ</th>
+        <td>Canon PowerShot SX620HS</td>
+      </tr>
+      <tr>
+        <th>プリンタ</th>
+        <td>
+          Canon PIXUS iP2700
+          <span class="spec">(4色インクジェット)</span>
+          <br />
+          KKmoon POS-5890K
+          <span class="spec">(58mmレシート)</span>
+        </td>
+      </tr>
+      <tr>
+        <th>スキャナ</th>
+        <td>Canon CanoScan LiDE 30</td>
+      </tr>
+      <tr>
+        <th>ICレコーダー</th>
+        <td>SANYO DIPLY ICR-PS004M</td>
+      </tr>
+      <tr>
+        <th>自動車</th>
+        <td>
+          <a href="https://arkw.work/h42v/">三菱 ミニカ H42V</a>
+          <span class="spec">(2008年式 ライラ 2WD 5MT)</span>
+        </td>
+      </tr>
+    </table>
   </div>
 </template>
 
 <script>
 import Card from "../components/Card"
-import Link from "../components/Link"
 import UpdateInformation from "../components/Top/UpdateInformation"
 import Chip from "../components/Top/Chip"
 import Skill from "../components/Top/Skill"
@@ -651,7 +269,6 @@ import ProfileTable from "../components/Top/ProfileTable"
 export default {
   components: {
     Card,
-    Link,
     UpdateInformation,
     Chip,
     Skill,

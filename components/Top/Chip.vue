@@ -32,7 +32,7 @@ export default {
     }
   },
   mounted() {
-    this.path = require("~/assets/img/social/" + this.icon + ".png")
+    this.path = require("~/assets/img/social/" + this.icon)
   },
 }
 </script>
