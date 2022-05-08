@@ -77,7 +77,7 @@
           :type="[
             { id: 'web', name: 'ウェブデザイン' },
             { id: 'graphic', name: 'グラフィック' },
-            { id: 'system', name: 'システム開発' },
+            { id: 'system', name: 'システム開発 (PHP)' },
           ]"
         />
         <Work
@@ -88,7 +88,7 @@
           :type="[
             { id: 'web', name: 'ウェブデザイン' },
             { id: 'graphic', name: 'グラフィック' },
-            { id: 'system', name: 'システム開発' },
+            { id: 'system', name: 'システム開発 (PHP)' },
           ]"
         />
         <Work
@@ -109,7 +109,7 @@
           date="2021年1月"
           title="デジタルサイネージ「ITS DigiSign 2」"
           :type="[
-            { id: 'system', name: 'プログラム' },
+            { id: 'system', name: 'プログラム (JavaScript)' },
             { id: 'graphic', name: 'グラフィック' },
           ]"
         />
@@ -124,7 +124,7 @@
           date="2020年10月"
           title="デジタルサイネージ「ITS DigiSign」"
           :type="[
-            { id: 'system', name: 'プログラム' },
+            { id: 'system', name: 'プログラム (JavaScript)' },
             { id: 'graphic', name: 'グラフィック' },
           ]"
         />
@@ -134,7 +134,7 @@
           date="2020年08月"
           title="静岡大学 バーチャル情報学部"
           :type="[
-            { id: 'system', name: 'プログラム' },
+            { id: 'system', name: 'プログラム (Three.js+jQuery)' },
             { id: 'graphic', name: 'グラフィック' },
             { id: 'movie', name: 'ムービー' },
           ]"

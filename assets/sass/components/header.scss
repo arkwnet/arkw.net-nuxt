@@ -6,6 +6,25 @@
   img {
     height: 60px;
   }
+
+  .icon {
+    position: absolute;
+    right: 30px;
+    top: 0;
+
+    .language {
+      padding: 5px 15px;
+      margin-top: 29px;
+      color: $gray_600;
+      border: solid 1px $gray_500;
+      border-radius: 15px;
+      box-sizing: border-box;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 1240px) {
