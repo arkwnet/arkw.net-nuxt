@@ -260,12 +260,12 @@
 
 <script>
 import Card from "../components/Card"
-import UpdateInformation from "../components/Top/UpdateInformation"
-import Chip from "../components/Top/Chip"
-import Skill from "../components/Top/Skill"
-import Work from "../components/Top/Work"
-import ProfileList from "../components/Top/ProfileList"
-import ProfileTable from "../components/Top/ProfileTable"
+import UpdateInformation from "../components/Index/UpdateInformation"
+import Chip from "../components/Index/Chip"
+import Skill from "../components/Index/Skill"
+import Work from "../components/Index/Work"
+import ProfileList from "../components/Index/ProfileList"
+import ProfileTable from "../components/Index/ProfileTable"
 export default {
   components: {
     Card,

@@ -1,8 +1,14 @@
 <template>
   <div>
     <Header />
-    <Navi />
-    <div class="main">
+    <Navi v-if="$route.path === '/'" />
+    <div v-if="$route.path === '/'" class="main">
+      <div class="right">
+        <nuxt />
+      </div>
+      <Sidebar />
+    </div>
+    <div v-else class="main sub">
       <div class="right">
         <nuxt />
       </div>
