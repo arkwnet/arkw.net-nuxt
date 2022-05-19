@@ -45,6 +45,7 @@
         icon="connpass.png"
         name="connpass"
       />
+      <Chip url="#" icon="mail.svg" name="mail@arkw.net" />
     </div>
     <h2>学歴・職歴</h2>
     <ProfileTable src="history" />

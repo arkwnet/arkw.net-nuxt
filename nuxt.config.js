@@ -70,4 +70,12 @@ export default {
       },
     },
   },
+
+  axios: {
+    proxy: true,
+  },
+
+  proxy: {
+    "/api/": "http://arkw.net/",
+  },
 }
