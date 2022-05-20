@@ -29,11 +29,8 @@ export default {
   },
   data() {
     return {
-      path: "",
+      path: require("@/assets/img/" + this.icon + ".png"),
     }
-  },
-  mounted() {
-    this.path = require("~/assets/img/" + this.icon + ".png")
   },
 }
 </script>

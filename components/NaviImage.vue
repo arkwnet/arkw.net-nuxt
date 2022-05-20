@@ -22,14 +22,11 @@ export default {
   },
   data() {
     return {
-      style: "",
+      style:
+        "background: url('/img/header/" +
+        this.image +
+        "') 0 0 no-repeat; background-size: contain;",
     }
-  },
-  mounted() {
-    this.style =
-      "background: url('img/header/" +
-      this.image +
-      "') 0 0 no-repeat; background-size: contain;"
   },
 }
 </script>

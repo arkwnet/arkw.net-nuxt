@@ -1,7 +1,11 @@
 <template>
   <div class="link-banner">
     <a :href="href" target="blank">
-      <img v-if="src != null" :src="image" :width="width" />
+      <img
+        v-if="src != null"
+        :src="require('@/assets/img/links/' + src)"
+        :width="width"
+      />
       <span v-if="text != null">{{ text }}</span>
     </a>
   </div>
@@ -27,16 +31,6 @@ export default {
       type: String,
       default: null,
     },
-  },
-  data() {
-    return {
-      image: "",
-    }
-  },
-  mounted() {
-    if (this.src != null) {
-      this.image = require("~/assets/img/links/" + this.src)
-    }
   },
 }
 </script>
