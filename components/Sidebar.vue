@@ -330,45 +330,72 @@
     <!-- リンク集 -->
     <h1 class="heading">リンク集</h1>
     <p>
-      <Link href="http://yotiosoft.com/" src="yotiosoft.svg" width="180" />
-      <Link
-        href="https://nona-takahara.github.io/"
-        src="taka_impact.png"
-        width="180"
-      />
-      <Link href="http://bvetk.webcrow.jp/" src="bvetk.png" width="180" />
-      <Link href="https://gakujochan.com/" src="gakujo.png" width="180" />
-      <Link
-        href="https://hishoutai.arkw.net/"
-        src="hishoutai.png"
-        width="180"
-      />
-      <Link href="http://kusoft.moo.jp/" text="KUsoft" />
-      <Link href="https://xeltica.work/" text="Xeltica Studio" />
-      <Link href="https://yude.jp/" text="yude.jp" />
-      <Link href="https://pass-case.com/" text="Pass-case" />
-      <Link href="https://satoyama-nogyo.com/" text="里山農業プロジェクト" />
+      <a href="http://yotiosoft.com/" target="blank">
+        <img src="@/assets/img/links/yotiosoft.svg" width="180" />
+      </a>
+      <br />
+      <a href="https://nona-takahara.github.io/" target="blank">
+        <img src="@/assets/img/links/taka_impact.png" width="180" />
+      </a>
+      <br />
+      <a href="http://bvetk.webcrow.jp/" target="blank">
+        <img src="@/assets/img/links/bvetk.png" />
+      </a>
+      <br />
+      <a href="https://gakujochan.com/" target="blank">
+        <img src="@/assets/img/links/gakujo.png" width="180" />
+      </a>
+      <br />
+      <a href="https://hishoutai.arkw.net/" target="blank">
+        <img src="@/assets/img/links/hishoutai.png" />
+      </a>
+      <br />
+      <a href="http://kusoft.moo.jp/" target="blank">KUsoft</a>
+      <br />
+      <a href="https://xeltica.work/" target="blank">Xeltica.work</a>
+      <br />
+      <a href="https://yude.jp/" target="blank">yude.jp</a>
+      <br />
+      <a href="https://satoyama-nogyo.com/" target="blank">
+        里山農業プロジェクト
+      </a>
+      <br />
     </p>
     <br />
     <p>
-      <Link href="https://www.shizuoka.ac.jp/" src="shizuoka.gif" width="180" />
-      <Link href="http://hsp.tv/" src="hsptv_bnr.gif" />
-      <Link href="https://www.wizforest.com/" text="魔法使いの森" />
-      <Link href="https://uotaka.hamazo.tv/" text="うおたか奮闘記" />
-      <Link href="http://ramlife.net/" text="ラム・ライフ" />
-      <Link href="http://shinohara03.starfree.jp/" text="Optinum Surviter" />
+      <a href="https://www.shizuoka.ac.jp/" target="blank">
+        <img
+          src="@/assets/img/links/shizuoka.gif"
+          width="180"
+          class="link-banner"
+        />
+      </a>
+      <br />
+      <a href="http://hsp.tv/" target="blank">
+        <img src="@/assets/img/links/hsptv_bnr.gif" />
+      </a>
+      <br />
+      <a href="https://pass-case.com/" target="blank">Pass-case</a>
+      <br />
+      <a href="http://shinohara03.starfree.jp/" target="blank">
+        Optinum Surviter
+      </a>
+      <br />
+      <a href="https://uotaka.hamazo.tv/" target="blank">うおたか奮闘記</a>
+      <br />
+      <a href="http://ramlife.net/" target="blank">ラム・ライフ</a>
+      <br />
+      <a href="https://www.wizforest.com/" target="blank">魔法使いの森</a>
+      <br />
     </p>
-    <br />
   </div>
 </template>
 
 <script>
 import Card from "../components/Card"
-import Link from "../components/Link"
 export default {
   components: {
     Card,
-    Link,
   },
 }
 </script>

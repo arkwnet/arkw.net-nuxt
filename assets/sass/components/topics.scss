@@ -1,6 +1,6 @@
 .topics {
+  height: 110px;
   padding-right: 20px;
-  margin-bottom: 5px;
   overflow: hidden;
 
   .icon {
@@ -39,4 +39,9 @@
       border-bottom: 0;
     }
   }
+}
+
+.height-auto {
+  height: auto;
+  margin: 5px 0;
 }

@@ -7,12 +7,14 @@
       icon="topics/windef"
       title="「Windows セキュリティの重要な警告」ダイアログ"
       description="当サイトからダウンロードしたソフトウェアの起動時に「Windows セキュリティの重要な警告」ダイアログが表示された場合の対処法"
+      height-auto
     />
     <Card
       url="https://note.com/arkw0/n/n14530024c13d"
       icon="topics/winss"
       title="「WindowsによってPCが保護されました」ダイアログ"
       description="当サイトからダウンロードしたソフトウェアの起動時に「WindowsによってPCが保護されました」ダイアログが表示された場合の対処法"
+      height-auto
     />
     <br />
 
@@ -29,7 +31,8 @@
     <Card
       icon="icon"
       title="Sora Arakawa (arkw)"
-      description="男性／2001年4月11日生／静岡大学 情報学部 行動情報学科 3年／静岡県浜松市在住／愛知県岡崎市出身／個人サークル「Arakawa Laboratory」代表 "
+      description="男性／2001年4月11日生／静岡大学 情報学部 行動情報学科 3年／静岡県浜松市在住／愛知県岡崎市出身／個人サークル「Arakawa Laboratory」代表"
+      height-auto
     />
     <div class="chip">
       <Chip url="https://twitter.com/arkw0" icon="twitter.svg" name="Twitter" />

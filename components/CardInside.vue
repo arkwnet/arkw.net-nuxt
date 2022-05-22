@@ -1,5 +1,5 @@
 <template>
-  <div class="topics">
+  <div :class="[heightAuto == true ? 'topics height-auto' : 'topics']">
     <div class="icon"><img :src="path" /></div>
     <div class="main">
       <h1>{{ title }}</h1>
@@ -25,6 +25,10 @@ export default {
       type: String,
       require: true,
       default: null,
+    },
+    heightAuto: {
+      type: Boolean,
+      default: false,
     },
   },
   data() {

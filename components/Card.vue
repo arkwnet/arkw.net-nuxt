@@ -1,9 +1,19 @@
 <template>
   <a v-if="url != null" :href="`${url}`" target="blank">
-    <CardInside :icon="icon" :title="title" :description="description" />
+    <CardInside
+      :icon="icon"
+      :title="title"
+      :description="description"
+      :height-auto="heightAuto"
+    />
   </a>
   <a v-else>
-    <CardInside :icon="icon" :title="title" :description="description" />
+    <CardInside
+      :icon="icon"
+      :title="title"
+      :description="description"
+      :height-auto="heightAuto"
+    />
   </a>
 </template>
 
@@ -33,6 +43,10 @@ export default {
       type: String,
       require: true,
       default: null,
+    },
+    heightAuto: {
+      type: Boolean,
+      default: false,
     },
   },
 }
