@@ -1,5 +1,5 @@
 <template>
-  <a v-if="url != null" :href="`${url}`">
+  <a v-if="href != null" :href="`${href}`">
     <div :style="style"></div>
   </a>
   <a v-else>
@@ -10,11 +10,11 @@
 <script>
 export default {
   props: {
-    url: {
+    href: {
       type: String,
       default: null,
     },
-    image: {
+    src: {
       type: String,
       require: true,
       default: null,
@@ -24,7 +24,7 @@ export default {
     return {
       style:
         "background: url('/img/header/" +
-        this.image +
+        this.src +
         "') 0 0 no-repeat; background-size: contain;",
     }
   },
