@@ -13,6 +13,9 @@ module.exports = {
   // add your custom rules here
   rules: {
     "vue/multi-word-component-names": "off",
+    "vue/valid-attribute-name": "off",
+    "vue/valid-model-definition": "off",
+    "vue/no-reserved-component-names": "off",
   },
   ignorePatterns: [
     "static/js/jquery.js",

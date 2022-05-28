@@ -1,7 +1,7 @@
 <template>
-  <a v-if="url != null" :href="`${url}`" target="blank">
+  <a v-if="href != null" :href="`${href}`" target="blank">
     <CardInside
-      :icon="icon"
+      :src="src"
       :title="title"
       :description="description"
       :height-auto="heightAuto"
@@ -9,7 +9,7 @@
   </a>
   <a v-else>
     <CardInside
-      :icon="icon"
+      :src="src"
       :title="title"
       :description="description"
       :height-auto="heightAuto"
@@ -24,12 +24,12 @@ export default {
     CardInside,
   },
   props: {
-    url: {
+    href: {
       type: String,
       require: true,
       default: null,
     },
-    icon: {
+    src: {
       type: String,
       require: true,
       default: null,

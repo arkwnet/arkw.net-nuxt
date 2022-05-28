@@ -11,7 +11,7 @@
 <script>
 export default {
   props: {
-    icon: {
+    src: {
       type: String,
       require: true,
       default: null,
@@ -33,7 +33,7 @@ export default {
   },
   data() {
     return {
-      path: require("@/assets/img/" + this.icon + ".png"),
+      path: require("@/assets/img/" + this.src + ".png"),
     }
   },
 }
