@@ -9,7 +9,7 @@
 <script>
 export default {
   props: {
-    icon: {
+    src: {
       type: String,
       require: true,
       default: null,
@@ -31,7 +31,7 @@ export default {
     }
   },
   mounted() {
-    this.path = require("~/assets/img/skills/" + this.icon + ".png")
+    this.path = require("~/assets/img/skills/" + this.src + ".png")
   },
 }
 </script>

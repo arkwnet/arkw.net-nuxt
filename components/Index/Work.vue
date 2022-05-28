@@ -1,9 +1,9 @@
 <template>
-  <a v-if="url != null" :href="`${url}`" target="blank">
-    <WorkInside :icon="icon" :date="date" :title="title" :type="type" />
+  <a v-if="href != null" :href="`${href}`" target="blank">
+    <WorkInside :src="src" :date="date" :title="title" :type="type" />
   </a>
   <a v-else>
-    <WorkInside :icon="icon" :date="date" :title="title" :type="type" />
+    <WorkInside :src="src" :date="date" :title="title" :type="type" />
   </a>
 </template>
 
@@ -14,11 +14,11 @@ export default {
     WorkInside,
   },
   props: {
-    url: {
+    href: {
       type: String,
       default: null,
     },
-    icon: {
+    src: {
       type: String,
       require: true,
       default: null,
@@ -42,9 +42,6 @@ export default {
     return {
       style: "",
     }
-  },
-  mounted() {
-    this.style = "background-image: url('img/works/" + this.icon + ".png');"
   },
 }
 </script>

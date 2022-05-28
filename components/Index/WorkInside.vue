@@ -15,7 +15,7 @@
 <script>
 export default {
   props: {
-    icon: {
+    src: {
       type: String,
       require: true,
       default: null,
@@ -41,7 +41,7 @@ export default {
     }
   },
   mounted() {
-    this.style = "background-image: url('img/works/" + this.icon + ".png');"
+    this.style = "background-image: url('img/works/" + this.src + ".png');"
   },
 }
 </script>

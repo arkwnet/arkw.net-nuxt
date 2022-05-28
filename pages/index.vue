@@ -55,27 +55,27 @@
     <br />
     <h2>スキル</h2>
     <div class="skill">
-      <Skill icon="html" title="HTML5" lv="5" />
-      <Skill icon="css" title="CSS3" lv="5" />
-      <Skill icon="javascript" title="JavaScript" lv="4" />
-      <Skill icon="vue" title="Vue.js" lv="4" />
-      <Skill icon="nuxt" title="Nuxt.js" lv="4" />
-      <Skill icon="ongeki" title="オンゲキ bright MEMORY" lv="3" />
-      <Skill icon="chunithm" title="チュウニズム NEW" lv="3" />
-      <Skill icon="illustrator" title="Adobe Illustrator" lv="3" />
-      <Skill icon="indesign" title="Adobe InDesign" lv="3" />
-      <Skill icon="electron" title="Electron" lv="3" />
-      <Skill icon="csharp" title="C#" lv="2" />
-      <Skill icon="linux" title="Linux" lv="2" />
-      <Skill icon="php" title="PHP" lv="2" />
+      <Skill src="html" title="HTML5" lv="5" />
+      <Skill src="css" title="CSS3" lv="5" />
+      <Skill src="javascript" title="JavaScript" lv="4" />
+      <Skill src="vue" title="Vue.js" lv="4" />
+      <Skill src="nuxt" title="Nuxt.js" lv="4" />
+      <Skill src="ongeki" title="オンゲキ bright MEMORY" lv="3" />
+      <Skill src="chunithm" title="チュウニズム NEW" lv="3" />
+      <Skill src="illustrator" title="Adobe Illustrator" lv="3" />
+      <Skill src="indesign" title="Adobe InDesign" lv="3" />
+      <Skill src="electron" title="Electron" lv="3" />
+      <Skill src="csharp" title="C#" lv="2" />
+      <Skill src="linux" title="Linux" lv="2" />
+      <Skill src="php" title="PHP" lv="2" />
     </div>
     <br />
     <h2>外部制作実績</h2>
     <div class="works">
       <div class="wrapper">
         <Work
-          url="https://preppers.business/"
-          icon="202109"
+          href="https://preppers.business/"
+          src="202109"
           date="2021年9月"
           title="株式会社プレッパーズ"
           :type="[
@@ -85,8 +85,8 @@
           ]"
         />
         <Work
-          url="https://gakujochan.com/"
-          icon="202106"
+          href="https://gakujochan.com/"
+          src="202106"
           date="2021年6月"
           title="学情チャンプロジェクト"
           :type="[
@@ -96,20 +96,20 @@
           ]"
         />
         <Work
-          icon="202105"
+          src="202105"
           date="2021年5月"
           title="静岡大学ITソルーション室"
           :type="[{ id: 'web', name: 'ウェブサイト制作' }]"
         />
         <Work
-          url="https://xr-hamaria.github.io/"
-          icon="202102"
+          href="https://xr-hamaria.github.io/"
+          src="202102"
           date="2021年2月"
           title="静岡大学xRサークルはまりあ"
           :type="[{ id: 'web', name: 'ウェブサイト制作' }]"
         />
         <Work
-          icon="202101"
+          src="202101"
           date="2021年1月"
           title="デジタルサイネージ「ITS DigiSign 2」"
           :type="[
@@ -118,13 +118,13 @@
           ]"
         />
         <Work
-          icon="202011"
+          src="202011"
           date="2020年11月"
           title="VRゲーム「VRSpeedRun」"
           :type="[{ id: 'graphic', name: 'グラフィック' }]"
         />
         <Work
-          icon="202010"
+          src="202010"
           date="2020年10月"
           title="デジタルサイネージ「ITS DigiSign」"
           :type="[
@@ -133,8 +133,8 @@
           ]"
         />
         <Work
-          url="https://xr-hamaria.github.io/virtual-inf"
-          icon="202008"
+          href="https://xr-hamaria.github.io/virtual-inf"
+          src="202008"
           date="2020年08月"
           title="静岡大学 バーチャル情報学部"
           :type="[
