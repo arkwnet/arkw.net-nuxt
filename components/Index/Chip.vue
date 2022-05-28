@@ -1,5 +1,5 @@
 <template>
-  <a :href="`${url}`" target="blank">
+  <a :href="`${href}`" target="blank">
     <div class="box">
       <div class="image"><img :src="path" /></div>
       <div class="text">{{ name }}</div>
@@ -10,12 +10,12 @@
 <script>
 export default {
   props: {
-    url: {
+    href: {
       type: String,
       require: true,
       default: null,
     },
-    icon: {
+    src: {
       type: String,
       require: true,
       default: null,
@@ -32,7 +32,7 @@ export default {
     }
   },
   mounted() {
-    this.path = require("~/assets/img/social/" + this.icon)
+    this.path = require("~/assets/img/social/" + this.src)
   },
 }
 </script>

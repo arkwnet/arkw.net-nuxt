@@ -30,5 +30,17 @@
 @media screen and (max-width: 1240px) {
   .header {
     padding: 15px 20px 11px;
+
+    .icon {
+      right: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .header {
+    .icon {
+      display: none;
+    }
   }
 }

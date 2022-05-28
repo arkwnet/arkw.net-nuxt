@@ -35,20 +35,20 @@
       height-auto
     />
     <div class="chip">
-      <Chip url="https://twitter.com/arkw0" icon="twitter.svg" name="Twitter" />
-      <Chip url="https://note.com/arkw0" icon="note.svg" name="note" />
-      <Chip url="https://github.com/arkwnet" icon="github.svg" name="GitHub" />
+      <Chip href="https://twitter.com/arkw0" src="twitter.svg" name="Twitter" />
+      <Chip href="https://note.com/arkw0" src="note.svg" name="note" />
+      <Chip href="https://github.com/arkwnet" src="github.svg" name="GitHub" />
       <Chip
-        url="https://speakerdeck.com/arkw"
-        icon="speakerdeck.svg"
+        href="https://speakerdeck.com/arkw"
+        src="speakerdeck.svg"
         name="Speaker Deck"
       />
       <Chip
-        url="https://connpass.com/user/arkw0/"
-        icon="connpass.png"
+        href="https://connpass.com/user/arkw0/"
+        src="connpass.png"
         name="connpass"
       />
-      <Chip url="#" icon="mail.svg" name="mail@arkw.net" />
+      <Chip href="#" src="mail.svg" name="mail@arkw.net" />
     </div>
     <h2>学歴・職歴</h2>
     <ProfileTable src="history" />
