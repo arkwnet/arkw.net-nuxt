@@ -190,6 +190,11 @@
             (Orange Pi Zero LTS、Allwinner H2+、256MB RAM、Armbian buster)
           </span>
           <br />
+          Chifuyu Server
+          <span class="spec">
+            (EPSON Endeavor ST170E、Intel Celeron 2950M、4GB RAM、128GB
+            SSD、Rocky Linux 8)
+          </span>
         </td>
       </tr>
       <tr>
