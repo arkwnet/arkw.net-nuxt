@@ -1,9 +1,21 @@
 <template>
   <a v-if="href != null" :href="`${href}`" target="blank">
-    <WorkInside :src="src" :date="date" :title="title" :type="type" />
+    <WorkInside
+      :src="src"
+      :date="date"
+      :title="title"
+      :type="type"
+      :position="position"
+    />
   </a>
   <a v-else>
-    <WorkInside :src="src" :date="date" :title="title" :type="type" />
+    <WorkInside
+      :src="src"
+      :date="date"
+      :title="title"
+      :type="type"
+      :position="position"
+    />
   </a>
 </template>
 
@@ -36,6 +48,11 @@ export default {
     type: {
       type: Array,
       default: null,
+    },
+    position: {
+      type: String,
+      require: false,
+      default: "top",
     },
   },
   data() {

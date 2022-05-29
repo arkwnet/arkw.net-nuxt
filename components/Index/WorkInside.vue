@@ -34,6 +34,10 @@ export default {
       type: Array,
       default: null,
     },
+    position: {
+      type: String,
+      default: "top",
+    },
   },
   data() {
     return {
@@ -41,7 +45,11 @@ export default {
     }
   },
   mounted() {
-    this.style = "background-image: url('img/works/" + this.src + ".png');"
+    this.style =
+      "background-image: url('img/works/" +
+      this.src +
+      ".png'); background-position: center " +
+      this.position
   },
 }
 </script>

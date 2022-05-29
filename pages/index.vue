@@ -122,6 +122,7 @@
           date="2020年11月"
           title="VRゲーム「VRSpeedRun」"
           :type="[{ id: 'graphic', name: 'グラフィック' }]"
+          position="25%"
         />
         <Work
           src="202010"
