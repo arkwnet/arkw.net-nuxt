@@ -1,5 +1,11 @@
 // Responsive CSS
 
+@media screen and (max-width: 1380px) {
+  .main {
+    margin-top: 10px;
+  }
+}
+
 @media screen and (max-width: 1280px) {
   .navi {
     width: 100%;
