@@ -15,7 +15,11 @@ export default {
       { name: "format-detection", content: "telephone=no" },
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: "img/favicon.ico" },
+      {
+        rel: "icon",
+        type: "image/x-icon",
+        href: "https://arkw.net/img/favicon.ico",
+      },
       { rel: "preconnect", href: "https://fonts.gstatic.com" },
       {
         rel: "stylesheet",
@@ -23,9 +27,17 @@ export default {
       },
     ],
     script: [
-      { type: "text/javascript", src: "js/jquery.js", body: true },
+      {
+        type: "text/javascript",
+        src: "https://arkw.net/js/jquery.js",
+        body: true,
+      },
       { type: "text/javascript", src: "js/slick.min.js", body: true },
-      { type: "text/javascript", src: "js/main.js", body: true },
+      {
+        type: "text/javascript",
+        src: "https://arkw.net/js/main.js",
+        body: true,
+      },
     ],
   },
 
