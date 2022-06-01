@@ -30,6 +30,12 @@
             description="英単語や地名など短い文を連続して入力するタイピングゲーム"
           />
           <Card
+            href="https://arkw.net/products/win/LTTimer/"
+            src="products/lt_timer"
+            title="ライトニングトークタイマー"
+            description="ライトニングトーク (LT) に特化したタイマーソフトウェア"
+          />
+          <Card
             href="https://arkw.net/products/win/wsm/"
             src="products/wsm"
             title="WinSmartWatch"

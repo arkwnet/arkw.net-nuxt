@@ -74,6 +74,24 @@
     <div class="works">
       <div class="wrapper">
         <Work
+          src="202111"
+          date="2021年11月"
+          title="VRゲーム「黄昏の赤ずきん」"
+          :type="[{ id: 'graphic', name: 'UIデザイン' }]"
+          position="20%"
+        />
+        <Work
+          href="https://xr-hamaria.github.io/virtual-inf"
+          src="202110"
+          date="2021年10月"
+          title="静岡大学 バーチャル浜松キャンパス"
+          :type="[
+            { id: 'system', name: 'プログラム (Three.js+jQuery)' },
+            { id: 'graphic', name: 'UIデザイン' },
+            { id: 'movie', name: 'ムービー' },
+          ]"
+        />
+        <Work
           href="https://preppers.business/"
           src="202109"
           date="2021年9月"
@@ -116,6 +134,7 @@
             { id: 'system', name: 'プログラム (JavaScript)' },
             { id: 'graphic', name: 'グラフィック' },
           ]"
+          position="10%"
         />
         <Work
           src="202011"
@@ -140,7 +159,7 @@
           title="静岡大学 バーチャル情報学部"
           :type="[
             { id: 'system', name: 'プログラム (Three.js+jQuery)' },
-            { id: 'graphic', name: 'グラフィック' },
+            { id: 'graphic', name: 'UIデザイン' },
             { id: 'movie', name: 'ムービー' },
           ]"
         />
