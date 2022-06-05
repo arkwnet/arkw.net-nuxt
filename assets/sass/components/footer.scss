@@ -3,7 +3,14 @@
   margin-top: 60px;
   line-height: 26px;
   color: $arkw-color;
-  background-color: $arkw-color-light;
+  background-color: $arkw-color-background;
+
+  .small,
+  .small a {
+    font-size: 12px;
+    line-height: 16px;
+    color: $arkw-color-light;
+  }
 }
 
 @media screen and (max-width: 1240px) {

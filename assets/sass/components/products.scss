@@ -12,12 +12,12 @@
     margin-top: 5px;
     margin-right: 10px;
     color: $arkw-color;
-    background-color: $arkw-color-light;
+    background-color: $arkw-color-background;
     border-radius: 15px;
   }
 
   .selected {
-    color: $arkw-color-light;
+    color: $arkw-color-background;
     background-color: $arkw-color;
     transition-timing-function: ease-in-out;
     transition-duration: 0.1s;
