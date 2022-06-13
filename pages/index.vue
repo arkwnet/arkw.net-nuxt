@@ -65,7 +65,8 @@
       <Skill src="illustrator" title="Adobe Illustrator" lv="3" />
       <Skill src="indesign" title="Adobe InDesign" lv="3" />
       <Skill src="electron" title="Electron" lv="3" />
-      <Skill src="csharp" title="C#" lv="2" />
+      <Skill src="csharp" title="C#" lv="3" />
+      <Skill src="cpp" title="C++" lv="2" />
       <Skill src="linux" title="Linux" lv="2" />
       <Skill src="php" title="PHP" lv="2" />
     </div>
@@ -204,15 +205,14 @@
       <tr>
         <th>サーバPC</th>
         <td>
-          <a href="https://arkw.work/shiori_sv">Shiori Server</a>
-          <span class="spec">
-            (Orange Pi Zero LTS、Allwinner H2+、256MB RAM、Armbian buster)
-          </span>
+          <a href="https://arkw.work/shiori_sv">
+            Orange Pi Zero LTS "Shiori Server"
+          </a>
+          <span class="spec">(Allwinner H2+、256MB RAM、Armbian buster)</span>
           <br />
-          Chifuyu Server
+          EPSON Endeavor ST170E "Chifuyu Server"
           <span class="spec">
-            (EPSON Endeavor ST170E、Intel Celeron 2950M、4GB RAM、128GB
-            SSD、Rocky Linux 8)
+            (Intel Celeron 2950M、4GB RAM、128GB SSD、Rocky Linux 8)
           </span>
         </td>
       </tr>
@@ -281,6 +281,13 @@
         <td>
           <a href="https://arkw.work/h42v/">三菱 ミニカ H42V</a>
           <span class="spec">(2008年式 ライラ 2WD 5MT)</span>
+        </td>
+      </tr>
+      <tr>
+        <th>バイク</th>
+        <td>
+          ホンダ スーパーカブ50プロ AA04
+          <span class="spec">(2016年式)</span>
         </td>
       </tr>
     </table>
