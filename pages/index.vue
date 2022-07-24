@@ -210,9 +210,11 @@
           </a>
           <span class="spec">(Allwinner H2+、256MB RAM、Armbian buster)</span>
           <br />
-          EPSON Endeavor ST170E "Chifuyu Server"
+          <a href="https://arkw.work/chifuyu_sv">
+            EPSON Endeavor ST170E "Chifuyu Server"
+          </a>
           <span class="spec">
-            (Intel Celeron 2950M、4GB RAM、128GB SSD、Rocky Linux 8)
+            (Intel Celeron 2950M、4GB RAM、120GB SSD、Rocky Linux 8)
           </span>
         </td>
       </tr>

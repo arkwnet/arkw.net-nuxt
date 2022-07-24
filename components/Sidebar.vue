@@ -318,6 +318,14 @@
         />
       </a>
       <br />
+      <a href="https://arkw.work/chifuyu_sv/">
+        <img
+          src="~/assets/img/links/chifuyu.svg"
+          class="link-banner"
+          width="180"
+        />
+      </a>
+      <br />
       <a href="https://arkw.work/doujin/">荒川の同人活動</a>
       <br />
       <a href="http://arkw.client.jp">Arakawa No-SSL</a>
