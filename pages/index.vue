@@ -288,7 +288,7 @@
       <tr>
         <th>バイク</th>
         <td>
-          ホンダ スーパーカブ50プロ AA04
+          <a href="https://arkw.work/aa04/">ホンダ スーパーカブ50プロ AA04</a>
           <span class="spec">(2016年式)</span>
         </td>
       </tr>
