@@ -205,17 +205,17 @@
       <tr>
         <th>サーバPC</th>
         <td>
-          <a href="https://arkw.work/shiori_sv">
-            Orange Pi Zero LTS "Shiori Server"
-          </a>
-          <span class="spec">(Allwinner H2+、256MB RAM、Armbian buster)</span>
-          <br />
           <a href="https://arkw.work/chifuyu_sv">
             EPSON Endeavor ST170E "Chifuyu Server"
           </a>
           <span class="spec">
             (Intel Celeron 2950M、4GB RAM、120GB SSD、Rocky Linux 8)
           </span>
+          <br />
+          <a href="https://arkw.work/shiori_sv">
+            Orange Pi Zero LTS "Shiori Server"
+          </a>
+          <span class="spec">(Allwinner H2+、256MB RAM、Armbian buster)</span>
         </td>
       </tr>
       <tr>
@@ -223,7 +223,7 @@
         <td>
           FCNT arrows Be4 Plus F-41B
           <span class="spec">
-            (Qualcomm Snapdragon 460、4GB RAM、Android 11)
+            (Qualcomm Snapdragon 460、4GB RAM、Android 12)
           </span>
           <br />
           geanee ADP-503G
