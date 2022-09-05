@@ -7,10 +7,10 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "lint:prettier": "prettier -c .",
-    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
-    "lint:style": "stylelint \"**/*.{vue,css}\" --ignore-path .gitignore",
-    "lint": "npm run lint:js && npm run lint:style"
+    "lint:prettier": "prettier --write -c .",
+    "lint:js": "eslint --fix --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint:css": "stylelint --fix **/*.{vue,scss,css} --ignore-path .gitignore",
+    "lint": "npm run lint:js && npm run lint:css && npm run lint:prettier"
   },
   "dependencies": {
     "@babel/preset-env": "^7.18.10",
