@@ -65,19 +65,19 @@
             border-radius: 10px;
 
             &.web {
-              background-color: #673ab7;
+              background-color: $work-web;
             }
 
             &.graphic {
-              background-color: #2196f3;
+              background-color: $work-graphic;
             }
 
             &.system {
-              background-color: #607d8b;
+              background-color: $work-system;
             }
 
             &.movie {
-              background-color: #f44336;
+              background-color: $work-movie;
             }
           }
         }
