@@ -60,6 +60,8 @@ export default {
     "@nuxtjs/eslint-module",
     // https://go.nuxtjs.dev/stylelint
     "@nuxtjs/stylelint-module",
+    "@nuxtjs/style-resources",
+    "@nuxt/postcss8",
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -82,9 +84,8 @@ export default {
       },
     },
     postcss: {
-      plugins: {
-        "postcss-import": {},
-      },
+      plugins: {},
+      preset: {},
     },
   },
 
