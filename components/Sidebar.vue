@@ -18,6 +18,12 @@
       <div id="pr_item_windows" class="products">
         <div class="box">
           <Card
+            href="https://arkw.net/products/pc_game/hiragana_erase/"
+            src="products/hiragana_erase"
+            title="ひらがないれーす"
+            description="ひらがなを題材とした落ちものパズルゲーム"
+          />
+          <Card
             href="https://arkw.net/products/pc_game/qubefall/"
             src="products/qubefall"
             title="QubeFall"
