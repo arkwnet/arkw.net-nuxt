@@ -3,6 +3,10 @@
     <div class="slider">
       <NaviImage src="arkw_lab.png" />
       <NaviImage
+        href="https://arkw.net/products/pc_game/hiragana_erase/"
+        src="hiragana_erase.png"
+      />
+      <NaviImage
         href="https://arkw.net/products/win/LTTimer/"
         src="lt_timer.png"
       />
