@@ -212,6 +212,11 @@
             (Intel Celeron 2950M、4GB RAM、120GB SSD、Rocky Linux 8)
           </span>
           <br />
+          EPSON Endeavor ST150E "Chinatsu Server"
+          <span class="spec">
+            (Intel Core i3 380M、4GB RAM、320GB HDD、Windows 10)
+          </span>
+          <br />
           <a href="https://arkw.work/shiori_sv">
             Orange Pi Zero LTS "Shiori Server"
           </a>
@@ -231,9 +236,19 @@
             (MediaTek MT6737M、1GB RAM、Android 10 Go Edition)
           </span>
           <br />
+          KYOCERA TORQUE G02
+          <span class="spec">
+            (Qualcomm Snapdragon 400、2GB RAM、Android 6.0)
+          </span>
+          <br />
           HUAWEI GR5
           <span class="spec">
             (Qualcomm Snapdragon 615、2GB RAM、Android 5.1)
+          </span>
+          <br />
+          Panasonic P-07C
+          <span class="spec">
+            (Texas Instruments OMAP3630、512MB RAM、Android 2.3)
           </span>
         </td>
       </tr>

@@ -180,7 +180,7 @@
             description="文章を検査し、「日本語の使い方」や「読みやすさ」をチェックするツール"
           />
           <Card
-            href="https://arkw.net/products/web/ahoxa/"
+            href="https://arkw.net/products/web/dokaben/"
             src="products/dokaben"
             title="ドカベンメーカー"
             description="「ドカベン」のロゴ風画像を作成できるウェブアプリ"
