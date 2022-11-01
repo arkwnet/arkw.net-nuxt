@@ -36,6 +36,12 @@
             description="英単語や地名など短い文を連続して入力するタイピングゲーム"
           />
           <Card
+            href="https://arkw.net/products/pc_game/train_chicken_race/"
+            src="products/train_chicken_race"
+            title="トレインチキンレース"
+            description="電車でチキンレースをしてみませんか? 3Dシミュレーションゲーム"
+          />
+          <Card
             href="https://arkw.net/products/win/LTTimer/"
             src="products/lt_timer"
             title="ライトニングトークタイマー"
