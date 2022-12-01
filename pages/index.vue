@@ -272,6 +272,22 @@
         </td>
       </tr>
       <tr>
+        <th>ゲームコンソール</th>
+        <td>
+          Nintendo Switch
+          <br />
+          Nintendo 3DS LL
+          <br />
+          Nintendo DSi LL
+          <br />
+          Nintendo Wii
+          <br />
+          SCE PlayStation 2
+          <br />
+          SCE PlayStation
+        </td>
+      </tr>
+      <tr>
         <th>デジタルカメラ</th>
         <td>Canon PowerShot SX620HS</td>
       </tr>
