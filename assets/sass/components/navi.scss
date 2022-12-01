@@ -1,11 +1,13 @@
 .navi {
   width: 100%;
   margin: auto;
-  margin-bottom: -50px;
+  margin-bottom: -18px;
   box-sizing: border-box;
+  border-top: solid 1px $gray-400;
+  border-bottom: solid 1px $gray-400;
 }
 
 .slick-slide div {
   width: 100%;
-  padding-bottom: calc(100% * 600 / 1600);
+  padding-bottom: calc(100% * 520 / 1440);
 }
