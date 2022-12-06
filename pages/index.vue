@@ -188,6 +188,12 @@
       <tr>
         <th>メインPC</th>
         <td>
+          MSI KATANA GF66
+          <span class="spec">
+            (Intel Core i7-11800H、NVIDIA GeForce RTX 3050 Ti、16GB RAM、Windows
+            11)
+          </span>
+          <br />
           HP ENVY 15 X360
           <span class="spec">(AMD Ryzen 5 2500U、16GB RAM、Windows 10)</span>
         </td>
@@ -212,15 +218,10 @@
             (Intel Celeron 2950M、4GB RAM、120GB SSD、Rocky Linux 8)
           </span>
           <br />
-          EPSON Endeavor ST150E "Chinatsu Server"
+          EPSON Endeavor ST150E "Reinforce"
           <span class="spec">
             (Intel Core i3 380M、4GB RAM、320GB HDD、Windows 10)
           </span>
-          <br />
-          <a href="https://arkw.work/shiori_sv">
-            Orange Pi Zero LTS "Shiori Server"
-          </a>
-          <span class="spec">(Allwinner H2+、256MB RAM、Armbian buster)</span>
         </td>
       </tr>
       <tr>
