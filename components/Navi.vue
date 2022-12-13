@@ -7,12 +7,12 @@
         src="hiragana_erase.png"
       />
       <NaviImage
-        href="https://arkw.net/products/win/LTTimer/"
-        src="lt_timer.png"
-      />
-      <NaviImage
         href="https://arkw.net/products/pc_game/qubefall/"
         src="qubefall.png"
+      />
+      <NaviImage
+        href="https://arkw.net/products/web/prohaya/"
+        src="prohaya.png"
       />
     </div>
   </div>

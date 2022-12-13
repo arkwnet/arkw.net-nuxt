@@ -60,8 +60,8 @@
       <Skill src="javascript" title="JavaScript" lv="4" />
       <Skill src="vue" title="Vue.js" lv="4" />
       <Skill src="nuxt" title="Nuxt.js" lv="4" />
+      <Skill src="chunithm" title="チュウニズム SUN" lv="3" />
       <Skill src="ongeki" title="オンゲキ bright MEMORY" lv="3" />
-      <Skill src="chunithm" title="チュウニズム NEW" lv="3" />
       <Skill src="illustrator" title="Adobe Illustrator" lv="3" />
       <Skill src="indesign" title="Adobe InDesign" lv="3" />
       <Skill src="electron" title="Electron" lv="3" />
@@ -74,6 +74,26 @@
     <h2>外部制作実績</h2>
     <div class="works">
       <div class="wrapper">
+        <Work
+          src="IGC2022A"
+          date="2022年11月"
+          title="ICON Game Collection 2022 Autumn"
+          :type="[
+            { id: 'graphic', name: 'パッケージデザイン' },
+            { id: 'system', name: 'ゲーム制作' },
+          ]"
+          position="100%"
+        />
+        <Work
+          src="IGC2021A"
+          date="2021年11月"
+          title="ICON Game Collection 2021 Autumn"
+          :type="[
+            { id: 'graphic', name: 'パッケージデザイン' },
+            { id: 'system', name: 'ゲーム制作' },
+          ]"
+          position="85%"
+        />
         <Work
           src="202111"
           date="2021年11月"
