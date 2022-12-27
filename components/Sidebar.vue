@@ -389,19 +389,11 @@
     <h1 class="heading">コンテンツ</h1>
     <p>
       <a href="https://arkw.work/shiori_sv/">
-        <img
-          src="~/assets/img/links/shiori.svg"
-          class="link-banner"
-          width="180"
-        />
+        <img src="/img/links/shiori.svg" class="link-banner" width="180" />
       </a>
       <br />
       <a href="https://arkw.work/chifuyu_sv/">
-        <img
-          src="~/assets/img/links/chifuyu.svg"
-          class="link-banner"
-          width="180"
-        />
+        <img src="/img/links/chifuyu.svg" class="link-banner" width="180" />
       </a>
       <br />
       <a href="https://arkw.work/doujin/">荒川の同人活動</a>
@@ -423,23 +415,23 @@
     <h1 class="heading">リンク集</h1>
     <p>
       <a href="http://yotiosoft.com/" target="blank">
-        <img src="@/assets/img/links/yotiosoft.svg" width="180" />
+        <nuxt-img src="/img/links/yotiosoft.svg" width="180" format="webp" />
       </a>
       <br />
       <a href="https://nona-takahara.github.io/" target="blank">
-        <img src="@/assets/img/links/taka_impact.png" width="180" />
+        <nuxt-img src="/img/links/taka_impact.png" width="180" format="webp" />
       </a>
       <br />
       <a href="http://bvetk.webcrow.jp/" target="blank">
-        <img src="@/assets/img/links/bvetk.png" />
+        <nuxt-img src="/img/links/bvetk.png" format="webp" />
       </a>
       <br />
       <a href="https://gakujochan.com/" target="blank">
-        <img src="@/assets/img/links/gakujo.png" width="180" />
+        <nuxt-img src="/img/links/gakujo.png" width="180" format="webp" />
       </a>
       <br />
       <a href="https://hishoutai.arkw.net/" target="blank">
-        <img src="@/assets/img/links/hishoutai.png" />
+        <nuxt-img src="/img/links/hishoutai.png" format="webp" />
       </a>
       <br />
       <a href="http://kusoft.moo.jp/" target="blank">KUsoft</a>
@@ -456,15 +448,16 @@
     <br />
     <p>
       <a href="https://www.shizuoka.ac.jp/" target="blank">
-        <img
-          src="@/assets/img/links/shizuoka.gif"
+        <nuxt-img
+          src="/img/links/shizuoka.gif"
           width="180"
           class="link-banner"
+          format="webp"
         />
       </a>
       <br />
       <a href="http://hsp.tv/" target="blank">
-        <img src="@/assets/img/links/hsptv_bnr.gif" />
+        <nuxt-img src="/img/links/hsptv_bnr.gif" format="webp" />
       </a>
       <br />
       <a href="https://pass-case.com/" target="blank">Pass-case</a>
