@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <div class="wrapper">
-      (c) 2015-2022 Sora Arakawa all rights reserved.
+      (c) 2015-2023 Sora Arakawa all rights reserved.
       <div class="small">
         Some icons by
         <a href="http://p.yusukekamiyamane.com/" target="blank">
