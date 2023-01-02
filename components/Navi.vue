@@ -1,7 +1,6 @@
 <template>
   <div class="navi">
     <div class="slider">
-      <NaviImage src="2023.png" />
       <NaviImage src="arkw_lab.png" />
       <NaviImage
         href="https://arkw.net/products/pc_game/hiragana_erase/"
