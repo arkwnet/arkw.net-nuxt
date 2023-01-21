@@ -60,7 +60,8 @@
       <Skill src="javascript" title="JavaScript" lv="4" />
       <Skill src="vue" title="Vue.js" lv="4" />
       <Skill src="nuxt" title="Nuxt.js" lv="4" />
-      <Skill src="chunithm" title="チュウニズム SUN" lv="3" />
+      <Skill src="python" title="Python" lv="4" />
+      <Skill src="chunithm" title="チュウニズム SUN" lv="4" />
       <Skill src="ongeki" title="オンゲキ bright MEMORY" lv="3" />
       <Skill src="illustrator" title="Adobe Illustrator" lv="3" />
       <Skill src="indesign" title="Adobe InDesign" lv="3" />
