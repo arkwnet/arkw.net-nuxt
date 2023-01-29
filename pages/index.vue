@@ -241,7 +241,7 @@
           <br />
           EPSON Endeavor ST150E "Reinforce"
           <span class="spec">
-            (Intel Core i3 380M、4GB RAM、320GB HDD、Windows 10)
+            (Intel Core i3 380M、4GB RAM、320GB HDD、Rocky Linux 8)
           </span>
         </td>
       </tr>
@@ -305,8 +305,10 @@
           Nintendo Wii
           <br />
           SCE PlayStation 2
+          <span class="spec">(SCPH-90000)</span>
           <br />
           SCE PlayStation
+          <span class="spec">(SCPH-7500)</span>
         </td>
       </tr>
       <tr>
