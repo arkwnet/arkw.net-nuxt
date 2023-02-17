@@ -26,27 +26,10 @@ export default {
         href: "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Roboto:wght@400;700&display=swap",
       },
     ],
-    script: [
-      {
-        type: "text/javascript",
-        src: "https://arkw.net/js/jquery.js",
-        body: true,
-      },
-      { type: "text/javascript", src: "js/slick.min.js", body: true },
-      {
-        type: "text/javascript",
-        src: "https://arkw.net/js/main.js",
-        body: true,
-      },
-    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-    { src: "~/static/css/slick.css" },
-    { src: "~/static/css/slick-theme.css" },
-    { src: "~/assets/sass/app.scss", lang: "scss" },
-  ],
+  css: [{ src: "~/assets/sass/app.scss", lang: "scss" }],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
