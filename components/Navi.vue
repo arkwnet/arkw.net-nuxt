@@ -34,7 +34,7 @@
 <script>
 import { Hooper, Slide } from "hooper"
 import NaviImage from "./NaviImage.vue"
-import "../assets/css/hooper.css"
+import "../assets/sass/hooper.scss"
 export default {
   components: {
     Hooper,
