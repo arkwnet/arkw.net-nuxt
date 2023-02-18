@@ -2,6 +2,3 @@
 /.nuxt/**
 /dist/**
 package-lock.json
-/static/css/**
-/static/js/jquery.js
-/static/js/slick.min.js
