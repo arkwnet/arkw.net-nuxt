@@ -31,7 +31,7 @@
     <Card
       src="icon"
       title="荒川 奏良 (Sora Arakawa, arkw)"
-      description="男性 / 2001年4月11日生 / 静岡大学 情報学部 行動情報学科 3年 / 静岡県浜松市在住 / 愛知県岡崎市出身 / 個人サークル「Arakawa Laboratory」代表"
+      description="男性 / 2001年4月11日生 / 静岡大学 情報学部 行動情報学科 3年 / 静岡県浜松市在住 / 愛知県岡崎市出身 / 個人サークル「荒川技研 (Arakawa Laboratory)」代表"
       height-auto
     />
     <div class="chip">
@@ -48,7 +48,7 @@
         src="connpass.png"
         name="connpass"
       />
-      <Chip href="#" src="mail.svg" name="mail@arkw.net" />
+      <Chip href="mailto:mail@arkw.net" src="mail.svg" name="mail@arkw.net" />
     </div>
     <h2>学歴・職歴</h2>
     <ProfileTable src="history" />
@@ -57,9 +57,9 @@
     <div class="skill">
       <Skill src="html" title="HTML5" lv="5" />
       <Skill src="css" title="CSS3" lv="5" />
-      <Skill src="javascript" title="JavaScript" lv="4" />
-      <Skill src="vue" title="Vue.js" lv="4" />
-      <Skill src="nuxt" title="Nuxt.js" lv="4" />
+      <Skill src="javascript" title="JavaScript" lv="5" />
+      <Skill src="vue" title="Vue.js" lv="5" />
+      <Skill src="nuxt" title="Nuxt.js" lv="5" />
       <Skill src="python" title="Python" lv="4" />
       <Skill src="chunithm" title="チュウニズム SUN" lv="4" />
       <Skill src="ongeki" title="オンゲキ bright MEMORY" lv="3" />
@@ -67,7 +67,8 @@
       <Skill src="indesign" title="Adobe InDesign" lv="3" />
       <Skill src="electron" title="Electron" lv="3" />
       <Skill src="csharp" title="C#" lv="3" />
-      <Skill src="cpp" title="C++" lv="2" />
+      <Skill src="java" title="Java" lv="3" />
+      <Skill src="cpp" title="C/C++" lv="2" />
       <Skill src="linux" title="Linux" lv="2" />
       <Skill src="php" title="PHP" lv="2" />
     </div>
@@ -314,6 +315,13 @@
       <tr>
         <th>デジタルカメラ</th>
         <td>Canon PowerShot SX620HS</td>
+      </tr>
+      <tr>
+        <th>複合機</th>
+        <td>
+          Brother DCP-J540N
+          <span class="spec">(4色インクジェット)</span>
+        </td>
       </tr>
       <tr>
         <th>プリンタ</th>
