@@ -88,3 +88,6 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# WebP image files
+*.webp

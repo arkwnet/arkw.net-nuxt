@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build && nuxt generate",
+    "dev": "npm run image:webp && nuxt",
+    "build": "npm run image:webp && nuxt build && nuxt generate",
     "start": "nuxt start",
     "lint:prettier": "prettier --write -c .",
     "lint:js": "eslint --fix --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint:css": "stylelint --fix **/*.{vue,scss,css} --ignore-path .gitignore",
-    "lint": "npm run lint:js && npm run lint:css && npm run lint:prettier"
+    "lint": "npm run lint:js && npm run lint:css && npm run lint:prettier",
+    "image:webp": "node convert-webp.mjs"
   },
   "dependencies": {
     "@babel/preset-env": "^7.20.2",
@@ -30,6 +31,8 @@
     "eslint-config-prettier": "^8.7.0",
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-vue": "^9.9.0",
+    "imagemin": "^8.0.1",
+    "imagemin-webp": "^8.0.0",
     "nuxt": "^2.2.0",
     "postcss": "^8.4.21",
     "postcss-html": "^1.5.0",
