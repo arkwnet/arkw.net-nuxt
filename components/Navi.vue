@@ -8,23 +8,23 @@
       :progress="true"
       :wheel-control="false"
     >
-      <slide><NaviImage src="arkw_lab.png" /></slide>
+      <slide><NaviImage src="arkw_lab.webp" /></slide>
       <slide>
         <NaviImage
           href="https://arkw.net/products/pc_game/hiragana_erase/"
-          src="hiragana_erase.png"
+          src="hiragana_erase.webp"
         />
       </slide>
       <slide>
         <NaviImage
           href="https://arkw.net/products/pc_game/qubefall/"
-          src="qubefall.png"
+          src="qubefall.webp"
         />
       </slide>
       <slide>
         <NaviImage
           href="https://arkw.net/products/web/prohaya/"
-          src="prohaya.png"
+          src="prohaya.webp"
         />
       </slide>
     </hooper>

@@ -48,7 +48,7 @@ export default {
     this.style =
       "background-image: url('img/works/" +
       this.src +
-      ".png'); background-position: center " +
+      ".webp'); background-position: center " +
       this.position
   },
 }
