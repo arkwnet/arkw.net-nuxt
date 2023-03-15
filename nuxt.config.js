@@ -58,6 +58,23 @@ export default {
         debug: true,
       },
     ],
+    [
+      "nuxt-i18n",
+      {
+        locales: [
+          { code: "ja", name: "日本語", iso: "ja", file: "ja.json" },
+          { code: "en-US", name: "English", iso: "en-US", file: "en-US.json" },
+        ],
+        defaultLocale: "ja",
+        langDir: "locales/",
+        strategy: "prefix_and_default",
+        vueI18n: {
+          fallbackLocale: "ja",
+        },
+        vueI18nLoader: true,
+        lazy: true,
+      },
+    ],
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

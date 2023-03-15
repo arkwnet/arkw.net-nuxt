@@ -17,7 +17,8 @@
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/google-gtag": "^1.0.4",
     "core-js": "^3.29.1",
-    "hooper": "^0.3.4"
+    "hooper": "^0.3.4",
+    "nuxt-i18n": "^6.28.1"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.21.3",
