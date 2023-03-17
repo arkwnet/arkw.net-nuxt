@@ -1,1 +1,63 @@
-{}
+{
+  "link": {
+    "top": "トップページ"
+  },
+  "heading": {
+    "topics": "トピックス",
+    "update": "更新履歴",
+    "profile": "プロフィール",
+    "links": "リンク集",
+    "contents": "コンテンツ"
+  },
+  "update": {
+    "all": "全ての更新履歴を見る"
+  },
+  "profile": {
+    "background": "学歴・職歴",
+    "skill": "スキル",
+    "work": "外部制作実績",
+    "certification": "資格",
+    "organization": "所属",
+    "award": "受賞歴",
+    "event": "イベント登壇歴",
+    "equipment": {
+      "title": "使用機材",
+      "main": "メインPC",
+      "sub": "サブPC",
+      "server": "サーバPC",
+      "smartphone": "スマートフォン",
+      "tablet": "タブレット端末",
+      "handy": "ハンディターミナル",
+      "game": "ゲームコンソール",
+      "camera": "デジタルカメラ",
+      "multi": "複合機",
+      "printer": "プリンタ",
+      "scanner": "スキャナ",
+      "recorder": "ICレコーダ",
+      "car": "自動車",
+      "motorcycle": "バイク"
+    }
+  },
+  "software": {
+    "type": {
+      "main": {
+        "webapp": "ウェブアプリ",
+        "dev": "開発者向け"
+      },
+      "sub": {
+        "game": "ゲーム",
+        "clock": "アラーム&クロック",
+        "utility": "ユーティリティ",
+        "editor": "エディタ&文書作成",
+        "eol": "開発終了",
+        "webservice": "ウェブサービス",
+        "generator": "ジェネレータ",
+        "shaban": "車番検索シリーズ",
+        "other": "その他",
+        "js": "JavaScriptライブラリ",
+        "css": "CSSテンプレート",
+        "cms": "コンテンツ管理システム"
+      }
+    }
+  }
+}

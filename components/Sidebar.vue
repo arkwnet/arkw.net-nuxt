@@ -5,7 +5,7 @@
       <!-- 製品情報：Windows -->
       <h2>
         <span>Windows 10/11</span>
-        ゲーム
+        {{ $t("software.type.sub.game") }}
       </h2>
       <div class="box">
         <Card
@@ -36,7 +36,7 @@
       <br />
       <h2>
         <span>Windows 10/11</span>
-        アラーム & クロック
+        {{ $t("software.type.sub.clock") }}
       </h2>
       <div class="box">
         <Card
@@ -55,7 +55,7 @@
       <br />
       <h2>
         <span>Windows 10/11</span>
-        ユーティリティ
+        {{ $t("software.type.sub.utility") }}
       </h2>
       <div class="box">
         <Card
@@ -74,7 +74,7 @@
       <br />
       <h2>
         <span>Windows 10/11</span>
-        エディタ & 文書作成
+        {{ $t("software.type.sub.editor") }}
       </h2>
       <div class="box">
         <Card
@@ -99,7 +99,7 @@
       <br />
       <h2>
         <span>Windows 10/11</span>
-        開発終了
+        {{ $t("software.type.sub.eol") }}
       </h2>
       <p>
         <a href="https://arkw.net/products/win/eim2/">
@@ -154,7 +154,7 @@
         <br />
       </p>
       <br />
-      <h2>ウェブサービス</h2>
+      <h2>{{ $t("software.type.sub.webservice") }}</h2>
       <div class="box">
         <Card
           href="https://psk.arkw.net/"
@@ -165,8 +165,8 @@
       </div>
       <br />
       <h2>
-        <span>ウェブアプリ</span>
-        ゲーム
+        <span>{{ $t("software.type.main.webapp") }}</span>
+        {{ $t("software.type.sub.game") }}
       </h2>
       <div class="box">
         <Card
@@ -178,8 +178,8 @@
       </div>
       <br />
       <h2>
-        <span>ウェブアプリ</span>
-        アラーム & クロック
+        <span>{{ $t("software.type.main.webapp") }}</span>
+        {{ $t("software.type.sub.clock") }}
       </h2>
       <div class="box">
         <Card
@@ -197,8 +197,8 @@
       </div>
       <br />
       <h2>
-        <span>ウェブアプリ</span>
-        ジェネレータ
+        <span>{{ $t("software.type.main.webapp") }}</span>
+        {{ $t("software.type.sub.generator") }}
       </h2>
       <div class="box">
         <Card
@@ -228,8 +228,8 @@
       </div>
       <br />
       <h2>
-        <span>ウェブアプリ</span>
-        車番検索シリーズ
+        <span>{{ $t("software.type.main.webapp") }}</span>
+        {{ $t("software.type.sub.shaban") }}
       </h2>
       <div class="box">
         <Card
@@ -247,8 +247,8 @@
       </div>
       <br />
       <h2>
-        <span>ウェブアプリ</span>
-        その他
+        <span>{{ $t("software.type.main.webapp") }}</span>
+        {{ $t("software.type.sub.other") }}
       </h2>
       <div class="box">
         <Card
@@ -266,7 +266,7 @@
       </div>
       <br />
       <h2>
-        <span>ウェブアプリ</span>
+        <span>{{ $t("software.type.main.webapp") }}</span>
         Arakawa Web Tools
       </h2>
       <p>
@@ -320,8 +320,8 @@
       </p>
       <br />
       <h2>
-        <span>開発者向け</span>
-        JavaScriptライブラリ
+        <span>{{ $t("software.type.main.dev") }}</span>
+        {{ $t("software.type.sub.js") }}
       </h2>
       <div class="box">
         <Card
@@ -346,8 +346,8 @@
       </div>
       <br />
       <h2>
-        <span>開発者向け</span>
-        CSSテンプレート
+        <span>{{ $t("software.type.main.dev") }}</span>
+        {{ $t("software.type.sub.css") }}
       </h2>
       <div class="box">
         <Card
@@ -365,8 +365,8 @@
       </div>
       <br />
       <h2>
-        <span>開発者向け</span>
-        コンテンツ管理システム
+        <span>{{ $t("software.type.main.dev") }}</span>
+        {{ $t("software.type.sub.cms") }}
       </h2>
       <div class="box">
         <Card
@@ -386,7 +386,7 @@
     <br />
 
     <!-- コンテンツ -->
-    <h1 class="heading">コンテンツ</h1>
+    <h1 class="heading">{{ $t("heading.contents") }}</h1>
     <p>
       <a href="https://arkw.work/shiori_sv/">
         <img src="/img/links/shiori.svg" class="link-banner" width="180" />
@@ -412,7 +412,7 @@
     <br />
 
     <!-- リンク集 -->
-    <h1 class="heading">リンク集</h1>
+    <h1 class="heading">{{ $t("heading.links") }}</h1>
     <p>
       <a href="http://yotiosoft.com/" target="blank">
         <nuxt-img src="/img/links/yotiosoft.svg" width="180" format="webp" />

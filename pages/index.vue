@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- トピックス -->
-    <h1 class="heading">トピックス</h1>
+    <h1 class="heading">{{ $t("heading.topics") }}</h1>
     <Card
       href="https://note.com/arkw0/n/n5289722646f0"
       src="topics/windef"
@@ -19,15 +19,15 @@
     <br />
 
     <!-- 更新情報 -->
-    <h1 class="heading">更新履歴</h1>
+    <h1 class="heading">{{ $t("heading.update") }}</h1>
     <UpdateInformation />
     <p>
-      <a href="/history">過去の更新履歴を見る</a>
+      <a href="/history">{{ $t("update.all") }}</a>
     </p>
     <br />
 
     <!-- プロフィール -->
-    <h1 class="heading">プロフィール</h1>
+    <h1 class="heading">{{ $t("heading.profile") }}</h1>
     <Card
       src="icon"
       title="荒川 奏良 (Sora Arakawa, arkw)"
@@ -50,10 +50,10 @@
       />
       <Chip href="mailto:mail@arkw.net" src="mail.svg" name="mail@arkw.net" />
     </div>
-    <h2>学歴・職歴</h2>
+    <h2>{{ $t("profile.background") }}</h2>
     <ProfileTable src="history" />
     <br />
-    <h2>スキル</h2>
+    <h2>{{ $t("profile.skill") }}</h2>
     <div class="skill">
       <Skill src="html" title="HTML5" lv="5" />
       <Skill src="css" title="CSS3" lv="5" />
@@ -73,7 +73,7 @@
       <Skill src="php" title="PHP" lv="2" />
     </div>
     <br />
-    <h2>外部制作実績</h2>
+    <h2>{{ $t("profile.work") }}</h2>
     <div class="works">
       <div class="wrapper">
         <Work
@@ -193,22 +193,22 @@
       その他、ソフトウェア開発・ウェブデザイン・グラフィックデザイン・映像編集などの実績多数
     </p>
     <br />
-    <h2>資格</h2>
+    <h2>{{ $t("profile.certification") }}</h2>
     <ProfileList src="certification" />
     <br />
-    <h2>所属</h2>
+    <h2>{{ $t("profile.organization") }}</h2>
     <ProfileList src="organization" />
     <br />
-    <h2>受賞歴</h2>
+    <h2>{{ $t("profile.award") }}</h2>
     <ProfileList src="award" />
     <br />
-    <h2>イベント登壇歴</h2>
+    <h2>{{ $t("profile.event") }}</h2>
     <ProfileTable src="event" />
     <br />
-    <h2>使用機材</h2>
+    <h2>{{ $t("profile.equipment.title") }}</h2>
     <table>
       <tr>
-        <th>メインPC</th>
+        <th>{{ $t("profile.equipment.main") }}</th>
         <td>
           MSI KATANA GF66
           <span class="spec">
@@ -221,7 +221,7 @@
         </td>
       </tr>
       <tr>
-        <th>サブPC</th>
+        <th>{{ $t("profile.equipment.sub") }}</th>
         <td>
           mouse C1
           <span class="spec">(Intel Celeron N4100、8GB RAM、Windows 11)</span>
@@ -231,7 +231,7 @@
         </td>
       </tr>
       <tr>
-        <th>サーバPC</th>
+        <th>{{ $t("profile.equipment.server") }}</th>
         <td>
           <a href="https://arkw.work/chifuyu_sv">
             EPSON Endeavor ST170E "Chifuyu Server"
@@ -247,7 +247,7 @@
         </td>
       </tr>
       <tr>
-        <th>スマートフォン</th>
+        <th>{{ $t("profile.equipment.smartphone") }}</th>
         <td>
           FCNT arrows Be4 Plus F-41B
           <span class="spec">
@@ -276,7 +276,7 @@
         </td>
       </tr>
       <tr>
-        <th>タブレット端末</th>
+        <th>{{ $t("profile.equipment.tablet") }}</th>
         <td>
           Apple iPad 第9世代 Wi-Fiモデル
           <span class="spec">(Apple A13 Bionic、iPadOS 15)</span>
@@ -286,7 +286,7 @@
         </td>
       </tr>
       <tr>
-        <th>ハンディターミナル</th>
+        <th>{{ $t("profile.equipment.handy") }}</th>
         <td>
           SUNMI V1s
           <span class="spec">
@@ -295,7 +295,7 @@
         </td>
       </tr>
       <tr>
-        <th>ゲームコンソール</th>
+        <th>{{ $t("profile.equipment.game") }}</th>
         <td>
           Nintendo Switch
           <br />
@@ -313,18 +313,18 @@
         </td>
       </tr>
       <tr>
-        <th>デジタルカメラ</th>
+        <th>{{ $t("profile.equipment.camera") }}</th>
         <td>Canon PowerShot SX620HS</td>
       </tr>
       <tr>
-        <th>複合機</th>
+        <th>{{ $t("profile.equipment.multi") }}</th>
         <td>
           Brother DCP-J540N
           <span class="spec">(4色インクジェット)</span>
         </td>
       </tr>
       <tr>
-        <th>プリンタ</th>
+        <th>{{ $t("profile.equipment.printer") }}</th>
         <td>
           Canon PIXUS iP2700
           <span class="spec">(4色インクジェット)</span>
@@ -334,22 +334,22 @@
         </td>
       </tr>
       <tr>
-        <th>スキャナ</th>
+        <th>{{ $t("profile.equipment.scanner") }}</th>
         <td>Canon CanoScan LiDE 30</td>
       </tr>
       <tr>
-        <th>ICレコーダー</th>
+        <th>{{ $t("profile.equipment.recorder") }}</th>
         <td>SANYO DIPLY ICR-PS004M</td>
       </tr>
       <tr>
-        <th>自動車</th>
+        <th>{{ $t("profile.equipment.car") }}</th>
         <td>
           <a href="https://arkw.work/h42v/">三菱 ミニカ H42V</a>
           <span class="spec">(2008年式 ライラ 2WD 5MT)</span>
         </td>
       </tr>
       <tr>
-        <th>バイク</th>
+        <th>{{ $t("profile.equipment.motorcycle") }}</th>
         <td>
           <a href="https://arkw.work/aa04/">ホンダ スーパーカブ50プロ AA04</a>
           <span class="spec">(2016年式)</span>

@@ -1,10 +1,10 @@
 <template>
   <div>
     <div class="breadcrumb">
-      <a href="/">トップページ</a>
+      <a href="/">{{ $t("link.top") }}</a>
       &gt;
     </div>
-    <h1 class="title">更新履歴</h1>
+    <h1 class="title">{{ $t("heading.update") }}</h1>
     <table>
       <tr v-for="historySingle in history" :key="historySingle.Date">
         <th>{{ historySingle.Date }}</th>
