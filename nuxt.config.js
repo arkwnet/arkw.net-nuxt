@@ -63,7 +63,7 @@ export default {
       {
         locales: [
           { code: "ja", name: "日本語", iso: "ja", file: "ja.json" },
-          { code: "en-US", name: "English", iso: "en-US", file: "en-US.json" },
+          { code: "en", name: "English", iso: "en", file: "en.json" },
         ],
         defaultLocale: "ja",
         langDir: "locales/",
