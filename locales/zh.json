@@ -1,0 +1,63 @@
+{
+  "link": {
+    "top": "首页"
+  },
+  "heading": {
+    "topics": "时事话题",
+    "update": "更新信息",
+    "profile": "人物介绍",
+    "links": "链接",
+    "contents": "内容"
+  },
+  "update": {
+    "all": "阅读所有更新信息"
+  },
+  "profile": {
+    "background": "学历 / 职业生涯",
+    "skill": "技巧",
+    "work": "委托开发",
+    "certification": "资格",
+    "organization": "组织",
+    "award": "获奖情况",
+    "event": "活动演讲历史",
+    "equipment": {
+      "title": "使用的设备",
+      "main": "主电脑",
+      "sub": "副电脑",
+      "server": "服务器电脑",
+      "smartphone": "手机",
+      "tablet": "平板电脑",
+      "handy": "移动终端",
+      "game": "游戏机",
+      "camera": "数码相机",
+      "multi": "多功能打印机",
+      "printer": "打印机",
+      "scanner": "扫描仪",
+      "recorder": "录音机",
+      "car": "汽车",
+      "motorcycle": "摩托车"
+    }
+  },
+  "software": {
+    "type": {
+      "main": {
+        "webapp": "网络程序",
+        "dev": "对于程序员"
+      },
+      "sub": {
+        "game": "游戏",
+        "clock": "闹钟 & 钟表",
+        "utility": "实用",
+        "editor": "文本编辑器",
+        "eol": "寿命结束",
+        "webservice": "网络服务",
+        "generator": "生成器",
+        "shaban": "铁路车辆编号搜索",
+        "other": "其他",
+        "js": "JavaScript 程序库",
+        "css": "CSS 模板",
+        "cms": "内容管理系统"
+      }
+    }
+  }
+}
