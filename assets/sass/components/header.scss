@@ -19,6 +19,9 @@
       border: solid 1px $gray-500;
       border-radius: 15px;
       box-sizing: border-box;
+      font-family: "Noto Sans JP", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3",
+        "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic",
+        sans-serif;
 
       &:hover {
         cursor: pointer;

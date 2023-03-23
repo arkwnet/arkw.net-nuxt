@@ -6,14 +6,42 @@
           <img src="~/assets/img/logo.svg" />
         </a>
         <div class="icon">
-          <div class="language">日本語</div>
+          <div class="language" @click="onLanguageMenu()">
+            {{ $t("language") }}
+          </div>
         </div>
       </div>
     </div>
-    <ul class="menu language">
-      <li>日本語</li>
-      <li>English</li>
-      <li>简体中文</li>
+    <ul class="menu language" v-if="isLanguageMenu">
+      <li @click="setLanguage('ja')">日本語</li>
+      <li @click="setLanguage('en')">English</li>
+      <li @click="setLanguage('zh')">简体中文</li>
     </ul>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      isLanguageMenu: false,
+    }
+  },
+  methods: {
+    onLanguageMenu() {
+      switch (this.isLanguageMenu) {
+        case false:
+          this.isLanguageMenu = true
+          break
+        case true:
+          this.isLanguageMenu = false
+          break
+      }
+    },
+    setLanguage(lang) {
+      this.$router.push(this.switchLocalePath(lang))
+      this.isLanguageMenu = false
+    },
+  },
+}
+</script>
