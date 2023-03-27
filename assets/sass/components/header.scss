@@ -27,33 +27,33 @@
         cursor: pointer;
       }
     }
-  }
-}
 
-.menu {
-  &.language {
-    width: 120px;
-    padding: 8px 0;
-    position: absolute;
-    right: 30px;
-    top: 65px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 3px $gray-600;
-    z-index: 100;
+    .menu {
+      &.language {
+        width: 120px;
+        padding: 8px 0;
+        position: absolute;
+        right: 0;
+        top: 65px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 3px $gray-600;
+        z-index: 100;
 
-    li {
-      padding: 3px 15px 7px 15px;
-      color: $gray-900;
-      font-family: "Noto Sans JP", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3",
-        "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic",
-        sans-serif;
-      font-size: 16px;
-      list-style-type: none;
+        li {
+          padding: 3px 15px 7px 15px;
+          color: $gray-900;
+          font-family: "Noto Sans JP", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3",
+            "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic",
+            sans-serif;
+          font-size: 16px;
+          list-style-type: none;
 
-      &:hover {
-        background-color: $gray-300;
-        cursor: pointer;
+          &:hover {
+            background-color: $gray-300;
+            cursor: pointer;
+          }
+        }
       }
     }
   }
