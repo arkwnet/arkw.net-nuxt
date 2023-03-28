@@ -2,9 +2,9 @@
   <div>
     <div class="header">
       <div class="wrapper">
-        <a href="/">
+        <nuxt-link :to="localePath('/')">
           <img src="~/assets/img/logo.svg" />
-        </a>
+        </nuxt-link>
         <div class="icon">
           <div v-click-outside="hideLocaleMenu">
             <div class="locale" @click="onLocaleMenu()">

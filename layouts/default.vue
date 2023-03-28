@@ -1,8 +1,8 @@
 <template>
   <div>
     <Header />
-    <Navi v-if="$route.path === '/'" />
-    <div v-if="$route.path === '/'" class="main">
+    <Navi v-if="getRouteBaseName() === 'index'" />
+    <div v-if="getRouteBaseName() === 'index'" class="main">
       <div class="right">
         <nuxt />
       </div>

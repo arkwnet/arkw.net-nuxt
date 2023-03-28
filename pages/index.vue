@@ -22,7 +22,7 @@
     <h1 class="heading">{{ $t("heading.update") }}</h1>
     <UpdateInformation />
     <p>
-      <a href="/history">{{ $t("update.all") }}</a>
+      <nuxt-link :to="localePath('history')">{{ $t("update.all") }}</nuxt-link>
     </p>
     <br />
 
