@@ -12,7 +12,7 @@
     right: 30px;
     top: 0;
 
-    div.language {
+    div.locale {
       padding: 5px 15px;
       margin-top: 29px;
       color: $gray-600;
@@ -29,7 +29,7 @@
     }
 
     .menu {
-      &.language {
+      &.locale {
         width: 120px;
         padding: 8px 0;
         position: absolute;

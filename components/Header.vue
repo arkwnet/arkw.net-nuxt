@@ -6,14 +6,14 @@
           <img src="~/assets/img/logo.svg" />
         </a>
         <div class="icon">
-          <div v-click-outside="hideLanguageMenu">
-            <div class="language" @click="onLanguageMenu()">
-              {{ $t("language") }}
+          <div v-click-outside="hideLocaleMenu">
+            <div class="locale" @click="onLocaleMenu()">
+              {{ $t("locale") }}
             </div>
-            <ul v-if="isLanguageMenu" class="menu language">
-              <li @click="setLanguage('ja')">日本語</li>
-              <li @click="setLanguage('en')">English</li>
-              <li @click="setLanguage('zh')">简体中文</li>
+            <ul v-if="isLocaleMenu" class="menu locale">
+              <li @click="setLocale('ja')">日本語</li>
+              <li @click="setLocale('en')">English</li>
+              <li @click="setLocale('zh')">简体中文</li>
             </ul>
           </div>
         </div>
@@ -30,29 +30,29 @@ export default {
   },
   data() {
     return {
-      isLanguageMenu: false,
+      isLocaleMenu: false,
     }
   },
   methods: {
-    onLanguageMenu() {
-      switch (this.isLanguageMenu) {
+    onLocaleMenu() {
+      switch (this.isLocaleMenu) {
         case false:
-          this.showLanguageMenu()
+          this.showLocaleMenu()
           break
         case true:
-          this.hideLanguageMenu()
+          this.hideLocaleMenu()
           break
       }
     },
-    showLanguageMenu() {
-      this.isLanguageMenu = true
+    showLocaleMenu() {
+      this.isLocaleMenu = true
     },
-    hideLanguageMenu() {
-      this.isLanguageMenu = false
+    hideLocaleMenu() {
+      this.isLocaleMenu = false
     },
-    setLanguage(lang) {
+    setLocale(lang) {
       this.$router.push(this.switchLocalePath(lang))
-      this.hideLanguageMenu()
+      this.hideLocaleMenu()
     },
   },
 }
