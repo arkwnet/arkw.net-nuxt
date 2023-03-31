@@ -212,22 +212,28 @@
         <td>
           MSI KATANA GF66
           <span class="spec">
-            (Intel Core i7-11800H、NVIDIA GeForce RTX 3050 Ti、16GB RAM、Windows
-            11)
+            (Intel Core i7-11800H, NVIDIA GeForce RTX 3050 Ti, 16GB RAM, 512GB
+            SSD, Windows 11)
           </span>
           <br />
           HP ENVY 15 X360
-          <span class="spec">(AMD Ryzen 5 2500U、16GB RAM、Windows 10)</span>
+          <span class="spec">
+            (AMD Ryzen 5 2500U, 16GB RAM, 256GB SSD + 1TB HDD, Windows 10)
+          </span>
         </td>
       </tr>
       <tr>
         <th>{{ $t("profile.equipment.sub") }}</th>
         <td>
           mouse C1
-          <span class="spec">(Intel Celeron N4100、8GB RAM、Windows 11)</span>
+          <span class="spec">
+            (Intel Celeron N4100, 8GB RAM, 240GB SSD, Windows 11)
+          </span>
           <br />
           ASUS VivoBook E203NA
-          <span class="spec">(Intel Celeron N3350、4GB RAM、Ubuntu 20.04)</span>
+          <span class="spec">
+            (Intel Celeron N3350, 4GB RAM, 32GB eMMC, Ubuntu 20.04)
+          </span>
         </td>
       </tr>
       <tr>
@@ -237,12 +243,12 @@
             EPSON Endeavor ST170E "Chifuyu Server"
           </a>
           <span class="spec">
-            (Intel Celeron 2950M、4GB RAM、120GB SSD、Rocky Linux 8)
+            (Intel Celeron 2950M, 4GB RAM, 120GB SSD, Rocky Linux 8)
           </span>
           <br />
           EPSON Endeavor ST150E "Reinforce"
           <span class="spec">
-            (Intel Core i3 380M、4GB RAM、320GB HDD、Rocky Linux 8)
+            (Intel Core i3 380M, 4GB RAM, 320GB HDD, Rocky Linux 8)
           </span>
         </td>
       </tr>
@@ -250,48 +256,36 @@
         <th>{{ $t("profile.equipment.smartphone") }}</th>
         <td>
           FCNT arrows Be4 Plus F-41B
-          <span class="spec">
-            (Qualcomm Snapdragon 460、4GB RAM、Android 12)
-          </span>
+          <span class="spec">(Android 12)</span>
           <br />
           geanee ADP-503G
-          <span class="spec">
-            (MediaTek MT6737M、1GB RAM、Android 10 Go Edition)
-          </span>
+          <span class="spec">(Android 10 Go Edition)</span>
           <br />
           KYOCERA TORQUE G02
-          <span class="spec">
-            (Qualcomm Snapdragon 400、2GB RAM、Android 6.0)
-          </span>
+          <span class="spec">(Android 6.0)</span>
           <br />
           HUAWEI GR5
-          <span class="spec">
-            (Qualcomm Snapdragon 615、2GB RAM、Android 5.1)
-          </span>
+          <span class="spec">(Android 5.1)</span>
           <br />
           Panasonic P-07C
-          <span class="spec">
-            (Texas Instruments OMAP3630、512MB RAM、Android 2.3)
-          </span>
+          <span class="spec">(Android 2.3)</span>
         </td>
       </tr>
       <tr>
         <th>{{ $t("profile.equipment.tablet") }}</th>
         <td>
-          Apple iPad 第9世代 Wi-Fiモデル
-          <span class="spec">(Apple A13 Bionic、iPadOS 15)</span>
+          Apple iPad 9th Generation Wi-Fi
+          <span class="spec">(iPadOS 15)</span>
           <br />
           BLUEDOT BNT-71W
-          <span class="spec">(MediaTek MT8163V、1GB RAM、Android 5.1)</span>
+          <span class="spec">(Android 5.1)</span>
         </td>
       </tr>
       <tr>
         <th>{{ $t("profile.equipment.handy") }}</th>
         <td>
           SUNMI V1s
-          <span class="spec">
-            (ARM Cortex-A7 Quad-core、1GB RAM、Android 6.0、58mmレシート)
-          </span>
+          <span class="spec">(Android 6.0, 58mm Receipt)</span>
         </td>
       </tr>
       <tr>
@@ -320,17 +314,17 @@
         <th>{{ $t("profile.equipment.multi") }}</th>
         <td>
           Brother DCP-J540N
-          <span class="spec">(4色インクジェット)</span>
+          <span class="spec">(4-color Inkjet)</span>
         </td>
       </tr>
       <tr>
         <th>{{ $t("profile.equipment.printer") }}</th>
         <td>
           Canon PIXUS iP2700
-          <span class="spec">(4色インクジェット)</span>
+          <span class="spec">(4-color Inkjet)</span>
           <br />
           KKmoon POS-5890K
-          <span class="spec">(58mmレシート)</span>
+          <span class="spec">(58mm Receipt)</span>
         </td>
       </tr>
       <tr>
@@ -344,15 +338,14 @@
       <tr>
         <th>{{ $t("profile.equipment.car") }}</th>
         <td>
-          <a href="https://arkw.work/h42v/">三菱 ミニカ H42V</a>
-          <span class="spec">(2008年式 ライラ 2WD 5MT)</span>
+          <a href="https://arkw.work/h42v/">Mitsubishi Minica H42V</a>
+          <span class="spec">(LYRA 2WD 5MT)</span>
         </td>
       </tr>
       <tr>
         <th>{{ $t("profile.equipment.motorcycle") }}</th>
         <td>
-          <a href="https://arkw.work/aa04/">ホンダ スーパーカブ50プロ AA04</a>
-          <span class="spec">(2016年式)</span>
+          <a href="https://arkw.work/aa04/">Honda Super Cub 50 Pro AA04</a>
         </td>
       </tr>
     </table>
