@@ -8,9 +8,6 @@
       :progress="true"
       :wheel-control="false"
     >
-      <slide>
-        <NaviImage href="https://ahiru.site/" src="ahiru.webp" />
-      </slide>
       <slide><NaviImage src="arkw_lab.webp" /></slide>
       <slide>
         <NaviImage
