@@ -14,9 +14,13 @@
     "all": "Read all updates"
   },
   "profile": {
+    "overview": "Male / Born on April 11, 2001 / 4th Grade, Department of Behavior Informatics, Faculty of Informatics, Shizuoka University / Live in Hamamatsu, Shizuoka / Born in Okazaki, Aichi",
     "background": "Educational background / Career",
     "skill": "Skill",
-    "work": "Entrusted work",
+    "work": {
+      "title": "Entrusted work",
+      "other": "In addition, many other achievements in software development, web design, graphic design, video editing, etc."
+    },
     "certification": "Certification",
     "organization": "Organization",
     "award": "Awards",

@@ -31,7 +31,7 @@
     <Card
       src="icon"
       title="荒川 奏良 (Sora Arakawa, arkw)"
-      description="男性 / 2001年4月11日生 / 静岡大学 情報学部 行動情報学科 3年 / 静岡県浜松市在住 / 愛知県岡崎市出身 / 個人サークル「荒川技研 (Arakawa Laboratory)」代表"
+      :description="$t('profile.overview')"
       height-auto
     />
     <div class="chip">
@@ -73,7 +73,7 @@
       <Skill src="php" title="PHP" lv="2" />
     </div>
     <br />
-    <h2>{{ $t("profile.work") }}</h2>
+    <h2>{{ $t("profile.work.title") }}</h2>
     <div class="works">
       <div class="wrapper">
         <Work
@@ -190,7 +190,7 @@
     </div>
     <ProfileTable src="works" />
     <p>
-      その他、ソフトウェア開発・ウェブデザイン・グラフィックデザイン・映像編集などの実績多数
+      {{ $t("profile.work.other") }}
     </p>
     <br />
     <h2>{{ $t("profile.certification") }}</h2>
