@@ -31,7 +31,7 @@
     <Card
       src="icon"
       title="荒川 奏良 (Sora Arakawa, arkw)"
-      description="男性 / 2001年4月11日生 / 静岡大学 情報学部 行動情報学科 3年 / 静岡県浜松市在住 / 愛知県岡崎市出身 / 個人サークル「荒川技研 (Arakawa Laboratory)」代表"
+      description="男性 / 2001年4月11日生 / 静岡大学 情報学部 行動情報学科 4年 / 静岡県浜松市在住 / 愛知県岡崎市出身 / 個人サークル「荒川技研 (Arakawa Laboratory)」代表"
       height-auto
     />
     <div class="chip">
