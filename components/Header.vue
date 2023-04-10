@@ -3,7 +3,10 @@
     <div class="header">
       <div class="wrapper">
         <nuxt-link :to="localePath('/')">
-          <img src="~/assets/img/logo.svg" />
+          <div class="logo">
+            <div class="pc"><img src="~/assets/img/logo.svg" /></div>
+            <div class="mobile"><img src="~/assets/img/logo2.svg" /></div>
+          </div>
         </nuxt-link>
         <div class="icon">
           <div v-click-outside="hideLocaleMenu">

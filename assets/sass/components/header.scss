@@ -3,8 +3,14 @@
   z-index: 100;
   padding: 15px 30px 11px;
 
-  img {
-    height: 60px;
+  .logo {
+    .mobile {
+      display: none;
+    }
+
+    img {
+      height: 60px;
+    }
   }
 
   .icon {
@@ -71,8 +77,14 @@
 
 @media screen and (max-width: 370px) {
   .header {
-    .icon {
-      display: none;
+    .logo {
+      .pc {
+        display: none;
+      }
+
+      .mobile {
+        display: block;
+      }
     }
   }
 }
