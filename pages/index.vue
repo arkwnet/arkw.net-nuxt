@@ -225,6 +225,11 @@
       <tr>
         <th>{{ $t("profile.equipment.sub") }}</th>
         <td>
+          Panasonic Let's note CF-SZ5
+          <span class="spec">
+            (Intel Core i5-6200U, 8GB RAM, 256GB SSD, Windows 10)
+          </span>
+          <br />
           mouse C1
           <span class="spec">
             (Intel Celeron N4100, 8GB RAM, 240GB SSD, Windows 11)
