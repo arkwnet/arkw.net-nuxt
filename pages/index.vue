@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- トピックス -->
-    <h1 class="heading">トピックス</h1>
+    <h1 class="heading">{{ $t("heading.topics") }}</h1>
     <Card
       href="https://note.com/arkw0/n/n5289722646f0"
       src="topics/windef"
@@ -19,19 +19,19 @@
     <br />
 
     <!-- 更新情報 -->
-    <h1 class="heading">更新履歴</h1>
+    <h1 class="heading">{{ $t("heading.update") }}</h1>
     <UpdateInformation />
     <p>
-      <a href="/history">過去の更新履歴を見る</a>
+      <nuxt-link :to="localePath('history')">{{ $t("update.all") }}</nuxt-link>
     </p>
     <br />
 
     <!-- プロフィール -->
-    <h1 class="heading">プロフィール</h1>
+    <h1 class="heading">{{ $t("heading.profile") }}</h1>
     <Card
       src="icon"
       title="荒川 奏良 (Sora Arakawa, arkw)"
-      description="男性 / 2001年4月11日生 / 静岡大学 情報学部 行動情報学科 4年 / 静岡県浜松市在住 / 愛知県岡崎市出身 / 個人サークル「荒川技研 (Arakawa Laboratory)」代表"
+      :description="$t('profile.overview')"
       height-auto
     />
     <div class="chip">
@@ -50,10 +50,10 @@
       />
       <Chip href="mailto:mail@arkw.net" src="mail.svg" name="mail@arkw.net" />
     </div>
-    <h2>学歴・職歴</h2>
+    <h2>{{ $t("profile.background") }}</h2>
     <ProfileTable src="history" />
     <br />
-    <h2>スキル</h2>
+    <h2>{{ $t("profile.skill") }}</h2>
     <div class="skill">
       <Skill src="html" title="HTML5" lv="5" />
       <Skill src="css" title="CSS3" lv="5" />
@@ -73,7 +73,7 @@
       <Skill src="php" title="PHP" lv="2" />
     </div>
     <br />
-    <h2>外部制作実績</h2>
+    <h2>{{ $t("profile.work.title") }}</h2>
     <div class="works">
       <div class="wrapper">
         <Work
@@ -190,112 +190,106 @@
     </div>
     <ProfileTable src="works" />
     <p>
-      その他、ソフトウェア開発・ウェブデザイン・グラフィックデザイン・映像編集などの実績多数
+      {{ $t("profile.work.other") }}
     </p>
     <br />
-    <h2>資格</h2>
+    <h2>{{ $t("profile.certification") }}</h2>
     <ProfileList src="certification" />
     <br />
-    <h2>所属</h2>
+    <h2>{{ $t("profile.organization") }}</h2>
     <ProfileList src="organization" />
     <br />
-    <h2>受賞歴</h2>
+    <h2>{{ $t("profile.award") }}</h2>
     <ProfileList src="award" />
     <br />
-    <h2>イベント登壇歴</h2>
+    <h2>{{ $t("profile.event") }}</h2>
     <ProfileTable src="event" />
     <br />
-    <h2>使用機材</h2>
+    <h2>{{ $t("profile.equipment.title") }}</h2>
     <table>
       <tr>
-        <th>メインPC</th>
+        <th>{{ $t("profile.equipment.main") }}</th>
         <td>
           MSI KATANA GF66
           <span class="spec">
-            (Intel Core i7-11800H、NVIDIA GeForce RTX 3050 Ti、16GB RAM、Windows
-            11)
+            (Intel Core i7-11800H, NVIDIA GeForce RTX 3050 Ti, 16GB RAM, 512GB
+            SSD, Windows 11)
           </span>
           <br />
           HP ENVY 15 X360
-          <span class="spec">(AMD Ryzen 5 2500U、16GB RAM、Windows 10)</span>
+          <span class="spec">
+            (AMD Ryzen 5 2500U, 16GB RAM, 256GB SSD + 1TB HDD, Windows 10)
+          </span>
         </td>
       </tr>
       <tr>
-        <th>サブPC</th>
+        <th>{{ $t("profile.equipment.sub") }}</th>
         <td>
           mouse C1
-          <span class="spec">(Intel Celeron N4100、8GB RAM、Windows 11)</span>
+          <span class="spec">
+            (Intel Celeron N4100, 8GB RAM, 240GB SSD, Windows 11)
+          </span>
           <br />
           ASUS VivoBook E203NA
-          <span class="spec">(Intel Celeron N3350、4GB RAM、Ubuntu 20.04)</span>
+          <span class="spec">
+            (Intel Celeron N3350, 4GB RAM, 32GB eMMC, Ubuntu 20.04)
+          </span>
         </td>
       </tr>
       <tr>
-        <th>サーバPC</th>
+        <th>{{ $t("profile.equipment.server") }}</th>
         <td>
           <a href="https://arkw.work/chifuyu_sv">
             EPSON Endeavor ST170E "Chifuyu Server"
           </a>
           <span class="spec">
-            (Intel Celeron 2950M、4GB RAM、120GB SSD、Rocky Linux 8)
+            (Intel Celeron 2950M, 4GB RAM, 120GB SSD, Rocky Linux 8)
           </span>
           <br />
           EPSON Endeavor ST150E "Reinforce"
           <span class="spec">
-            (Intel Core i3 380M、4GB RAM、320GB HDD、Rocky Linux 8)
+            (Intel Core i3 380M, 4GB RAM, 320GB HDD, Rocky Linux 8)
           </span>
         </td>
       </tr>
       <tr>
-        <th>スマートフォン</th>
+        <th>{{ $t("profile.equipment.smartphone") }}</th>
         <td>
           FCNT arrows Be4 Plus F-41B
-          <span class="spec">
-            (Qualcomm Snapdragon 460、4GB RAM、Android 12)
-          </span>
+          <span class="spec">(Android 12)</span>
           <br />
           geanee ADP-503G
-          <span class="spec">
-            (MediaTek MT6737M、1GB RAM、Android 10 Go Edition)
-          </span>
+          <span class="spec">(Android 10 Go Edition)</span>
           <br />
           KYOCERA TORQUE G02
-          <span class="spec">
-            (Qualcomm Snapdragon 400、2GB RAM、Android 6.0)
-          </span>
+          <span class="spec">(Android 6.0)</span>
           <br />
           HUAWEI GR5
-          <span class="spec">
-            (Qualcomm Snapdragon 615、2GB RAM、Android 5.1)
-          </span>
+          <span class="spec">(Android 5.1)</span>
           <br />
           Panasonic P-07C
-          <span class="spec">
-            (Texas Instruments OMAP3630、512MB RAM、Android 2.3)
-          </span>
+          <span class="spec">(Android 2.3)</span>
         </td>
       </tr>
       <tr>
-        <th>タブレット端末</th>
+        <th>{{ $t("profile.equipment.tablet") }}</th>
         <td>
-          Apple iPad 第9世代 Wi-Fiモデル
-          <span class="spec">(Apple A13 Bionic、iPadOS 15)</span>
+          Apple iPad 9th Generation Wi-Fi
+          <span class="spec">(iPadOS 15)</span>
           <br />
           BLUEDOT BNT-71W
-          <span class="spec">(MediaTek MT8163V、1GB RAM、Android 5.1)</span>
+          <span class="spec">(Android 5.1)</span>
         </td>
       </tr>
       <tr>
-        <th>ハンディターミナル</th>
+        <th>{{ $t("profile.equipment.handy") }}</th>
         <td>
           SUNMI V1s
-          <span class="spec">
-            (ARM Cortex-A7 Quad-core、1GB RAM、Android 6.0、58mmレシート)
-          </span>
+          <span class="spec">(Android 6.0, 58mm Receipt)</span>
         </td>
       </tr>
       <tr>
-        <th>ゲームコンソール</th>
+        <th>{{ $t("profile.equipment.game") }}</th>
         <td>
           Nintendo Switch
           <br />
@@ -313,46 +307,45 @@
         </td>
       </tr>
       <tr>
-        <th>デジタルカメラ</th>
+        <th>{{ $t("profile.equipment.camera") }}</th>
         <td>Canon PowerShot SX620HS</td>
       </tr>
       <tr>
-        <th>複合機</th>
+        <th>{{ $t("profile.equipment.multi") }}</th>
         <td>
           Brother DCP-J540N
-          <span class="spec">(4色インクジェット)</span>
+          <span class="spec">(4-color Inkjet)</span>
         </td>
       </tr>
       <tr>
-        <th>プリンタ</th>
+        <th>{{ $t("profile.equipment.printer") }}</th>
         <td>
           Canon PIXUS iP2700
-          <span class="spec">(4色インクジェット)</span>
+          <span class="spec">(4-color Inkjet)</span>
           <br />
           KKmoon POS-5890K
-          <span class="spec">(58mmレシート)</span>
+          <span class="spec">(58mm Receipt)</span>
         </td>
       </tr>
       <tr>
-        <th>スキャナ</th>
+        <th>{{ $t("profile.equipment.scanner") }}</th>
         <td>Canon CanoScan LiDE 30</td>
       </tr>
       <tr>
-        <th>ICレコーダー</th>
+        <th>{{ $t("profile.equipment.recorder") }}</th>
         <td>SANYO DIPLY ICR-PS004M</td>
       </tr>
       <tr>
-        <th>自動車</th>
+        <th>{{ $t("profile.equipment.car") }}</th>
         <td>
-          <a href="https://arkw.work/h42v/">三菱 ミニカ H42V</a>
-          <span class="spec">(2008年式 ライラ 2WD 5MT)</span>
+          <a href="https://arkw.work/h42v/">Mitsubishi Minica H42V</a>
+          <span class="spec">(LYRA 2WD 5MT)</span>
         </td>
       </tr>
       <tr>
-        <th>バイク</th>
+        <th>{{ $t("profile.equipment.motorcycle") }}</th>
         <td>
-          <a href="https://arkw.work/aa04/">ホンダ スーパーカブ50プロ AA04</a>
-          <span class="spec">(2016年式)</span>
+          <a href="https://arkw.work/aa04/">Honda Super Cub 50 Pro AA04</a>
         </td>
       </tr>
     </table>
