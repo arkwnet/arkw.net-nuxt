@@ -2,12 +2,12 @@
   <div>
     <div class="header">
       <div class="wrapper">
-        <nuxt-link :to="localePath('/')">
-          <div class="logo">
+        <div class="logo">
+          <nuxt-link :to="localePath('/')">
             <div class="pc"><img src="~/assets/img/logo.svg" /></div>
             <div class="mobile"><img src="~/assets/img/logo2.svg" /></div>
-          </div>
-        </nuxt-link>
+          </nuxt-link>
+        </div>
         <div class="icon">
           <div v-click-outside="hideLocaleMenu">
             <div class="locale" @click="onLocaleMenu()">

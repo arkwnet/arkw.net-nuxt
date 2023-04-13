@@ -4,6 +4,8 @@
   padding: 15px 30px 11px;
 
   .logo {
+    width: 230px;
+
     .mobile {
       display: none;
     }
@@ -78,6 +80,8 @@
 @media screen and (max-width: 370px) {
   .header {
     .logo {
+      width: 60px;
+
       .pc {
         display: none;
       }
