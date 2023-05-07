@@ -258,6 +258,12 @@
           description="文章を検査し、「日本語の使い方」や「読みやすさ」をチェックするツール"
         />
         <Card
+          href="https://arkw.net/products/web/ketsupin/"
+          src="products/ketsupin"
+          title="ケツピンカッター"
+          description="ケツピン画像の両端をカットする反SDGsアプリ"
+        />
+        <Card
           href="https://arkw.net/products/web/mygen/"
           src="products/mygen"
           title="マイ元号メーカー"
