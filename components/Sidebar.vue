@@ -400,14 +400,6 @@
     <!-- コンテンツ -->
     <h1 class="heading">{{ $t("heading.contents") }}</h1>
     <p>
-      <a href="https://arkw.work/shiori_sv/">
-        <img src="/img/links/shiori.svg" class="link-banner" width="180" />
-      </a>
-      <br />
-      <a href="https://arkw.work/chifuyu_sv/">
-        <img src="/img/links/chifuyu.svg" class="link-banner" width="180" />
-      </a>
-      <br />
       <a href="https://arkw.work/doujin/">荒川の同人活動</a>
       <br />
       <a href="http://arkw.client.jp">Arakawa No-SSL</a>
@@ -420,6 +412,22 @@
       <br />
       <a href="https://arkw.net/contents/axella/">Team Axella 跡地</a>
       <br />
+    </p>
+    <p>
+      <a
+        href="https://steamcommunity.com/id/arkw0/myworkshopfiles/?appid=573090"
+        target="blank"
+      >
+        Stormworks ワークショップ
+      </a>
+      <br />
+      -
+      <a
+        href="https://steamcommunity.com/sharedfiles/filedetails/?id=2978083532"
+        target="blank"
+      >
+        DLB1ディーゼル機関車
+      </a>
     </p>
     <br />
 
@@ -434,7 +442,7 @@
         <nuxt-img src="/img/links/taka_impact.png" width="180" format="webp" />
       </a>
       <br />
-      <a href="http://bvetk.webcrow.jp/" target="blank">
+      <a href="http://bvetk.arkw.net/" target="blank">
         <nuxt-img src="/img/links/bvetk.png" format="webp" />
       </a>
       <br />

@@ -255,6 +255,16 @@
           <span class="spec">
             (Intel Core i3 380M, 4GB RAM, 320GB HDD, Rocky Linux 8)
           </span>
+          <br />
+          <s>
+            <a href="https://arkw.work/shiori_sv">
+              Orange Pi Zero LTS "Shiori Server"
+            </a>
+            <span class="spec">
+              (Allwinner H2+, 256MB RAM, 32GB MicroSD, Armbian buster)
+            </span>
+          </s>
+          <span class="red">Retired in 2022/07/23</span>
         </td>
       </tr>
       <tr>
