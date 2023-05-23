@@ -32,7 +32,7 @@
     "eslint": "^8.41.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-nuxt": "^4.0.0",
-    "eslint-plugin-vue": "^9.13.0",
+    "eslint-plugin-vue": "^9.14.0",
     "imagemin": "^8.0.1",
     "imagemin-webp": "^8.0.0",
     "nuxt": "^2.2.0",
