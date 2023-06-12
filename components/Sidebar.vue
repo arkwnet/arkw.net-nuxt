@@ -400,6 +400,11 @@
     <!-- コンテンツ -->
     <h1 class="heading">{{ $t("heading.contents") }}</h1>
     <p>
+      <a href="https://ahiru.site/" target="blank">
+        <nuxt-img src="/img/links/ahiru.png" width="180" format="webp" />
+      </a>
+    </p>
+    <p>
       <a href="https://arkw.work/doujin/">荒川の同人活動</a>
       <br />
       <a href="http://arkw.client.jp">Arakawa No-SSL</a>

@@ -8,7 +8,9 @@
       :progress="true"
       :wheel-control="false"
     >
-      <slide><NaviImage src="arkw_lab.webp" /></slide>
+      <slide>
+        <NaviImage href="https://arkw.work/doujin/" src="c102.webp" />
+      </slide>
       <slide>
         <NaviImage
           href="https://arkw.net/products/pc_game/hiragana_erase/"
