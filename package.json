@@ -36,7 +36,7 @@
     "eslint-plugin-vue": "^9.15.0",
     "imagemin": "^8.0.1",
     "imagemin-webp": "^8.0.0",
-    "nuxt": "^2.2.0",
+    "nuxt": "^3.5.3",
     "postcss": "^8.4.24",
     "postcss-html": "^1.5.0",
     "prettier": "^2.8.8",
