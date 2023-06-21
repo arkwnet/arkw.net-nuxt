@@ -222,21 +222,11 @@
             (Intel Core i7-11800H, NVIDIA GeForce RTX 3050 Ti, 16GB RAM, 512GB
             SSD, Windows 11)
           </span>
-          <br />
-          HP ENVY 15 X360
-          <span class="spec">
-            (AMD Ryzen 5 2500U, 16GB RAM, 256GB SSD + 1TB HDD, Windows 10)
-          </span>
         </td>
       </tr>
       <tr>
         <th>{{ $t("profile.equipment.sub") }}</th>
         <td>
-          Panasonic Let's note CF-SZ5
-          <span class="spec">
-            (Intel Core i5-6200U, 8GB RAM, 256GB SSD, Windows 10)
-          </span>
-          <br />
           mouse C1
           <span class="spec">
             (Intel Celeron N4100, 8GB RAM, 240GB SSD, Windows 11)
@@ -245,6 +235,21 @@
           ASUS VivoBook E203NA
           <span class="spec">
             (Intel Celeron N3350, 4GB RAM, 32GB eMMC, Ubuntu 20.04)
+          </span>
+          <br />
+          Panasonic Let's note CF-SZ5
+          <span class="spec">
+            (Intel Core i5-6200U, 8GB RAM, 256GB SSD, Windows 10)
+          </span>
+          <br />
+          HP ENVY 15 X360
+          <span class="spec">
+            (AMD Ryzen 5 2500U, 16GB RAM, 256GB SSD + 1TB HDD, Windows 10)
+          </span>
+          <br />
+          TOSHIBA dynabook Satellite B554
+          <span class="spec">
+            (Intel Core i3-4100M, 8GB RAM, 500GB HDD, Windows 7)
           </span>
         </td>
       </tr>
@@ -258,7 +263,9 @@
             (Intel Celeron 2950M, 4GB RAM, 120GB SSD, Rocky Linux 8)
           </span>
           <br />
-          EPSON Endeavor ST150E "Reinforce"
+          <a href="https://arkw.work/reinforce">
+            EPSON Endeavor ST150E "Reinforce"
+          </a>
           <span class="spec">
             (Intel Core i3 380M, 4GB RAM, 320GB HDD, Rocky Linux 8)
           </span>
