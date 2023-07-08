@@ -42,18 +42,32 @@
       height-auto
     />
     <div class="chip">
-      <Chip href="https://twitter.com/arkw0" src="twitter.svg" name="Twitter" />
-      <Chip href="https://note.com/arkw0" src="note.svg" name="note" />
-      <Chip href="https://github.com/arkwnet" src="github.svg" name="GitHub" />
+      <Chip href="https://twitter.com/arkw0" src="twitter.svg" name="@arkw0" />
+      <Chip
+        href="https://mi.arkw.work/@arkw"
+        src="misskey.png"
+        name="@arkw@mi.arkw.work"
+      />
+      <Chip
+        href="https://misskey.io/@arkw"
+        src="misskeyio.png"
+        name="@arkw@misskey.io"
+      />
+      <Chip href="https://note.com/arkw0" src="note.svg" name="@arkw0" />
+      <Chip
+        href="https://github.com/arkwnet"
+        src="github.svg"
+        name="@arkwnet"
+      />
       <Chip
         href="https://speakerdeck.com/arkw"
         src="speakerdeck.svg"
-        name="Speaker Deck"
+        name="@arkw"
       />
       <Chip
         href="https://connpass.com/user/arkw0/"
         src="connpass.png"
-        name="connpass"
+        name="@arkw0"
       />
       <Chip href="mailto:mail@arkw.net" src="mail.svg" name="mail@arkw.net" />
     </div>

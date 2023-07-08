@@ -400,6 +400,11 @@
     <!-- コンテンツ -->
     <h1 class="heading">{{ $t("heading.contents") }}</h1>
     <p>
+      <a href="https://odeya.me/" target="blank">
+        <nuxt-img src="/img/links/odeyame.png" width="180" format="webp" />
+      </a>
+    </p>
+    <p>
       <a href="https://ahiru.site/" target="blank">
         <nuxt-img src="/img/links/ahiru.png" width="180" format="webp" />
       </a>
