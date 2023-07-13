@@ -1,7 +1,12 @@
 <template>
   <div class="footer">
     <div class="wrapper">
-      (c) 2015-2023 Sora Arakawa all rights reserved.
+      <p>
+        <nuxt-link :to="localePath('/terms')">
+          {{ $t("heading.terms") }}
+        </nuxt-link>
+      </p>
+      <p>(c) 2015-2023 Sora Arakawa all rights reserved.</p>
       <div class="small">
         Some icons by
         <a href="http://p.yusukekamiyamane.com/" target="blank">
