@@ -227,6 +227,11 @@
     <ProfileTable src="event" />
     <br />
     <h2>{{ $t("profile.equipment.title") }}</h2>
+    <p>
+      ※
+      <s>Strike-throughs</s>
+      are retired equipment.
+    </p>
     <table>
       <tr>
         <th>{{ $t("profile.equipment.main") }}</th>
@@ -292,7 +297,6 @@
               (Allwinner H2+, 256MB RAM, 32GB MicroSD, Armbian buster)
             </span>
           </s>
-          <span class="red">Retired in 2022/07/23</span>
         </td>
       </tr>
       <tr>
@@ -381,8 +385,10 @@
       <tr>
         <th>{{ $t("profile.equipment.car") }}</th>
         <td>
-          <a href="https://arkw.work/h42v/">Mitsubishi Minica H42V</a>
-          <span class="spec">(LYRA 2WD 5MT)</span>
+          <s>
+            <a href="https://arkw.work/h42v/">Mitsubishi Minica H42V</a>
+            <span class="spec">(LYRA 2WD 5MT)</span>
+          </s>
         </td>
       </tr>
       <tr>
