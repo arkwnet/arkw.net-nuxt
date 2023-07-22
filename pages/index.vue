@@ -385,6 +385,9 @@
       <tr>
         <th>{{ $t("profile.equipment.car") }}</th>
         <td>
+          <a href="https://arkw.work/da64w/">Suzuki Every Wagon DA64W</a>
+          <span class="spec">(JP 2WD 5MT)</span>
+          <br />
           <s>
             <a href="https://arkw.work/h42v/">Mitsubishi Minica H42V</a>
             <span class="spec">(LYRA 2WD 5MT)</span>
