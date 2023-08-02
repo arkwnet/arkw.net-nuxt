@@ -19,14 +19,20 @@
       </slide>
       <slide>
         <NaviImage
-          href="https://arkw.net/products/pc_game/qubefall/"
-          src="qubefall.webp"
+          href="https://arkw.net/products/win/LTTimer/"
+          src="lt_timer.webp"
         />
       </slide>
       <slide>
         <NaviImage
           href="https://arkw.net/products/web/prohaya/"
           src="prohaya.webp"
+        />
+      </slide>
+      <slide>
+        <NaviImage
+          href="https://arkw.net/products/pc_game/qubefall/"
+          src="qubefall.webp"
         />
       </slide>
     </hooper>
