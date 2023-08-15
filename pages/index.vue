@@ -3,13 +3,6 @@
     <!-- トピックス -->
     <h1 class="heading">{{ $t("heading.topics") }}</h1>
     <Card
-      href="https://arkw.work/doujin/"
-      src="topics/comiket"
-      title="「コミックマーケット102」に出展します!!"
-      description="2023年8月12～13日開催「コミックマーケット102」にて、新作含むWindows向けゲームCDを頒布します! 場所は「2日目 (日曜日) 西地区 えブロック 26a」です。ぜひお越しください!!"
-      height-auto
-    />
-    <Card
       href="https://note.com/arkw0/n/n5289722646f0"
       src="topics/windef"
       title="「Windows セキュリティの重要な警告」ダイアログ"
@@ -229,8 +222,8 @@
     <h2>{{ $t("profile.equipment.title") }}</h2>
     <p>
       ※
-      <s>Strike-throughs</s>
-      are retired equipment.
+      <s>{{ $t("profile.equipment.retired") }}</s>
+      {{ $t("profile.equipment.retired2") }}
     </p>
     <table>
       <tr>
@@ -334,6 +327,10 @@
           SUNMI V1s
           <span class="spec">(Android 6.0, 58mm Receipt)</span>
         </td>
+      </tr>
+      <tr>
+        <th>{{ $t("profile.equipment.dictionary") }}</th>
+        <td>SII DAYFILER DF-X8000</td>
       </tr>
       <tr>
         <th>{{ $t("profile.equipment.game") }}</th>
