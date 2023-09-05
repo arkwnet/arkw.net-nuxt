@@ -22,7 +22,7 @@
     "vue-click-outside": "^1.1.0"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.22.11",
+    "@babel/eslint-parser": "^7.22.15",
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@nuxt/image": "^0.7.1",
     "@nuxt/postcss8": "^1.1.3",
