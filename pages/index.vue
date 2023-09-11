@@ -35,34 +35,60 @@
       height-auto
     />
     <div class="chip">
-      <Chip href="https://twitter.com/arkw0" src="twitter.svg" name="@arkw0" />
+      <Chip
+        href="https://x.com/arkw0"
+        src="x.svg"
+        name="@arkw0"
+        alt="X (Twitter)"
+      />
       <Chip
         href="https://mi.arkw.work/@arkw"
         src="misskey.png"
         name="@arkw@mi.arkw.work"
+        alt="mi.arkw.work (Misskey/ActivityPub)"
       />
       <Chip
         href="https://misskey.io/@arkw"
         src="misskeyio.png"
         name="@arkw@misskey.io"
+        alt="Misskey.io (Misskey/ActivityPub)"
       />
-      <Chip href="https://note.com/arkw0" src="note.svg" name="@arkw0" />
       <Chip
         href="https://github.com/arkwnet"
         src="github.svg"
         name="@arkwnet"
+        alt="GitHub"
+      />
+      <Chip
+        href="https://note.com/arkw0"
+        src="note.svg"
+        name="@arkw0"
+        alt="note"
+      />
+      <Chip
+        href="https://qiita.com/arkw"
+        src="qiita.svg"
+        name="@arkw"
+        alt="Qiita"
       />
       <Chip
         href="https://speakerdeck.com/arkw"
         src="speakerdeck.svg"
         name="@arkw"
+        alt="Speaker Deck"
       />
       <Chip
         href="https://connpass.com/user/arkw0/"
         src="connpass.png"
         name="@arkw0"
+        alt="connpass"
       />
-      <Chip href="mailto:mail@arkw.net" src="mail.svg" name="mail@arkw.net" />
+      <Chip
+        href="mailto:mail@arkw.net"
+        src="mail.svg"
+        name="mail@arkw.net"
+        alt="E-Mail"
+      />
     </div>
     <h2>{{ $t("profile.background") }}</h2>
     <ProfileTable src="history" />

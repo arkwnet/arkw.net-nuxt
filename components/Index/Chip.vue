@@ -1,7 +1,7 @@
 <template>
-  <a :href="`${href}`" target="blank">
+  <a :href="`${href}`" target="blank" :title="alt">
     <div class="box">
-      <div class="image"><img :src="path" /></div>
+      <div class="image"><img :src="path" :alt="alt" /></div>
       <div class="text">{{ name }}</div>
     </div>
   </a>
@@ -23,6 +23,11 @@ export default {
     name: {
       type: String,
       require: true,
+      default: null,
+    },
+    alt: {
+      type: String,
+      require: false,
       default: null,
     },
   },
