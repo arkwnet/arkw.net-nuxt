@@ -1,8 +1,8 @@
 .hooper-slide {
   flex-shrink: 0;
   height: 100%;
-  margin: 0;
   padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -23,18 +23,29 @@
 
 .hooper-pagination {
   position: absolute;
-  bottom: 0;
   right: 50%;
-  transform: translateX(50%);
+  bottom: 0;
   display: flex;
   padding: 5px 10px;
+  transform: translateX(50%);
 }
 
 .hooper-indicators {
   display: flex;
-  list-style: none;
-  margin: 0;
   padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.hooper-indicator {
+  width: 12px;
+  height: 4px;
+  padding: 0;
+  margin: 0 2px;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  border-radius: 4px;
 }
 
 .hooper-indicator:hover,
@@ -42,21 +53,10 @@
   background-color: #4285f4;
 }
 
-.hooper-indicator {
-  margin: 0 2px;
-  width: 12px;
-  height: 4px;
-  border-radius: 4px;
-  border: none;
-  padding: 0;
-  background-color: #fff;
-  cursor: pointer;
-}
-
 .hooper-pagination.is-vertical {
-  bottom: auto;
-  right: 0;
   top: 50%;
+  right: 0;
+  bottom: auto;
   transform: translateY(-50%);
 
   .hooper-indicators {
@@ -70,19 +70,19 @@
 
 .hooper-next,
 .hooper-prev {
-  background-color: transparent;
-  border: none;
-  padding: 1em;
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  padding: 1em;
   cursor: pointer;
+  background-color: transparent;
+  border: none;
+  transform: translateY(-50%);
 }
 
 .hooper-next.is-disabled,
 .hooper-prev.is-disabled {
-  opacity: 0.3;
   cursor: not-allowed;
+  opacity: 0.3;
 }
 
 .hooper-next {
@@ -102,8 +102,8 @@
 
   .hooper-prev {
     top: 0;
-    bottom: auto;
     right: 0;
+    bottom: auto;
     left: auto;
     transform: initial;
   }
@@ -111,8 +111,8 @@
 
 .hooper-navigation.is-rtl {
   .hooper-prev {
-    left: auto;
     right: 0;
+    left: auto;
   }
 
   .hooper-next {
@@ -133,14 +133,14 @@
 }
 
 .hooper-list {
-  overflow: hidden;
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
 .hooper-track {
-  display: flex;
   box-sizing: border-box;
+  display: flex;
   width: 100%;
   height: 100%;
   padding: 0;

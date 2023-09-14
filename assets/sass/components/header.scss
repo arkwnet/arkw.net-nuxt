@@ -17,19 +17,26 @@
 
   .icon {
     position: absolute;
-    right: 30px;
     top: 0;
+    right: 30px;
 
     div.locale {
+      box-sizing: border-box;
       padding: 5px 15px;
       margin-top: 29px;
+      font-family:
+        "Noto Sans JP",
+        "メイリオ",
+        Meiryo,
+        "ヒラギノ角ゴ Pro W3",
+        "Hiragino Kaku Gothic Pro",
+        Osaka,
+        "ＭＳ Ｐゴシック",
+        "MS PGothic",
+        sans-serif;
       color: $gray-600;
       border: solid 1px $gray-500;
       border-radius: 15px;
-      box-sizing: border-box;
-      font-family: "Noto Sans JP", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3",
-        "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic",
-        sans-serif;
 
       &:hover {
         cursor: pointer;
@@ -38,28 +45,35 @@
 
     .menu {
       &.locale {
+        position: absolute;
+        top: 65px;
+        right: 0;
+        z-index: 100;
         width: 120px;
         padding: 8px 0;
-        position: absolute;
-        right: 0;
-        top: 65px;
         background-color: #fff;
         border-radius: 5px;
         box-shadow: 0 0 3px $gray-600;
-        z-index: 100;
 
         li {
-          padding: 3px 15px 7px 15px;
-          color: $gray-900;
-          font-family: "Noto Sans JP", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3",
-            "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic",
+          padding: 3px 15px 7px;
+          font-family:
+            "Noto Sans JP",
+            "メイリオ",
+            Meiryo,
+            "ヒラギノ角ゴ Pro W3",
+            "Hiragino Kaku Gothic Pro",
+            Osaka,
+            "ＭＳ Ｐゴシック",
+            "MS PGothic",
             sans-serif;
           font-size: 16px;
+          color: $gray-900;
           list-style-type: none;
 
           &:hover {
-            background-color: $gray-300;
             cursor: pointer;
+            background-color: $gray-300;
           }
         }
       }

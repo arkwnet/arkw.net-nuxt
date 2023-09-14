@@ -1,16 +1,23 @@
-/* stylelint-disable value-list-comma-newline-after */
-/* stylelint-disable declaration-colon-newline-after */
 // Common
 
 * {
   padding: 0;
   margin: 0;
-  font-family: Roboto, "Noto Sans JP", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3",
-    "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic",
+  font-family:
+    Roboto,
+    "Noto Sans JP",
+    "メイリオ",
+    Meiryo,
+    "ヒラギノ角ゴ Pro W3",
+    "Hiragino Kaku Gothic Pro",
+    Osaka,
+    "ＭＳ Ｐゴシック",
+    "MS PGothic",
     sans-serif;
 }
 
 body {
+  overflow-x: hidden;
   font-size: 14px;
 }
 

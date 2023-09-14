@@ -40,16 +40,13 @@
 
         h1 {
           margin-top: -16px;
+          white-space: nowrap;
         }
 
         h1,
         p {
           overflow: hidden;
           text-overflow: ellipsis;
-        }
-
-        h1 {
-          white-space: nowrap;
         }
 
         p {

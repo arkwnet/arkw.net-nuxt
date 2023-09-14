@@ -6,5 +6,12 @@
       "source.fixAll.stylelint": true
     }
   },
-  "stylelint.configFile": "./.stylelintrc.js"
+  "stylelint.configFile": "./.stylelintrc.js",
+  "stylelint.validate": ["css", "less", "postcss", "scss"],
+  "css.validate": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }

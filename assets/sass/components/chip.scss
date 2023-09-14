@@ -3,13 +3,13 @@
   overflow: hidden;
 
   .box {
+    box-sizing: border-box;
+    float: left;
     height: 30px;
     margin: 0 6px 6px 1px;
-    box-sizing: border-box;
+    overflow: hidden;
     border: solid 1px $gray-400;
     border-radius: 8px;
-    float: left;
-    overflow: hidden;
 
     .image,
     .text {
