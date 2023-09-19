@@ -265,21 +265,6 @@
       <tr>
         <th>{{ $t("profile.equipment.sub") }}</th>
         <td>
-          mouse C1
-          <span class="spec">
-            (Intel Celeron N4100, 8GB RAM, 240GB SSD, Windows 11)
-          </span>
-          <br />
-          ASUS VivoBook E203NA
-          <span class="spec">
-            (Intel Celeron N3350, 4GB RAM, 32GB eMMC, Ubuntu 20.04)
-          </span>
-          <br />
-          Panasonic Let's note CF-SZ5
-          <span class="spec">
-            (Intel Core i5-6200U, 8GB RAM, 256GB SSD, Windows 10)
-          </span>
-          <br />
           HP ENVY 15 X360
           <span class="spec">
             (AMD Ryzen 5 2500U, 16GB RAM, 256GB SSD + 1TB HDD, Windows 10)
@@ -288,6 +273,25 @@
           TOSHIBA dynabook Satellite B554
           <span class="spec">
             (Intel Core i3-4100M, 8GB RAM, 500GB HDD, Windows 7)
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <th>{{ $t("profile.equipment.mobile") }}</th>
+        <td>
+          Panasonic Let's note CF-SZ5
+          <span class="spec">
+            (Intel Core i5-6300U, 8GB RAM, 256GB SSD, Windows 10)
+          </span>
+          <br />
+          mouse C1
+          <span class="spec">
+            (Intel Celeron N4100, 8GB RAM, 240GB SSD, Windows 11)
+          </span>
+          <br />
+          ASUS VivoBook E203NA
+          <span class="spec">
+            (Intel Celeron N3350, 4GB RAM, 32GB eMMC, Ubuntu 20.04)
           </span>
         </td>
       </tr>
