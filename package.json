@@ -37,7 +37,7 @@
     "imagemin": "^8.0.1",
     "imagemin-webp": "^8.0.0",
     "nuxt": "^2.2.0",
-    "postcss": "^8.4.30",
+    "postcss": "^8.4.31",
     "postcss-html": "^1.5.0",
     "prettier": "^3.0.3",
     "sass": "^1.68.0",
