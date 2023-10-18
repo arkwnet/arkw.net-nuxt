@@ -110,12 +110,6 @@
         name="@arkw0"
         alt="connpass"
       />
-      <Chip
-        href="mailto:mail@arkw.net"
-        src="mail.svg"
-        name="mail@arkw.net"
-        alt="E-Mail"
-      />
     </div>
     <h2>{{ $t("profile.background") }}</h2>
     <ProfileTable src="history" />

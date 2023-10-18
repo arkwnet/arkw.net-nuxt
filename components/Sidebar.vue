@@ -1,8 +1,19 @@
 <template>
   <div class="left">
-    <!-- 製品情報 -->
     <div class="products">
-      <!-- 製品情報：Windows -->
+      <h2>
+        <span>Android</span>
+        {{ $t("software.type.sub.utility") }}
+      </h2>
+      <div class="box">
+        <Card
+          href="https://play.google.com/store/apps/details?id=jp.arkw.swarmskytox"
+          src="products/swarmskytox"
+          title="SwarmskyToX"
+          description="Swarmsky経由でMisskeyに投稿されたノートをX (旧Twitter) へ転送するアプリ"
+        />
+      </div>
+      <br />
       <h2>
         <span>Windows 10/11</span>
         {{ $t("software.type.sub.game") }}
