@@ -431,6 +431,10 @@
         <td>SANYO DIPLY ICR-PS004M</td>
       </tr>
       <tr>
+        <th>{{ $t("profile.equipment.keyboard") }}</th>
+        <td>YAMAHA PORTATONE PSR-290</td>
+      </tr>
+      <tr>
         <th>{{ $t("profile.equipment.car") }}</th>
         <td>
           <a href="https://arkw.work/da64w/">Suzuki Every Wagon DA64W</a>

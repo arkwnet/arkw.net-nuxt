@@ -81,6 +81,12 @@
           title="はじめての写真管理S"
           description="視覚的かつシンプルに大量の写真を管理できるソフトウェア"
         />
+        <Card
+          href="https://arkw.net/products/win/cheaptunes2/"
+          src="products/cheaptunes2"
+          title="CheapTunes2"
+          description="MicroSDカードを使用する安価なMP3プレーヤーをターゲットとした音楽管理ツール"
+        />
       </div>
       <br />
       <h2>

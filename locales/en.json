@@ -45,6 +45,7 @@
       "printer": "Printer",
       "scanner": "Scanner",
       "recorder": "Voice recorder",
+      "keyboard": "Electronic keyboard",
       "car": "Car",
       "motorcycle": "Motorcycle"
     }
