@@ -30,6 +30,13 @@
     <!-- トピックス -->
     <h1 class="heading">{{ $t("heading.topics") }}</h1>
     <Card
+      href="https://arkw.work/doujin/"
+      src="topics/comiket"
+      title="「コミックマーケット103」に出展します!!"
+      description="2023年12月30～31日開催「コミックマーケット103」にて、新作含むWindows向けゲームCDや技術書を頒布します! 場所は「2日目 (日曜日) 東地区 Sブロック 40b」です。ぜひお越しください!!"
+      height-auto
+    />
+    <Card
       href="https://note.com/arkw0/n/n5289722646f0"
       src="topics/windef"
       title="「Windows セキュリティの重要な警告」ダイアログ"
