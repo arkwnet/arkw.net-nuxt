@@ -145,23 +145,36 @@
     <div class="works">
       <div class="wrapper">
         <Work
+          src="IGC2023A"
+          date="2023年11月"
+          title="ICON Game Collection 2023 Autumn"
+          :type="[{ id: 'graphic', name: 'パッケージデザイン (イラスト除く)' }]"
+          position="100%"
+        />
+        <Work
           src="IGC2022A"
           date="2022年11月"
           title="ICON Game Collection 2022 Autumn"
-          :type="[
-            { id: 'graphic', name: 'パッケージデザイン' },
-            { id: 'system', name: 'ゲーム制作' },
-          ]"
+          :type="[{ id: 'graphic', name: 'パッケージデザイン (イラスト除く)' }]"
           position="100%"
+        />
+        <Work
+          href="https://asahi-chuzo.co.jp/"
+          src="202201"
+          date="2022年1月"
+          title="株式会社 旭鋳造所"
+          :type="[
+            { id: 'web', name: 'ウェブデザイン (WordPress)' },
+            { id: 'graphic', name: 'グラフィック' },
+            { id: 'system', name: 'システム開発 (PHP)' },
+          ]"
+          position="50%"
         />
         <Work
           src="IGC2021A"
           date="2021年11月"
           title="ICON Game Collection 2021 Autumn"
-          :type="[
-            { id: 'graphic', name: 'パッケージデザイン' },
-            { id: 'system', name: 'ゲーム制作' },
-          ]"
+          :type="[{ id: 'graphic', name: 'パッケージデザイン (イラスト除く)' }]"
           position="85%"
         />
         <Work
@@ -186,7 +199,7 @@
           href="https://preppers.business/"
           src="202109"
           date="2021年9月"
-          title="株式会社プレッパーズ"
+          title="株式会社 プレッパーズ"
           :type="[
             { id: 'web', name: 'ウェブデザイン' },
             { id: 'graphic', name: 'グラフィック' },
