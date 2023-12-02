@@ -411,6 +411,16 @@
           description="PHP製の超簡易型CMS"
         />
       </div>
+      <br />
+      <h2>M5Stack</h2>
+      <div class="box">
+        <Card
+          href="https://github.com/arkwnet/M5StickClock"
+          src="products/m5sc"
+          title="M5StickClock"
+          description="M5StickC専用のデジタル時計"
+        />
+      </div>
     </div>
     <br />
 
