@@ -281,6 +281,12 @@
           description="文章を検査し、「日本語の使い方」や「読みやすさ」をチェックするツール"
         />
         <Card
+          href="https://arkw.net/products/web/569/"
+          src="products/569"
+          title="語録チェッカー"
+          description="一億総淫夢厨時代に必携。文中の語録を強調表示するウェブアプリ"
+        />
+        <Card
           href="https://arkw.net/products/web/ketsupin/"
           src="products/ketsupin"
           title="ケツピンカッター"
