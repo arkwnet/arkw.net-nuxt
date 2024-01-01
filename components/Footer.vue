@@ -10,7 +10,7 @@
           {{ $t("heading.privacy") }}
         </nuxt-link>
       </p>
-      <p>(c) 2015-2023 Sora Arakawa all rights reserved.</p>
+      <p>(c) 2015-2024 Sora Arakawa all rights reserved.</p>
       <div class="small">
         Some icons by
         <a href="http://p.yusukekamiyamane.com/" target="blank">
