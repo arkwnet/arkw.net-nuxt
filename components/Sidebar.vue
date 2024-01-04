@@ -20,6 +20,12 @@
       </h2>
       <div class="box">
         <Card
+          href="https://arkw.net/products/pc_game/hakotan/"
+          src="products/hakotan"
+          title="ハコ単 -箱入り英単語-"
+          description="英単語を題材としたパズルゲーム。長い単語やコンボで高得点を目指せ!"
+        />
+        <Card
           href="https://arkw.net/products/pc_game/hiragana_erase/"
           src="products/hiragana_erase"
           title="ひらがないれーす"
@@ -173,6 +179,12 @@
       <br />
       <h2>{{ $t("software.type.sub.webservice") }}</h2>
       <div class="box">
+        <Card
+          href="https://arkw.net/products/web/fontpolice/"
+          src="products/fontpolice"
+          title="フォント警察AI"
+          description="AIがアップロード画像からフォント名を特定するウェブサービス"
+        />
         <Card
           href="https://psk.arkw.net/"
           src="products/psk"

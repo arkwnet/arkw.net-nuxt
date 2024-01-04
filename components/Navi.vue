@@ -9,7 +9,7 @@
       :wheel-control="false"
     >
       <slide>
-        <NaviImage href="https://arkw.work/doujin/" src="c103.webp" />
+        <NaviImage src="arkw_lab.webp" />
       </slide>
       <slide>
         <NaviImage
@@ -34,9 +34,6 @@
           href="https://arkw.net/products/pc_game/qubefall/"
           src="qubefall.webp"
         />
-      </slide>
-      <slide>
-        <NaviImage src="arkw_lab.webp" />
       </slide>
     </hooper>
   </div>
