@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!--
     <div class="warning">
       <span>注意喚起</span>
       <p>
@@ -27,6 +28,7 @@
         Arakawa Laboratory (荒川技研) / 荒川 奏良
       </p>
     </div>
+    -->
     <!-- トピックス -->
     <h1 class="heading">{{ $t("heading.topics") }}</h1>
     <!--
@@ -269,6 +271,24 @@
             { id: 'movie', name: 'ムービー' },
           ]"
         />
+        <Work
+          src="20190428"
+          date="2019年04月"
+          title="知ろう! ボーイスカウト"
+          :type="[{ id: 'graphic', name: '紙面デザイン' }]"
+          position="10%"
+        />
+        <Work
+          href="https://bvetk.arkw.net/"
+          src="20190426"
+          date="2019年04月"
+          title="中部新都市運輸区"
+          :type="[
+            { id: 'web', name: 'ウェブデザイン' },
+            { id: 'graphic', name: 'グラフィック' },
+          ]"
+          position="5%"
+        />
       </div>
     </div>
     <ProfileTable src="works" />
@@ -403,7 +423,11 @@
       </tr>
       <tr>
         <th>{{ $t("profile.equipment.dictionary") }}</th>
-        <td>SII DAYFILER DF-X8000</td>
+        <td>
+          SHARP Brain PW-HC4
+          <br />
+          SII DAYFILER DF-X8000
+        </td>
       </tr>
       <tr>
         <th>{{ $t("profile.equipment.game") }}</th>

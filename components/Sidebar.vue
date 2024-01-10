@@ -448,15 +448,17 @@
       <a href="https://otajien.arkw.work/" target="blank">
         <nuxt-img src="/img/links/otajien.svg" width="180" format="webp" />
       </a>
-    </p>
-    <p>
+      <br />
       <a href="https://odeya.me/" target="blank">
         <nuxt-img src="/img/links/odeyame.png" width="180" format="webp" />
       </a>
-    </p>
-    <p>
-      <a href="https://ahiru.site/" target="blank">
+      <br />
+      <a href="https://arkw.net/contents/ahiru/" target="blank">
         <nuxt-img src="/img/links/ahiru.png" width="180" format="webp" />
+      </a>
+      <br />
+      <a href="https://arkw.booth.pm/" target="blank">
+        <img src="/img/links/booth_logo.svg" />
       </a>
     </p>
     <p>
