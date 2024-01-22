@@ -16,7 +16,7 @@
     "@babel/preset-env": "^7.23.8",
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/google-gtag": "^1.0.4",
-    "core-js": "^3.35.0",
+    "core-js": "^3.35.1",
     "hooper": "^0.3.4",
     "nuxt-i18n": "^6.28.1",
     "vue-click-outside": "^1.1.0"
