@@ -13,8 +13,20 @@
       </slide>
       <slide>
         <NaviImage
+          href="https://arkw.net/products/pc_game/hakotan/"
+          src="hakotan.webp"
+        />
+      </slide>
+      <slide>
+        <NaviImage
           href="https://arkw.net/products/pc_game/hiragana_erase/"
           src="hiragana_erase.webp"
+        />
+      </slide>
+      <slide>
+        <NaviImage
+          href="https://play.google.com/store/apps/details?id=jp.arkw.swarmskytox"
+          src="swarmskytox.webp"
         />
       </slide>
       <slide>
@@ -27,12 +39,6 @@
         <NaviImage
           href="https://arkw.net/products/web/prohaya/"
           src="prohaya.webp"
-        />
-      </slide>
-      <slide>
-        <NaviImage
-          href="https://arkw.net/products/pc_game/qubefall/"
-          src="qubefall.webp"
         />
       </slide>
     </hooper>
