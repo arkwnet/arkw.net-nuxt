@@ -504,6 +504,10 @@
         <nuxt-img src="/img/links/taka_impact.png" width="180" format="webp" />
       </a>
       <br />
+      <a href="https://yude.jp/" target="blank">
+        <nuxt-img src="/img/links/yude.png" width="180" format="webp" />
+      </a>
+      <br />
       <a href="http://bvetk.arkw.net/" target="blank">
         <nuxt-img src="/img/links/bvetk.png" format="webp" />
       </a>
@@ -515,17 +519,6 @@
       <a href="https://hishoutai.arkw.net/" target="blank">
         <nuxt-img src="/img/links/hishoutai.png" format="webp" />
       </a>
-      <br />
-      <a href="http://kusoft.moo.jp/" target="blank">KUsoft</a>
-      <br />
-      <a href="https://xeltica.work/" target="blank">Xeltica.work</a>
-      <br />
-      <a href="https://yude.jp/" target="blank">yude.jp</a>
-      <br />
-      <a href="https://satoyama-nogyo.com/" target="blank">
-        里山農業プロジェクト
-      </a>
-      <br />
     </p>
     <br />
     <p>
@@ -554,6 +547,11 @@
       <br />
       <a href="https://www.wizforest.com/" target="blank">魔法使いの森</a>
       <br />
+      <a href="http://kusoft.moo.jp/" target="blank">KUsoft</a>
+      <br />
+      <a href="https://satoyama-nogyo.com/" target="blank">
+        里山農業プロジェクト
+      </a>
     </p>
   </div>
 </template>

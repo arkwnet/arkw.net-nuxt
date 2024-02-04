@@ -389,7 +389,7 @@
         <th>{{ $t("profile.equipment.smartphone") }}</th>
         <td>
           FCNT arrows Be4 Plus F-41B
-          <span class="spec">(Android 12)</span>
+          <span class="spec">(Android 13)</span>
           <br />
           geanee ADP-503G
           <span class="spec">(Android 10 Go Edition)</span>
