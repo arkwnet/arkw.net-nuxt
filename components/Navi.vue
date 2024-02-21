@@ -12,6 +12,9 @@
         <NaviImage src="arkw_lab.webp" />
       </slide>
       <slide>
+        <NaviImage src="train_driver_entetsu.webp" />
+      </slide>
+      <slide>
         <NaviImage
           href="https://arkw.net/products/pc_game/hakotan/"
           src="hakotan.webp"
