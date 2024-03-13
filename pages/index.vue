@@ -328,6 +328,9 @@
       <tr>
         <th>{{ $t("profile.equipment.sub") }}</th>
         <td>
+          Apple Mac mini 2023
+          <span class="spec">(Apple M2, 8GB RAM, 256GB SSD, macOS 14)</span>
+          <br />
           HP ENVY 15 X360
           <span class="spec">
             (AMD Ryzen 5 2500U, 16GB RAM, 256GB SSD + 1TB HDD, Windows 10)
