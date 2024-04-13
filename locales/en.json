@@ -58,6 +58,7 @@
       },
       "sub": {
         "game": "Game",
+        "internet": "Internet",
         "clock": "Alarm & Clock",
         "utility": "Utility",
         "editor": "Editor",

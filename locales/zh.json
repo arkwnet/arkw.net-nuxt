@@ -58,6 +58,7 @@
       },
       "sub": {
         "game": "游戏",
+        "internet": "网络",
         "clock": "闹钟 & 钟表",
         "utility": "实用",
         "editor": "文本编辑器",

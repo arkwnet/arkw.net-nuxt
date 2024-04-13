@@ -53,6 +53,19 @@
       <br />
       <h2>
         <span>Windows 10/11</span>
+        {{ $t("software.type.sub.internet") }}
+      </h2>
+      <div class="box">
+        <Card
+          href="https://arkw.net/products/win/dualverse/"
+          src="products/dualverse"
+          title="Dualverse"
+          description="究極のSNS廃人向けウェブブラウザ、誕生。"
+        />
+      </div>
+      <br />
+      <h2>
+        <span>Windows 10/11</span>
         {{ $t("software.type.sub.clock") }}
       </h2>
       <div class="box">
