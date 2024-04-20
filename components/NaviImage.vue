@@ -42,7 +42,8 @@ export default {
         this.x != null &&
         this.x === e.screenX &&
         this.y != null &&
-        this.y === e.screenY
+        this.y === e.screenY &&
+        e.button == 0
       ) {
         window.location.assign(this.href)
       }
