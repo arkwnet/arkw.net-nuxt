@@ -49,6 +49,12 @@
           title="トレインチキンレース"
           description="電車でチキンレースをしてみませんか? 3Dシミュレーションゲーム"
         />
+        <Card
+          href="https://arkw.net/products/pc_game/thsu/"
+          src="products/thsu"
+          title="東方静岡大 ～ National university with garbage affairs system."
+          description="地方国立弾幕遊戯 (アーカイブサイト。ゲーム本体の配布予定はありません)"
+        />
       </div>
       <br />
       <h2>
