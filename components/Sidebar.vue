@@ -268,6 +268,12 @@
           description="伊勢原名物「謝罪しろ!」看板がウェブブラウザで作り放題"
         />
         <Card
+          href="https://arkw.net/products/web/dragon/"
+          src="products/dragon"
+          title="好きなジェネレータ発表ドラゴン"
+          description="ボタン一発で作れるやつ"
+        />
+        <Card
           href="https://arkw.net/products/web/hakase/"
           src="products/hakase"
           title="教えて! ハカセ ジェネレータ"
