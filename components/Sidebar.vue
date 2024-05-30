@@ -38,16 +38,22 @@
           description="キューブを操り、敵を蹴散らす3Dアクションパズルゲーム"
         />
         <Card
-          href="https://arkw.net/products/win/TypingFactory/"
-          src="products/typing"
-          title="タイピングファクトリー"
-          description="英単語や地名など短い文を連続して入力するタイピングゲーム"
+          href="https://arkw.net/products/pc_game/train_driver_entetsu/"
+          src="products/train_driver_entetsu"
+          title="Train Driver 遠州鉄道編"
+          description="3DCGトレインシミュレータ。遠州鉄道2000系電車で新浜松～第一通りを運転できます"
         />
         <Card
           href="https://arkw.net/products/pc_game/train_chicken_race/"
           src="products/train_chicken_race"
           title="トレインチキンレース"
           description="電車でチキンレースをしてみませんか? 3Dシミュレーションゲーム"
+        />
+        <Card
+          href="https://arkw.net/products/win/TypingFactory/"
+          src="products/typing"
+          title="タイピングファクトリー"
+          description="英単語や地名など短い文を連続して入力するタイピングゲーム"
         />
         <Card
           href="https://arkw.net/products/pc_game/thsu/"
