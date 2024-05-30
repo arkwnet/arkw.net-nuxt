@@ -411,7 +411,7 @@
         <th>{{ $t("profile.equipment.tablet") }}</th>
         <td>
           Apple iPad 9th Generation Wi-Fi
-          <span class="spec">(iPadOS 15)</span>
+          <span class="spec">(iPadOS 17)</span>
           <br />
           BLUEDOT BNT-71W
           <span class="spec">(Android 5.1)</span>
