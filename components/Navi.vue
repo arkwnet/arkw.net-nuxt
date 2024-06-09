@@ -12,6 +12,9 @@
         <NaviImage src="arkw_lab.webp" />
       </slide>
       <slide>
+        <NaviImage href="https://arkw.work/doujin/" src="c104.webp" />
+      </slide>
+      <slide>
         <NaviImage
           href="https://arkw.net/products/pc_game/train_driver_entetsu/"
           src="train_driver_entetsu.webp"
