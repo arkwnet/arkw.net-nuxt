@@ -480,11 +480,11 @@
         <nuxt-img src="/img/links/otajien.svg" width="180" format="webp" />
       </a>
       <br />
-      <a href="https://odeya.me/" target="blank">
+      <a href="https://arkw.net/contents/odeyame/">
         <nuxt-img src="/img/links/odeyame.png" width="180" format="webp" />
       </a>
       <br />
-      <a href="https://arkw.net/contents/ahiru/" target="blank">
+      <a href="https://arkw.net/contents/ahiru/">
         <nuxt-img src="/img/links/ahiru.png" width="180" format="webp" />
       </a>
       <br />
