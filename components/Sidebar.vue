@@ -464,6 +464,12 @@
       <h2>M5Stack</h2>
       <div class="box">
         <Card
+          href="https://github.com/arkwnet/cruconmate"
+          src="products/cruconmate"
+          title="CruConMate"
+          description="クルーズコントロール非搭載車向けに、ペダルワークで定速走行機能を代用するアプリケーション"
+        />
+        <Card
           href="https://github.com/arkwnet/M5StickClock"
           src="products/m5sc"
           title="M5StickClock"
