@@ -41,13 +41,6 @@
     />
     -->
     <Card
-      href="https://arkw.work/doujin/"
-      src="topics/comicbox"
-      title="「COMIC BOX #0」に出展します!!"
-      description="2024年9月16日 (月・祝) に川崎市産業振興会館で開催される「COMIC BOX #0」にて、新作含む技術書やWindows向けゲームCDを頒布します! ぜひお越しください!!"
-      height-auto
-    />
-    <Card
       href="https://note.com/arkw0/n/n5289722646f0"
       src="topics/windef"
       title="「Windows セキュリティの重要な警告」ダイアログ"
