@@ -101,10 +101,10 @@
       </h2>
       <div class="box">
         <Card
-          href="https://arkw.net/products/win/cpr/"
-          src="products/cpr"
-          title="コピペレコーダー"
-          description="クリップボードのコピー履歴を保持し、再利用できるソフトウェア"
+          href="https://arkw.net/products/win/cheaptunes2/"
+          src="products/cheaptunes2"
+          title="CheapTunes2"
+          description="MicroSDカードを使用する安価なMP3プレーヤーをターゲットとした音楽管理ツール"
         />
         <Card
           href="https://arkw.net/products/win/eims/"
@@ -113,10 +113,16 @@
           description="視覚的かつシンプルに大量の写真を管理できるソフトウェア"
         />
         <Card
-          href="https://arkw.net/products/win/cheaptunes2/"
-          src="products/cheaptunes2"
-          title="CheapTunes2"
-          description="MicroSDカードを使用する安価なMP3プレーヤーをターゲットとした音楽管理ツール"
+          href="https://arkw.net/products/win/cpr/"
+          src="products/cpr"
+          title="コピペレコーダー"
+          description="クリップボードのコピー履歴を保持し、再利用できるソフトウェア"
+        />
+        <Card
+          href="https://arkw.net/products/win/soupwarrior/"
+          src="products/soupwarrior"
+          title="SoupWarrior"
+          description="複数のソースコードを1つのファイルへ結合するHSP3向けコーディング支援ツール"
         />
       </div>
       <br />
