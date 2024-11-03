@@ -1,3 +1,5 @@
+@use "../color";
+
 .header {
   position: relative;
   z-index: 100;
@@ -34,8 +36,8 @@
         "ＭＳ Ｐゴシック",
         "MS PGothic",
         sans-serif;
-      color: $gray-600;
-      border: solid 1px $gray-500;
+      color: color.$gray-600;
+      border: solid 1px color.$gray-500;
       border-radius: 15px;
 
       &:hover {
@@ -53,7 +55,7 @@
         padding: 8px 0;
         background-color: #fff;
         border-radius: 5px;
-        box-shadow: 0 0 3px $gray-600;
+        box-shadow: 0 0 3px color.$gray-600;
 
         li {
           padding: 3px 15px 7px;
@@ -68,12 +70,12 @@
             "MS PGothic",
             sans-serif;
           font-size: 16px;
-          color: $gray-900;
+          color: color.$gray-900;
           list-style-type: none;
 
           &:hover {
             cursor: pointer;
-            background-color: $gray-300;
+            background-color: color.$gray-300;
           }
         }
       }

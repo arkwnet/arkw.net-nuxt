@@ -1,3 +1,5 @@
+@use "color";
+
 // Common
 
 * {
@@ -22,7 +24,7 @@ body {
 }
 
 a {
-  color: $arkw-color;
+  color: color.$arkw-color;
 }
 
 p,
@@ -33,12 +35,12 @@ p,
 
 span {
   &.spec {
-    color: $gray;
+    color: color.$gray;
   }
 
   &.red {
     padding-left: 5px;
-    color: $red;
+    color: color.$red;
   }
 }
 

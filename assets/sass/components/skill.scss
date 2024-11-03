@@ -1,3 +1,5 @@
+@use "../color";
+
 .skill {
   margin: 10px 0;
   overflow: hidden;
@@ -9,7 +11,7 @@
     height: 95px;
     margin-right: 8px;
     margin-bottom: 8px;
-    background-color: $bluegray-500;
+    background-color: color.$bluegray-500;
 
     img {
       position: absolute;
@@ -25,7 +27,7 @@
       left: 4px;
       width: 60px;
       height: 3px;
-      background-color: $gray-50;
+      background-color: color.$gray-50;
     }
 
     .progress {
@@ -33,7 +35,7 @@
       top: 87px;
       left: 4px;
       height: 3px;
-      background-color: $lime-500;
+      background-color: color.$lime-500;
 
       &.lv-5 {
         width: 60px;

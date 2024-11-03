@@ -1,4 +1,6 @@
 /* stylelint-disable selector-id-pattern */
+@use "../color";
+
 .products {
   padding-top: 10px;
   overflow: hidden;
@@ -12,12 +14,12 @@
     span {
       padding-right: 2px;
       font-size: 18px;
-      color: $gray-600;
+      color: color.$gray-600;
     }
   }
 
   a {
-    color: $arkw-color;
+    color: color.$arkw-color;
   }
 
   .item {
@@ -25,14 +27,14 @@
     padding: 5px 10px;
     margin-top: 5px;
     margin-right: 10px;
-    color: $arkw-color;
-    background-color: $arkw-color-background;
+    color: color.$arkw-color;
+    background-color: color.$arkw-color-background;
     border-radius: 15px;
   }
 
   .selected {
-    color: $arkw-color-background;
-    background-color: $arkw-color;
+    color: color.$arkw-color-background;
+    background-color: color.$arkw-color;
     transition-timing-function: ease-in-out;
     transition-duration: 0.1s;
     transition-property: background-color, color, text-shadow;

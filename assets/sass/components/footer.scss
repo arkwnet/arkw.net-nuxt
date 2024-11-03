@@ -1,9 +1,11 @@
+@use "../color";
+
 .footer {
   padding: 30px;
   margin-top: 60px;
   line-height: 26px;
-  color: $arkw-color;
-  background-color: $arkw-color-background;
+  color: color.$arkw-color;
+  background-color: color.$arkw-color-background;
 
   p {
     margin: 5px 0;
@@ -13,7 +15,7 @@
   .small a {
     font-size: 12px;
     line-height: 16px;
-    color: $arkw-color-light;
+    color: color.$arkw-color-light;
   }
 }
 
