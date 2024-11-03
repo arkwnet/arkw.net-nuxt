@@ -391,6 +391,9 @@
       <tr>
         <th>{{ $t("profile.equipment.smartphone") }}</th>
         <td>
+          SHARP AQUOS wish3 SH-53D
+          <span class="spec">(Android 14)</span>
+          <br />
           FCNT arrows Be4 Plus F-41B
           <span class="spec">(Android 13)</span>
           <br />
