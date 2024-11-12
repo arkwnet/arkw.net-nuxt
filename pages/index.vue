@@ -31,15 +31,13 @@
     -->
     <!-- トピックス -->
     <h1 class="heading">{{ $t("heading.topics") }}</h1>
-    <!--
     <Card
       href="https://arkw.work/doujin/"
       src="topics/comiket"
-      title="「コミックマーケット104」に出展します!!"
-      description="2024年8月11～12日開催「コミックマーケット104」にて、新作含む技術書やWindows向けゲームCDを頒布します! 場所は「2日目 (月曜日) 西地区 さブロック 28b」です。ぜひお越しください!!"
+      title="「コミックマーケット105」に出展します!!"
+      description="2024年12月29～30日開催「コミックマーケット105」にて、新作含む技術書やWindows向けゲームCDを頒布します! 場所は「2日目 (月曜日) 西地区 きブロック 36b」です。ぜひお越しください!!"
       height-auto
     />
-    -->
     <Card
       href="https://note.com/arkw0/n/n5289722646f0"
       src="topics/windef"
