@@ -330,6 +330,12 @@
           description="文章を検査し、「日本語の使い方」や「読みやすさ」をチェックするツール"
         />
         <Card
+          href="https://arkw.net/products/web/missdui/"
+          src="products/missdui"
+          title="密斯対 (MissDui)"
+          description="将Misskey筆記転換為偽中国語的網絡応用程序"
+        />
+        <Card
           href="https://arkw.net/products/web/569/"
           src="products/569"
           title="語録チェッカー"
