@@ -38,6 +38,12 @@
           description="キューブを操り、敵を蹴散らす3Dアクションパズルゲーム"
         />
         <Card
+          href="https://arkw.net/products/pc_game/more_subway_nagoya/"
+          src="products/more_subway_nagoya"
+          title="もっと! 地下鉄 大名古屋"
+          description="Let's Go by Nagoya Municipal Subway! オープンソースの3DCG地下鉄運転ゲーム"
+        />
+        <Card
           href="https://arkw.net/products/pc_game/train_driver_entetsu/"
           src="products/train_driver_entetsu"
           title="Train Driver 遠州鉄道編"

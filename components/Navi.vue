@@ -13,6 +13,12 @@
       </slide>
       <slide>
         <NaviImage
+          href="https://arkw.net/products/pc_game/more_subway_nagoya/"
+          src="more_subway_nagoya.webp"
+        />
+      </slide>
+      <slide>
+        <NaviImage
           href="https://arkw.net/products/pc_game/train_driver_entetsu/"
           src="train_driver_entetsu.webp"
         />
