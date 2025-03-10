@@ -31,7 +31,7 @@
     "@nuxtjs/style-resources": "^1.2.2",
     "@nuxtjs/stylelint-module": "^5.2.0",
     "eslint": "^8.57.1",
-    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-prettier": "^10.1.1",
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-vue": "^9.32.0",
     "imagemin": "^8.0.1",
