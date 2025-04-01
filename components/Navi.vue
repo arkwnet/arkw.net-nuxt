@@ -9,9 +9,6 @@
       :wheel-control="false"
     >
       <slide>
-        <NaviImage href="https://odeyame.site/" src="odeyame2.webp" />
-      </slide>
-      <slide>
         <NaviImage src="arkw_lab.webp" />
       </slide>
       <slide>
