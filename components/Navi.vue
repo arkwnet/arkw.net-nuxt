@@ -9,9 +9,6 @@
       :wheel-control="false"
     >
       <slide>
-        <NaviImage href="https://arkw.work/doujin/" src="tbf18.webp" />
-      </slide>
-      <slide>
         <NaviImage src="arkw_lab.webp" />
       </slide>
       <slide>

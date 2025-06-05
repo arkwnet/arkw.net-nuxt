@@ -3,13 +3,6 @@
     <!-- トピックス -->
     <h1 class="heading">{{ $t("heading.topics") }}</h1>
     <Card
-      href="https://arkw.work/doujin/"
-      src="topics/tbf18"
-      title="「技術書典18」に出展します!!"
-      description="2025年6月1日開催「技術書典18」にて、新刊含む技術書を頒布します! 場所は池袋サンシャインシティ・文化会館2F展示ホールDのオフライン会場「こ06」またはオンライン会場です。ぜひお越しください!!"
-      height-auto
-    />
-    <Card
       href="https://note.com/arkw0/n/n5289722646f0"
       src="topics/windef"
       title="「Windows セキュリティの重要な警告」ダイアログ"
@@ -360,8 +353,11 @@
       <tr>
         <th>{{ $t("profile.equipment.smartphone") }}</th>
         <td>
+          Apple iPhone SE 2nd Generation
+          <span class="spec">(iOS 18)</span>
+          <br />
           SHARP AQUOS wish3 SH-53D
-          <span class="spec">(Android 14)</span>
+          <span class="spec">(Android 15)</span>
           <br />
           FCNT arrows Be4 Plus F-41B
           <span class="spec">(Android 13)</span>
@@ -383,7 +379,7 @@
         <th>{{ $t("profile.equipment.tablet") }}</th>
         <td>
           Apple iPad 9th Generation Wi-Fi
-          <span class="spec">(iPadOS 17)</span>
+          <span class="spec">(iPadOS 18)</span>
           <br />
           BLUEDOT BNT-71W
           <span class="spec">(Android 5.1)</span>
@@ -394,6 +390,9 @@
         <td>
           SUNMI V1s
           <span class="spec">(Android 6.0, 58mm Receipt)</span>
+          <br />
+          Panasonic TOUGHBOOK FZ-N1
+          <span class="spec">(Android 6.0)</span>
         </td>
       </tr>
       <tr>
@@ -434,26 +433,8 @@
         </td>
       </tr>
       <tr>
-        <th>{{ $t("profile.equipment.printer") }}</th>
-        <td>
-          Canon PIXUS iP2700
-          <span class="spec">(4-color Inkjet)</span>
-          <br />
-          KKmoon POS-5890K
-          <span class="spec">(58mm Receipt)</span>
-        </td>
-      </tr>
-      <tr>
-        <th>{{ $t("profile.equipment.scanner") }}</th>
-        <td>Canon CanoScan LiDE 30</td>
-      </tr>
-      <tr>
         <th>{{ $t("profile.equipment.recorder") }}</th>
         <td>SANYO DIPLY ICR-PS004M</td>
-      </tr>
-      <tr>
-        <th>{{ $t("profile.equipment.keyboard") }}</th>
-        <td>YAMAHA PORTATONE PSR-290</td>
       </tr>
       <tr>
         <th>{{ $t("profile.equipment.car") }}</th>
