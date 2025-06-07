@@ -9,6 +9,10 @@
         <nuxt-link :to="localePath('/privacy')">
           {{ $t("heading.privacy") }}
         </nuxt-link>
+        /
+        <nuxt-link :to="localePath('/child')">
+          {{ $t("heading.child") }}
+        </nuxt-link>
       </p>
       <p>(c) 2015-2025 Sora Arakawa all rights reserved.</p>
       <div class="small">
