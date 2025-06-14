@@ -3,6 +3,13 @@
     <!-- トピックス -->
     <h1 class="heading">{{ $t("heading.topics") }}</h1>
     <Card
+      href="https://arkw.work/doujin/"
+      src="topics/you"
+      title="「コミックライブin名古屋 アーリーサマー2025」に出展します!!"
+      description="2025年6月22日開催「コミックライブin名古屋 アーリーサマー2025」にて、新刊含む技術書などを頒布します! 場所は吹上ホール・第1ファッション「E19」です。ぜひお越しください!!"
+      height-auto
+    />
+    <Card
       href="https://note.com/arkw0/n/n5289722646f0"
       src="topics/windef"
       title="「Windows セキュリティの重要な警告」ダイアログ"
