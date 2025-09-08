@@ -9,6 +9,9 @@
       :wheel-control="false"
     >
       <slide>
+        <NaviImage href="https://arkw.work/doujin/" src="comicbox.webp" />
+      </slide>
+      <slide>
         <NaviImage src="arkw_lab.webp" />
       </slide>
       <slide>
@@ -39,12 +42,6 @@
         <NaviImage
           href="https://play.google.com/store/apps/details?id=jp.arkw.swarmskytox"
           src="swarmskytox.webp"
-        />
-      </slide>
-      <slide>
-        <NaviImage
-          href="https://arkw.net/products/win/LTTimer/"
-          src="lt_timer.webp"
         />
       </slide>
       <slide>
