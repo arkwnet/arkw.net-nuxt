@@ -3,13 +3,6 @@
     <!-- トピックス -->
     <h1 class="heading">{{ $t("heading.topics") }}</h1>
     <Card
-      href="https://arkw.work/doujin/"
-      src="topics/comicbox"
-      title="「COMIC BOX #1」に出展します!!"
-      description="2025年9月15日 (月・祝) に川崎市産業振興会館で開催される「COMIC BOX #1」にて、Windows向けゲームCDや技術書を頒布します! ぜひお越しください!!"
-      height-auto
-    />
-    <Card
       href="https://note.com/arkw0/n/n5289722646f0"
       src="topics/windef"
       title="「Windows セキュリティの重要な警告」ダイアログ"
@@ -333,22 +326,22 @@
       <tr>
         <th>{{ $t("profile.equipment.server") }}</th>
         <td>
-          <a href="https://arkw.work/chifuyu_sv">
+          <a href="https://arkw.work/chifuyu_sv/">
             EPSON Endeavor ST170E "Chifuyu Server"
           </a>
           <span class="spec">
             (Intel Celeron 2950M, 4GB RAM, 120GB SSD, Rocky Linux 8)
           </span>
           <br />
-          <a href="https://arkw.work/reinforce">
+          <a href="https://arkw.work/reinforce/">
             EPSON Endeavor ST150E "Reinforce"
           </a>
           <span class="spec">
-            (Intel Core i3 380M, 4GB RAM, 320GB HDD, Rocky Linux 8)
+            (Intel Core i3-380M, 4GB RAM, 320GB HDD, Rocky Linux 8)
           </span>
           <br />
           <s>
-            <a href="https://arkw.work/shiori_sv">
+            <a href="https://arkw.work/shiori_sv/">
               Orange Pi Zero LTS "Shiori Server"
             </a>
             <span class="spec">
