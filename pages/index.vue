@@ -317,6 +317,11 @@
             (Intel Celeron N4100, 8GB RAM, 240GB SSD, Windows 11)
           </span>
           <br />
+          NEC Chromebook Y2
+          <span class="spec">
+            (Intel Celeron N4020, 4GB RAM, 32GB eMMC, Chrome OS)
+          </span>
+          <br />
           ASUS VivoBook E203NA
           <span class="spec">
             (Intel Celeron N3350, 4GB RAM, 32GB eMMC, Ubuntu 20.04)
@@ -326,7 +331,14 @@
       <tr>
         <th>{{ $t("profile.equipment.server") }}</th>
         <td>
-          <a href="https://arkw.work/chifuyu_sv/">
+          <a href="https://arkw.work/mizuki/">
+            HP EliteDesk 800 G2 DM "Mizuki Server"
+          </a>
+          <span class="spec">
+            (Intel Core i3-6100T, 4GB RAM, 240GB SSD, Rocky Linux 10)
+          </span>
+          <br />
+          <a href="https://arkw.work/chifuyu/">
             EPSON Endeavor ST170E "Chifuyu Server"
           </a>
           <span class="spec">
@@ -341,7 +353,7 @@
           </span>
           <br />
           <s>
-            <a href="https://arkw.work/shiori_sv/">
+            <a href="https://arkw.work/shiori/">
               Orange Pi Zero LTS "Shiori Server"
             </a>
             <span class="spec">
