@@ -338,19 +338,26 @@
             (Intel Core i3-6100T, 4GB RAM, 240GB SSD, Rocky Linux 10)
           </span>
           <br />
-          <a href="https://arkw.work/chifuyu/">
-            EPSON Endeavor ST170E "Chifuyu Server"
-          </a>
+          Fujitsu PRIMERGY RX1330 M2 "Praeludium"
           <span class="spec">
-            (Intel Celeron 2950M, 4GB RAM, 120GB SSD, Rocky Linux 8)
+            (Intel Xeon E3-1230 v5, 32GB RAM, 512GB SSD, Ubuntu 18.04)
           </span>
           <br />
           <a href="https://arkw.work/reinforce/">
             EPSON Endeavor ST150E "Reinforce"
           </a>
           <span class="spec">
-            (Intel Core i3-380M, 4GB RAM, 320GB HDD, Rocky Linux 8)
+            (Intel Core i3-380M, 4GB RAM, 512GB SSD, Rocky Linux 9)
           </span>
+          <br />
+          <s>
+            <a href="https://arkw.work/chifuyu/">
+              EPSON Endeavor ST170E "Chifuyu Server"
+            </a>
+            <span class="spec">
+              (Intel Celeron 2950M, 4GB RAM, 120GB SSD, Rocky Linux 8)
+            </span>
+          </s>
           <br />
           <s>
             <a href="https://arkw.work/shiori/">
