@@ -3,10 +3,10 @@
     <!-- トピックス -->
     <h1 class="heading">{{ $t("heading.topics") }}</h1>
     <Card
-      href="https://note.com/arkw0/n/n5289722646f0"
-      src="topics/windef"
-      title="「Windows セキュリティの重要な警告」ダイアログ"
-      description="当サイトからダウンロードしたソフトウェアの起動時に「Windows セキュリティの重要な警告」ダイアログが表示された場合の対処法"
+      href="https://arkw.work/doujin/"
+      src="topics/omobaza"
+      title="「おもしろ同人誌バザール@神保町2025年秋」に出展します!!"
+      description="2025年11月2日 (日) にベルサール神保町/ベルサール神保町アネックスで開催される「おもしろ同人誌バザール@神保町2025年秋」にて、Windows向けゲームCDや技術書を頒布します! ぜひお越しください!!"
       height-auto
     />
     <Card
@@ -338,7 +338,7 @@
             (Intel Core i3-6100T, 4GB RAM, 240GB SSD, Rocky Linux 10)
           </span>
           <br />
-          Fujitsu PRIMERGY RX1330 M2 "Praeludium"
+          FUJITSU PRIMERGY RX1330 M2 "Praeludium"
           <span class="spec">
             (Intel Xeon E3-1230 v5, 32GB RAM, 512GB SSD, Ubuntu 18.04)
           </span>
