@@ -3,10 +3,10 @@
     <!-- トピックス -->
     <h1 class="heading">{{ $t("heading.topics") }}</h1>
     <Card
-      href="https://arkw.work/doujin/"
-      src="topics/omobaza"
-      title="「おもしろ同人誌バザール@神保町2025年秋」に出展します!!"
-      description="2025年11月2日 (日) にベルサール神保町/ベルサール神保町アネックスで開催される「おもしろ同人誌バザール@神保町2025年秋」にて、Windows向けゲームCDや技術書を頒布します! ぜひお越しください!!"
+      href="https://note.com/arkw0/n/n5289722646f0"
+      src="topics/windef"
+      title="「Windows セキュリティの重要な警告」ダイアログ"
+      description="当サイトからダウンロードしたソフトウェアの起動時に「Windows セキュリティの重要な警告」ダイアログが表示された場合の対処法"
       height-auto
     />
     <Card
