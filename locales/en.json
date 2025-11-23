@@ -36,10 +36,13 @@
       "sub": "Sub PC",
       "mobile": "Mobile PC",
       "server": "Server PC",
+      "sbc": "Single-board PC",
       "smartphone": "Smartphone",
-      "tablet": "Tablet device",
+      "featurephone": "Feature phone",
+      "tablet": "Tablet computer",
       "handy": "Handy terminal",
-      "dictionary": "Electronic Dictionary",
+      "digisign": "Digital signage",
+      "dictionary": "Electronic dictionary",
       "game": "Game console",
       "camera": "Digital camera",
       "multi": "Multi-function printer",
@@ -47,6 +50,7 @@
       "scanner": "Scanner",
       "recorder": "Voice recorder",
       "keyboard": "Electronic keyboard",
+      "oscilloscope": "Oscilloscope",
       "car": "Car",
       "motorcycle": "Motorcycle"
     }

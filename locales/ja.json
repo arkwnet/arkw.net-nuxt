@@ -36,9 +36,12 @@
       "sub": "サブPC",
       "mobile": "モバイルPC",
       "server": "サーバPC",
+      "sbc": "シングルボードPC",
       "smartphone": "スマートフォン",
-      "tablet": "タブレット端末",
+      "featurephone": "フィーチャーフォン",
+      "tablet": "タブレット",
       "handy": "ハンディターミナル",
+      "digisign": "デジタルサイネージ",
       "dictionary": "電子辞書",
       "game": "ゲームコンソール",
       "camera": "デジタルカメラ",
@@ -47,6 +50,7 @@
       "scanner": "スキャナ",
       "recorder": "ICレコーダ",
       "keyboard": "電子キーボード",
+      "oscilloscope": "オシロスコープ",
       "car": "自動車",
       "motorcycle": "バイク"
     }

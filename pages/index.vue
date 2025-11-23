@@ -365,7 +365,11 @@
               (Intel Celeron 2950M, 4GB RAM, 120GB SSD, Rocky Linux 8)
             </span>
           </s>
-          <br />
+        </td>
+      </tr>
+      <tr>
+        <th>{{ $t("profile.equipment.sbc") }}</th>
+        <td>
           <s>
             <a href="https://arkw.work/shiori/">
               Orange Pi Zero LTS "Shiori Server"
@@ -374,6 +378,20 @@
               (Allwinner H2+, 256MB RAM, 32GB MicroSD, Armbian buster)
             </span>
           </s>
+          <br />
+          Raspberry Pi 1 Model B+
+          <br />
+          M5Stack Cardputer
+          <span class="spec">(M5StampS3)</span>
+          <br />
+          M5Stack Basic
+          <br />
+          M5StickC
+          <br />
+          Waveshare RP2040-LCD-0.96
+          <br />
+          ESP32-2432S028R
+          <span class="spec">(Espressif ESP-WROOM-32)</span>
         </td>
       </tr>
       <tr>
@@ -402,6 +420,19 @@
         </td>
       </tr>
       <tr>
+        <th>{{ $t("profile.equipment.featurephone") }}</th>
+        <td>
+          Seiko Solutions Simply 603SI
+          <span class="spec">(Android 6.0)</span>
+          <br />
+          ZTE mamorino4
+          <span class="spec">(Android 5.1)</span>
+          <br />
+          KYOCERA GRATINA KYF37
+          <span class="spec">(Android 5.1)</span>
+        </td>
+      </tr>
+      <tr>
         <th>{{ $t("profile.equipment.tablet") }}</th>
         <td>
           Apple iPad 9th Generation Wi-Fi
@@ -409,21 +440,45 @@
           <br />
           BLUEDOT BNT-71W
           <span class="spec">(Android 5.1)</span>
+          <br />
+          Benesse Challenge Touch 40S404
+          <span class="spec">(Android 4.2)</span>
+          <br />
+          Benesse Challenge Tablet 40TL04
+          <span class="spec">(Android 2.3)</span>
+          <br />
+          HUAWEI PhotoVision 008HW
+          <span class="spec">(Android 2.2)</span>
         </td>
       </tr>
       <tr>
         <th>{{ $t("profile.equipment.handy") }}</th>
         <td>
           SUNMI V1s
-          <span class="spec">(Android 6.0, 58mm Receipt)</span>
+          <span class="spec">(Android 6.0)</span>
           <br />
           Panasonic TOUGHBOOK FZ-N1
           <span class="spec">(Android 6.0)</span>
         </td>
       </tr>
       <tr>
+        <th>{{ $t("profile.equipment.digisign") }}</th>
+        <td>
+          LG LD290EJS-FPN1
+          <span class="spec">(Android 7.1)</span>
+        </td>
+      </tr>
+      <tr>
         <th>{{ $t("profile.equipment.dictionary") }}</th>
         <td>
+          CASIO EX-word XD-U4800
+          <br />
+          CASIO EX-word XD-N4700
+          <br />
+          CASIO EX-word XD-CV730
+          <br />
+          SHARP Brain PW-SH6
+          <br />
           SHARP Brain PW-HC4
           <br />
           SII DAYFILER DF-X8000
@@ -461,6 +516,13 @@
       <tr>
         <th>{{ $t("profile.equipment.recorder") }}</th>
         <td>SANYO DIPLY ICR-PS004M</td>
+      </tr>
+      <tr>
+        <th>{{ $t("profile.equipment.oscilloscope") }}</th>
+        <td>
+          RIGOL DHO802
+          <span class="spec">(Android 7.1)</span>
+        </td>
       </tr>
       <tr>
         <th>{{ $t("profile.equipment.car") }}</th>

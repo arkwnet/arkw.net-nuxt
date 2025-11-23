@@ -36,9 +36,12 @@
       "sub": "副电脑",
       "mobile": "便携式电脑",
       "server": "服务器电脑",
-      "smartphone": "手机",
+      "sbc": "単板电脑",
+      "smartphone": "智能手机",
+      "featurephone": "功能手机",
       "tablet": "平板电脑",
       "handy": "移动终端",
+      "digisign": "数字标牌",
       "dictionary": "电子词典",
       "game": "游戏机",
       "camera": "数码相机",
@@ -47,6 +50,7 @@
       "scanner": "扫描仪",
       "recorder": "录音机",
       "keyboard": "电子键盘",
+      "oscilloscope": "示波器",
       "car": "汽车",
       "motorcycle": "摩托车"
     }

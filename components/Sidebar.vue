@@ -488,10 +488,16 @@
       <h2>M5Stack</h2>
       <div class="box">
         <Card
-          href="https://github.com/arkwnet/cruconmate"
+          href="https://www.hackster.io/arkw/sake-meter-4801f7"
+          src="products/sakemeter"
+          title="酒メーター"
+          description="体内アルコール量を簡単に入力・チェック。M5Stack Basicで適度な飲酒を目指しましょう!"
+        />
+        <Card
+          href="https://protopedia.net/prototype/5755"
           src="products/cruconmate"
           title="CruConMate"
-          description="クルーズコントロール非搭載車向けに、ペダルワークで定速走行機能を代用するアプリケーション"
+          description="クルーズコントロール非搭載車向けに、ペダルワークで定速走行機能を代用するM5StickCアプリケーション"
         />
         <Card
           href="https://github.com/arkwnet/M5StickClock"
