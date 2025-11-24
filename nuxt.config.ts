@@ -2,7 +2,9 @@ import { defineNuxtConfig } from "@nuxt/bridge"
 
 export default defineNuxtConfig({
   bridge: {
+    capi: true,
     typescript: true,
+    meta: true,
     nitro: false,
   },
   target: "static",
@@ -34,7 +36,6 @@ export default defineNuxtConfig({
   plugins: [],
   components: true,
   modules: [
-    ["@nuxtjs/axios"],
     [
       "@nuxtjs/google-gtag",
       {
@@ -69,11 +70,5 @@ export default defineNuxtConfig({
         options.loose = true
       },
     },
-  },
-  axios: {
-    proxy: true,
-  },
-  proxy: {
-    "/api/": "http://arkw.net/",
   },
 })

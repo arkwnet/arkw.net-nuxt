@@ -31,10 +31,9 @@ export default {
       history: [],
     }
   },
-  mounted() {
-    this.$axios.get("./history.json").then((response) => {
-      this.history = response.data
-    })
+  async mounted() {
+    const response = await fetch("./history.json")
+    this.history = await response.json()
   },
 }
 </script>
