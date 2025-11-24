@@ -1,7 +1,10 @@
 import { defineNuxtConfig } from "@nuxt/bridge"
 
 export default defineNuxtConfig({
-  bridge: false,
+  bridge: {
+    typescript: true,
+    nitro: false,
+  },
   target: "static",
   head: {
     title: "Arakawa Laboratory",
