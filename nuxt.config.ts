@@ -1,8 +1,8 @@
-export default {
-  // Target: https://go.nuxtjs.dev/config-target
-  target: "static",
+import { defineNuxtConfig } from "@nuxt/bridge"
 
-  // Global page headers: https://go.nuxtjs.dev/config-head
+export default defineNuxtConfig({
+  bridge: false,
+  target: "static",
   head: {
     title: "Arakawa Laboratory",
     htmlAttrs: {
@@ -27,28 +27,9 @@ export default {
       },
     ],
   },
-
-  // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [{ src: "~/assets/sass/app.scss", lang: "scss" }],
-
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
+  css: ["~/assets/sass/app.scss"],
   plugins: [],
-
-  // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
-
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [
-    // https://go.nuxtjs.dev/eslint
-    "@nuxtjs/eslint-module",
-    // https://go.nuxtjs.dev/stylelint
-    "@nuxtjs/stylelint-module",
-    "@nuxtjs/style-resources",
-    "@nuxt/postcss8",
-    "@nuxt/image",
-  ],
-
-  // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     ["@nuxtjs/axios"],
     [
@@ -76,26 +57,20 @@ export default {
         lazy: true,
       },
     ],
+    "@nuxtjs/style-resources",
+    "@nuxt/image",
   ],
-
-  // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     babel: {
       presets({ isServer }, [preset, options]) {
         options.loose = true
       },
     },
-    postcss: {
-      plugins: {},
-      preset: {},
-    },
   },
-
   axios: {
     proxy: true,
   },
-
   proxy: {
     "/api/": "http://arkw.net/",
   },
-}
+})
