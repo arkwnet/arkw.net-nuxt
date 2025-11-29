@@ -15,9 +15,9 @@
   "dependencies": {
     "@babel/preset-env": "^7.26.0",
     "@nuxtjs/google-gtag": "^1.0.4",
+    "@nuxtjs/i18n": "^7.3.1",
     "core-js": "^3.40.0",
     "hooper": "^0.3.4",
-    "nuxt-i18n": "^6.28.1",
     "vue-click-outside": "^1.1.0"
   },
   "devDependencies": {

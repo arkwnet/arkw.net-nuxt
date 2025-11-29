@@ -42,7 +42,7 @@ export default defineNuxtConfig({
       },
     ],
     [
-      "nuxt-i18n",
+      "@nuxtjs/i18n",
       {
         locales: [
           { code: "ja", name: "日本語", iso: "ja", file: "ja.json" },
