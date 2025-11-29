@@ -27,12 +27,11 @@ export default {
   layout: "default",
   data() {
     return {
-      updateInformation: "",
       history: [],
     }
   },
   async mounted() {
-    const response = await fetch("./history.json")
+    const response = await fetch("/history.json")
     this.history = await response.json()
   },
 }

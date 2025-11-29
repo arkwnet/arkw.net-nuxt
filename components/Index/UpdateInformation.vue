@@ -19,12 +19,11 @@
 export default {
   data() {
     return {
-      updateInformation: "",
       history: [],
     }
   },
   async mounted() {
-    const response = await fetch("./history.json")
+    const response = await fetch("/history.json")
     const json = await response.json()
     this.history = json.slice(0, 5)
   },
