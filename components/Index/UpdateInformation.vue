@@ -23,10 +23,10 @@ export default {
       history: [],
     }
   },
-  mounted() {
-    this.$axios.get("./history.json").then((response) => {
-      this.history = response.data.slice(0, 5)
-    })
+  async mounted() {
+    const response = await fetch("./history.json")
+    const json = await response.json()
+    this.history = json.slice(0, 5)
   },
 }
 </script>

@@ -27,10 +27,9 @@ export default {
       output: [],
     }
   },
-  mounted() {
-    this.$axios.get("./js/profile/" + this.src + ".json").then((response) => {
-      this.output = response.data
-    })
+  async mounted() {
+    const response = await fetch("./js/profile/" + this.src + ".json")
+    this.output = await response.json()
   },
 }
 </script>

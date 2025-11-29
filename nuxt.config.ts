@@ -1,7 +1,10 @@
 import { defineNuxtConfig } from "@nuxt/bridge"
 
 export default defineNuxtConfig({
-  bridge: false,
+  bridge: {
+    typescript: true,
+    nitro: false,
+  },
   target: "static",
   head: {
     title: "Arakawa Laboratory",
@@ -31,7 +34,6 @@ export default defineNuxtConfig({
   plugins: [],
   components: true,
   modules: [
-    ["@nuxtjs/axios"],
     [
       "@nuxtjs/google-gtag",
       {
@@ -66,11 +68,5 @@ export default defineNuxtConfig({
         options.loose = true
       },
     },
-  },
-  axios: {
-    proxy: true,
-  },
-  proxy: {
-    "/api/": "http://arkw.net/",
   },
 })

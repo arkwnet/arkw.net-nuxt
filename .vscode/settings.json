@@ -3,14 +3,14 @@
   "[scss]": {
     "editor.formatOnSave": false,
     "editor.codeActionsOnSave": {
-      "source.fixAll.stylelint": true
+      "source.fixAll.stylelint": "explicit"
     }
   },
   "stylelint.configFile": "./.stylelintrc.js",
   "stylelint.validate": ["css", "less", "postcss", "scss"],
   "css.validate": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll.stylelint": true
+    "source.fixAll.stylelint": "explicit"
   },
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode"
