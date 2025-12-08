@@ -9,7 +9,7 @@
       :wheel-control="false"
     >
       <slide>
-        <NaviImage href="https://arkw.work/doujin/" src="tbf19.webp" />
+        <NaviImage href="https://arkw.work/doujin/" src="c107.webp" />
       </slide>
       <slide>
         <NaviImage src="arkw_lab.webp" />
