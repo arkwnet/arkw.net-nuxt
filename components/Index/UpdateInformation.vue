@@ -23,9 +23,8 @@ export default {
     }
   },
   async mounted() {
-    const response = await fetch("/history.json")
-    const json = await response.json()
-    this.history = json.slice(0, 5)
+    const response = await fetch("/latest.json")
+    this.history = await response.json()
   },
 }
 </script>

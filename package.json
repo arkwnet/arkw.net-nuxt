@@ -10,7 +10,7 @@
     "lint:js": "eslint --fix --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint:css": "stylelint --fix **/*.{vue,scss,css} --ignore-path .gitignore",
     "lint": "npm run lint:js && npm run lint:css && npm run lint:prettier",
-    "image:webp": "node convert-webp.mjs"
+    "image:webp": "node convert.mjs"
   },
   "dependencies": {
     "@babel/preset-env": "^7.26.0",
