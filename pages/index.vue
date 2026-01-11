@@ -95,7 +95,7 @@
       <Skill src="vue" title="Vue.js" lv="5" />
       <Skill src="nuxt" title="Nuxt.js" lv="5" />
       <Skill src="python" title="Python" lv="4" />
-      <Skill src="chunithm" title="チュウニズム VERSE" lv="4" />
+      <Skill src="chunithm" title="チュウニズム X-VERSE-X" lv="4" />
       <Skill src="ongeki" title="オンゲキ Re:Fresh" lv="3" />
       <Skill src="illustrator" title="Adobe Illustrator" lv="3" />
       <Skill src="indesign" title="Adobe InDesign" lv="3" />
