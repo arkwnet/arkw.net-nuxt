@@ -506,6 +506,40 @@
           description="M5StickC専用のデジタル時計"
         />
       </div>
+      <br />
+      <h2>{{ $t("software.type.sub.doujin") }}</h2>
+      <div class="box">
+        <Card
+          href="https://arkw.net/contents/slimdot/"
+          src="products/slimdot"
+          title="SlimDot"
+          description="ソフトウェア開発や旅行など幅広い記事を収録した、自称・日本一「薄い」技術系同人誌"
+        />
+        <Card
+          href="https://arkw.work/doujin/index.html#enginner-cn"
+          src="products/engineer_cn"
+          title="エンジニアの中国語入門"
+          description="技術資料のリーディングに特化した中国語入門書。コラムや中国旅行ガイドなどおまけコンテンツも満載!"
+        />
+        <Card
+          href="https://arkw.work/doujin/index.html#iroiro-android"
+          src="products/iroiro_android"
+          title="イロイロ・アンドロイド!!"
+          description="元々のハード/ソフトを破壊しない範囲で、スマホなどAndroidデバイスを限界まで活用していきます"
+        />
+        <Card
+          href="https://arkw.work/doujin/index.html#abnormal-distribution"
+          src="products/abnormal_distribution"
+          title="異常頒布"
+          description="キャッシュレス決済、POSレジ…一部の界隈で行われている異常な頒布をフルカラー写真付きで紹介"
+        />
+        <Card
+          href="https://arkw.work/doujin/index.html#trainsim-cookbook"
+          src="products/trainsim_cookbook"
+          title="トレインシミュレータクックブック"
+          description="3Dやサウンド処理などトレインシミュレータ開発に必須の知識をサンプルプログラムで分かりやすく解説"
+        />
+      </div>
     </div>
     <br />
 
@@ -526,10 +560,6 @@
       <br />
       <a href="https://arkw.net/contents/ahiru/">
         <nuxt-img src="/img/links/ahiru.png" width="180" format="webp" />
-      </a>
-      <br />
-      <a href="https://arkw.booth.pm/" target="blank">
-        <img src="/img/links/booth_logo.svg" />
       </a>
     </p>
     <p>
@@ -627,6 +657,14 @@
       <a href="https://satoyama-nogyo.com/" target="blank">
         里山農業プロジェクト
       </a>
+    </p>
+    <br />
+    <p>
+      <nuxt-img src="/img/links/banner.png" />
+      <br />
+      当ウェブサイトはリンクフリーです。
+      <br />
+      バナーが必要な方は、こちらの画像をご利用ください。
     </p>
   </div>
 </template>
