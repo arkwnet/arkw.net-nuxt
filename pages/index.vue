@@ -293,6 +293,12 @@
           Apple Mac mini 2023
           <span class="spec">(Apple M2, 8GB RAM, 256GB SSD, macOS 14)</span>
           <br />
+          EPSON Endeavor ST170E ※旧
+          <a href="https://arkw.work/chifuyu/">Chifuyu Server</a>
+          <span class="spec">
+            (Intel Celeron 2950M, 4GB RAM, 120GB SSD, Rocky Linux 8)
+          </span>
+          <br />
           HP ENVY 15 X360
           <span class="spec">
             (AMD Ryzen 5 2500U, 16GB RAM, 256GB SSD + 1TB HDD, Windows 10)
@@ -349,15 +355,6 @@
           <span class="spec">
             (Intel Core i3-380M, 4GB RAM, 512GB SSD, Rocky Linux 9)
           </span>
-          <br />
-          <s>
-            <a href="https://arkw.work/chifuyu/">
-              EPSON Endeavor ST170E "Chifuyu Server"
-            </a>
-            <span class="spec">
-              (Intel Celeron 2950M, 4GB RAM, 120GB SSD, Rocky Linux 8)
-            </span>
-          </s>
         </td>
       </tr>
       <tr>
@@ -401,6 +398,15 @@
           <br />
           geanee ADP-503G
           <span class="spec">(Android 10 Go Edition)</span>
+          <br />
+          ASUS ZenFone Max Pro M2 ZB631KL
+          <span class="spec">(Android 9)</span>
+          <br />
+          ASUS ZenFone 3 ZE552KL
+          <span class="spec">(Android 8.0)</span>
+          <br />
+          SHARP AQUOS compact SH-02H
+          <span class="spec">(Android 6.0)</span>
           <br />
           KYOCERA TORQUE G02
           <span class="spec">(Android 6.0)</span>
@@ -505,6 +511,10 @@
           Brother DCP-J540N
           <span class="spec">(4-color Inkjet)</span>
         </td>
+      </tr>
+      <tr>
+        <th>{{ $t("profile.equipment.3dprinter") }}</th>
+        <td>Bambu Lab A1 mini</td>
       </tr>
       <tr>
         <th>{{ $t("profile.equipment.recorder") }}</th>

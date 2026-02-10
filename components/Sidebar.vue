@@ -609,6 +609,10 @@
         <nuxt-img src="/img/links/yude.png" width="180" format="webp" />
       </a>
       <br />
+      <a href="https://pepepper.net/" target="blank">
+        <nuxt-img src="/img/links/pepepper.png" width="180" format="webp" />
+      </a>
+      <br />
       <a href="http://bvetk.arkw.net/" target="blank">
         <nuxt-img src="/img/links/bvetk.png" format="webp" />
       </a>
@@ -619,6 +623,12 @@
       <br />
       <a href="https://hishoutai.arkw.net/" target="blank">
         <nuxt-img src="/img/links/hishoutai.png" format="webp" />
+      </a>
+      <br />
+      <a href="https://zopfco.de/" target="blank">Zopfcode</a>
+      <br />
+      <a href="https://ameblo.jp/hiderukario/" target="blank">
+        ポケ工房 (PocketFactory) / 山本技研
       </a>
     </p>
     <br />
