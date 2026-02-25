@@ -601,8 +601,8 @@
         <nuxt-img src="/img/links/yotiosoft.svg" width="180" format="webp" />
       </a>
       <br />
-      <a href="https://nona-takahara.github.io/" target="blank">
-        <nuxt-img src="/img/links/taka_impact.png" width="180" format="webp" />
+      <a href="https://nonasaba.net/" target="blank">
+        <nuxt-img src="/img/links/nonasaba.png" width="180" format="webp" />
       </a>
       <br />
       <a href="https://yude.jp/" target="blank">

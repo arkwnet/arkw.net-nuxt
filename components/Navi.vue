@@ -18,6 +18,9 @@
         />
       </slide>
       <slide>
+        <NaviImage href="https://arkw.work/doujin/" src="doujin.webp" />
+      </slide>
+      <slide>
         <NaviImage
           href="https://arkw.net/products/pc_game/hakotan/"
           src="hakotan.webp"

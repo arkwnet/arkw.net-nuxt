@@ -461,6 +461,13 @@
         </td>
       </tr>
       <tr>
+        <th>{{ $t("profile.equipment.tv") }}</th>
+        <td>
+          TCL 32S5402
+          <span class="spec">(Android 11)</span>
+        </td>
+      </tr>
+      <tr>
         <th>{{ $t("profile.equipment.digisign") }}</th>
         <td>
           LG LD290EJS-FPN1
