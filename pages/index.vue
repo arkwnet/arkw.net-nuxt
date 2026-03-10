@@ -477,7 +477,11 @@
       <tr>
         <th>{{ $t("profile.equipment.dictionary") }}</th>
         <td>
+          CASIO EX-word XD-Y4700
+          <br />
           CASIO EX-word XD-U4800
+          <br />
+          CASIO EX-word XD-U4700
           <br />
           CASIO EX-word XD-N4700
           <br />
@@ -503,6 +507,9 @@
           <br />
           SCE PlayStation 2
           <span class="spec">(SCPH-90000)</span>
+          <br />
+          SCE PlayStation
+          <span class="spec">(SCPH-9000)</span>
           <br />
           SCE PlayStation
           <span class="spec">(SCPH-7500)</span>
