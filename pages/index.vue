@@ -402,17 +402,32 @@
           ASUS ZenFone Max Pro M2 ZB631KL
           <span class="spec">(Android 9)</span>
           <br />
+          SONY Xperia XZ1 Compact SO-02K
+          <span class="spec">(Android 9)</span>
+          <br />
+          Panasonic TOUGHBOOK P-01K
+          <span class="spec">(Android 8.1)</span>
+          <br />
           ASUS ZenFone 3 ZE552KL
           <span class="spec">(Android 8.0)</span>
           <br />
-          SHARP AQUOS compact SH-02H
-          <span class="spec">(Android 6.0)</span>
+          HUAWEI P10 lite WAS-LX2J
+          <span class="spec">(Android 8.0)</span>
           <br />
           KYOCERA TORQUE G02
           <span class="spec">(Android 6.0)</span>
           <br />
-          HUAWEI GR5
+          SHARP AQUOS compact SH-02H
+          <span class="spec">(Android 6.0)</span>
+          <br />
+          SONY Xperia Z3 Compact SO-02G
+          <span class="spec">(Android 6.0)</span>
+          <br />
+          HUAWEI GR5 KII-L22
           <span class="spec">(Android 5.1)</span>
+          <br />
+          KYOCERA URBANO V01 KYV31
+          <span class="spec">(Android 4.4.4)</span>
           <br />
           Panasonic P-07C
           <span class="spec">(Android 2.3)</span>
@@ -504,6 +519,9 @@
           Nintendo DSi LL
           <br />
           Nintendo Wii
+          <br />
+          SCE PlayStation Portable
+          <span class="spec">(PSP-1000)</span>
           <br />
           SCE PlayStation 2
           <span class="spec">(SCPH-90000)</span>
