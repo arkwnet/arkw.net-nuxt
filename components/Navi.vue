@@ -9,6 +9,9 @@
       :wheel-control="false"
     >
       <slide>
+        <NaviImage href="https://arkw.work/doujin/" src="tbf20.webp" />
+      </slide>
+      <slide>
         <NaviImage src="arkw_lab.webp" />
       </slide>
       <slide>
@@ -16,9 +19,6 @@
           href="https://arkw.net/products/pc_game/more_subway_nagoya/"
           src="more_subway_nagoya.webp"
         />
-      </slide>
-      <slide>
-        <NaviImage href="https://arkw.work/doujin/" src="doujin.webp" />
       </slide>
       <slide>
         <NaviImage
