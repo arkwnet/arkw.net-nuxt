@@ -91,3 +91,5 @@ sw.*
 
 # WebP image files
 *.webp
+
+latest.json
