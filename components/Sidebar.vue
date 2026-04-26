@@ -550,7 +550,7 @@
         <nuxt-img src="/img/links/otajien.svg" width="180" format="webp" />
       </a>
       <br />
-      <a href="https://odeyame.site/">
+      <a href="https://arkw.net/contents/odeyame2/">
         <nuxt-img src="/img/links/odeyame2.png" width="180" format="webp" />
       </a>
       <br />
