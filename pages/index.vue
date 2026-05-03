@@ -3,6 +3,13 @@
     <!-- トピックス -->
     <h1 class="heading">{{ $t("heading.topics") }}</h1>
     <Card
+      href="https://arkw.work/doujin/"
+      src="topics/gishohaku13"
+      title="「第13回 技術書同人誌博覧会」に出展します!!"
+      description="2026年5月10日 (日) 開催「第13回 技術書同人誌博覧会」にて、新刊含む技術書とWindows 11対応のPCゲームを頒布します! 場所は大田区産業プラザPiO 大展示ホール「さ01」です。ぜひお越しください!!"
+      height-auto
+    />
+    <Card
       href="https://note.com/arkw0/n/n5289722646f0"
       src="topics/windef"
       title="「Windows セキュリティの重要な警告」ダイアログ"
