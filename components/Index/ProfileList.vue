@@ -13,23 +13,18 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: {
-    src: {
-      type: String,
-      require: true,
-      default: null,
-    },
+<script setup>
+import { ref, onMounted } from "vue"
+const props = defineProps({
+  src: {
+    type: String,
+    required: true,
+    default: null,
   },
-  data() {
-    return {
-      output: [],
-    }
-  },
-  async mounted() {
-    const response = await fetch("./js/profile/" + this.src + ".json")
-    this.output = await response.json()
-  },
-}
+})
+const output = ref([])
+onMounted(async () => {
+  const response = await fetch(`/js/profile/${props.src}.json`)
+  output.value = await response.json()
+})
 </script>

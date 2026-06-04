@@ -3,14 +3,18 @@
     <div class="header">
       <div class="wrapper">
         <div class="logo">
-          <nuxt-link :to="localePath('/')">
-            <div class="pc"><img src="~/assets/img/logo.svg" /></div>
-            <div class="mobile"><img src="~/assets/img/logo2.svg" /></div>
-          </nuxt-link>
+          <NuxtLink :to="localePath('/')">
+            <div class="pc">
+              <img src="../assets/img/logo.svg" />
+            </div>
+            <div class="mobile">
+              <img src="../assets/img/logo2.svg" />
+            </div>
+          </NuxtLink>
         </div>
         <div class="icon">
           <div v-click-outside="hideLocaleMenu">
-            <div class="locale" @click="onLocaleMenu()">
+            <div class="locale" @click="onLocaleMenu">
               {{ $t("locale") }}
             </div>
             <ul v-if="isLocaleMenu" class="menu locale">
@@ -25,38 +29,29 @@
   </div>
 </template>
 
-<script>
-import ClickOutside from "vue-click-outside"
-export default {
-  directives: {
-    ClickOutside,
-  },
-  data() {
-    return {
-      isLocaleMenu: false,
-    }
-  },
-  methods: {
-    onLocaleMenu() {
-      switch (this.isLocaleMenu) {
-        case false:
-          this.showLocaleMenu()
-          break
-        case true:
-          this.hideLocaleMenu()
-          break
-      }
-    },
-    showLocaleMenu() {
-      this.isLocaleMenu = true
-    },
-    hideLocaleMenu() {
-      this.isLocaleMenu = false
-    },
-    setLocale(lang) {
-      this.$router.push(this.switchLocalePath(lang))
-      this.hideLocaleMenu()
-    },
-  },
+<script setup>
+const isLocaleMenu = ref(false)
+const localePath = useLocalePath()
+const switchLocalePath = useSwitchLocalePath()
+const router = useRouter()
+
+const onLocaleMenu = () => {
+  isLocaleMenu.value = !isLocaleMenu.value
+}
+
+const showLocaleMenu = () => {
+  isLocaleMenu.value = true
+}
+
+const hideLocaleMenu = () => {
+  isLocaleMenu.value = false
+}
+
+const setLocale = async (lang) => {
+  const path = switchLocalePath(lang)
+  if (path) {
+    await router.push(path)
+  }
+  hideLocaleMenu()
 }
 </script>

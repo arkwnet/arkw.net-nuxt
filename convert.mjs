@@ -6,15 +6,15 @@ main()
 
 async function main() {
   for (let i = 0; i < dir.length; i++) {
-    await imagemin(["./static/img/" + dir[i] + "/*.{jpg,png}"], {
-      destination: "./static/img/" + dir[i] + "/",
+    await imagemin(["./public/img/" + dir[i] + "/*.{jpg,png}"], {
+      destination: "./public/img/" + dir[i] + "/",
       plugins: [imageminWebp({ quality: 100 })],
     })
   }
-  const data = JSON.parse(await readFile("./static/history.json", "utf-8"))
+  const data = JSON.parse(await readFile("./public/history.json", "utf-8"))
   const latest = data.slice(0, 5)
   await writeFile(
-    "./static/latest.json",
+    "./public/latest.json",
     JSON.stringify(latest, null, 2),
     "utf-8",
   )

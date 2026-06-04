@@ -169,52 +169,52 @@
       </h2>
       <p>
         <a href="https://arkw.net/products/win/eim2/">
-          <img src="~/assets/img/products/eim2.png" class="social" />
+          <img src="../assets/img/products/eim2.png" class="social" />
           はじめての写真管理2
         </a>
         <br />
         <a href="https://arkw.net/products/win/old/EImageManage_1.1.2.exe">
-          <img src="~/assets/img/products/download.png" class="social" />
+          <img src="../assets/img/products/download.png" class="social" />
           はじめての写真管理 Version 1.1.2 インストーラー版
         </a>
         <br />
         <a href="https://arkw.net/products/win/old/EImageManage_1.1.2.zip">
-          <img src="~/assets/img/products/folder-zipper.png" class="social" />
+          <img src="../assets/img/products/folder-zipper.png" class="social" />
           はじめての写真管理 Version 1.1.2 ポータブル版
         </a>
         <br />
         <a href="https://arkw.net/products/win/old/EDigitalDiary_1.0.zip">
-          <img src="~/assets/img/products/folder-zipper.png" class="social" />
+          <img src="../assets/img/products/folder-zipper.png" class="social" />
           はじめてのデジタル日記 Version 1.0
         </a>
         <br />
         <a href="https://arkw.net/products/win/old/EasyAddress_1.0.1.zip">
-          <img src="~/assets/img/products/folder-zipper.png" class="social" />
+          <img src="../assets/img/products/folder-zipper.png" class="social" />
           かんたん住所録 Version 1.0.1 修正版
         </a>
         <br />
         <a href="https://arkw.net/products/win/old/e_page_editor_1.0.1.zip">
-          <img src="~/assets/img/products/folder-zipper.png" class="social" />
+          <img src="../assets/img/products/folder-zipper.png" class="social" />
           E-Page Editor Version 1.0.1
         </a>
         <br />
         <a href="https://arkw.net/products/win/old/Okoshimon_1.0.1.zip">
-          <img src="~/assets/img/products/folder-zipper.png" class="social" />
+          <img src="../assets/img/products/folder-zipper.png" class="social" />
           おこしもん Version 1.0.1
         </a>
         <br />
         <a href="https://arkw.net/products/win/old/SimpleShinchoku_1.0.zip">
-          <img src="~/assets/img/products/folder-zipper.png" class="social" />
+          <img src="../assets/img/products/folder-zipper.png" class="social" />
           シンプル進捗管理 Version 1.0
         </a>
         <br />
         <a href="https://arkw.net/products/win/old/Jikagaki_1.0.1.zip">
-          <img src="~/assets/img/products/folder-zipper.png" class="social" />
+          <img src="../assets/img/products/folder-zipper.png" class="social" />
           直書きランチャー Version 1.0.1
         </a>
         <br />
         <a href="https://arkw.net/products/win/old/ShiseiChecker_1.0.zip">
-          <img src="~/assets/img/products/folder-zipper.png" class="social" />
+          <img src="../assets/img/products/folder-zipper.png" class="social" />
           姿勢チェッカー for Windows Version 1.0
         </a>
         <br />
@@ -547,7 +547,7 @@
     <h1 class="heading">{{ $t("heading.contents") }}</h1>
     <p>
       <a href="https://otajien.arkw.work/" target="blank">
-        <nuxt-img src="/img/links/otajien.svg" width="180" format="webp" />
+        <nuxt-img src="/img/links/otajien.svg" width="180" />
       </a>
       <br />
       <a href="https://arkw.net/contents/odeyame2/">
@@ -598,7 +598,7 @@
     <h1 class="heading">{{ $t("heading.links") }}</h1>
     <p>
       <a href="http://yotiosoft.com/" target="blank">
-        <nuxt-img src="/img/links/yotiosoft.svg" width="180" format="webp" />
+        <nuxt-img src="/img/links/yotiosoft.svg" width="180" />
       </a>
       <br />
       <a href="https://nonasaba.net/" target="blank">
@@ -614,7 +614,7 @@
       </a>
       <br />
       <a href="http://bvetk.arkw.net/" target="blank">
-        <nuxt-img src="/img/links/bvetk.png" format="webp" />
+        <nuxt-img src="/img/links/bvetk.png" width="180" format="webp" />
       </a>
       <br />
       <a href="https://gakujochan.com/" target="blank">
@@ -622,7 +622,7 @@
       </a>
       <br />
       <a href="https://hishoutai.arkw.net/" target="blank">
-        <nuxt-img src="/img/links/hishoutai.png" format="webp" />
+        <nuxt-img src="/img/links/hishoutai.png" width="180" format="webp" />
       </a>
       <br />
       <a href="https://zopfco.de/" target="blank">Zopfcode</a>
@@ -638,7 +638,6 @@
           src="/img/links/shizuoka.gif"
           width="180"
           class="link-banner"
-          format="webp"
         />
       </a>
       <br />
@@ -679,11 +678,6 @@
   </div>
 </template>
 
-<script>
-import Card from "../components/Card"
-export default {
-  components: {
-    Card,
-  },
-}
+<script setup>
+import Card from "./Card.vue"
 </script>

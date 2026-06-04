@@ -73,8 +73,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  layout: "default",
-}
+<script setup>
+const localePath = useLocalePath()
 </script>

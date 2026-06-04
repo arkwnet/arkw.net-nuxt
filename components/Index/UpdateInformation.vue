@@ -15,16 +15,11 @@
   </table>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      history: [],
-    }
-  },
-  async mounted() {
-    const response = await fetch("/latest.json")
-    this.history = await response.json()
-  },
-}
+<script setup>
+import { ref, onMounted } from "vue"
+const history = ref([])
+onMounted(async () => {
+  const response = await fetch("/latest.json")
+  history.value = await response.json()
+})
 </script>

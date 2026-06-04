@@ -35,3 +35,7 @@
     </div>
   </div>
 </template>
+
+<script setup>
+const localePath = useLocalePath()
+</script>

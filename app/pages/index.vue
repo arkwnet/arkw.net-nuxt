@@ -581,24 +581,13 @@
   </div>
 </template>
 
-<script>
-import Card from "../components/Card"
-import UpdateInformation from "../components/Index/UpdateInformation"
-import Chip from "../components/Index/Chip"
-import Skill from "../components/Index/Skill"
-import Work from "../components/Index/Work"
-import ProfileList from "../components/Index/ProfileList"
-import ProfileTable from "../components/Index/ProfileTable"
-export default {
-  components: {
-    Card,
-    UpdateInformation,
-    Chip,
-    Skill,
-    Work,
-    ProfileList,
-    ProfileTable,
-  },
-  layout: "default",
-}
+<script setup>
+import Card from "../../components/Card.vue"
+import Chip from "../../components/Index/Chip.vue"
+import ProfileList from "../../components/Index/ProfileList.vue"
+import ProfileTable from "../../components/Index/ProfileTable.vue"
+import Skill from "../../components/Index/Skill.vue"
+import UpdateInformation from "../../components/Index/UpdateInformation.vue"
+import Work from "../../components/Index/Work.vue"
+const localePath = useLocalePath()
 </script>

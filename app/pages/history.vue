@@ -22,17 +22,12 @@
   </div>
 </template>
 
-<script>
-export default {
-  layout: "default",
-  data() {
-    return {
-      history: [],
-    }
-  },
-  async mounted() {
-    const response = await fetch("/history.json")
-    this.history = await response.json()
-  },
-}
+<script setup>
+import { ref, onMounted } from "vue"
+const localePath = useLocalePath()
+const history = ref([])
+onMounted(async () => {
+  const response = await fetch("/history.json")
+  history.value = await response.json()
+})
 </script>

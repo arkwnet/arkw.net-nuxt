@@ -1,62 +1,57 @@
 <template>
   <div class="navi">
-    <hooper
-      :auto-play="true"
-      :infinite-scroll="true"
-      :keys-control="false"
-      :play-speed="4000"
-      :progress="true"
-      :wheel-control="false"
-    >
-      <slide>
+    <swiper-container ref="containerRef" :init="false">
+      <swiper-slide>
         <NaviImage src="arkw_lab.webp" />
-      </slide>
-      <slide>
+      </swiper-slide>
+      <swiper-slide>
         <NaviImage
           href="https://arkw.net/products/pc_game/more_subway_nagoya/"
           src="more_subway_nagoya.webp"
         />
-      </slide>
-      <slide>
+      </swiper-slide>
+      <swiper-slide>
         <NaviImage href="https://arkw.work/doujin/" src="doujin.webp" />
-      </slide>
-      <slide>
+      </swiper-slide>
+      <swiper-slide>
         <NaviImage
           href="https://arkw.net/products/pc_game/hakotan/"
           src="hakotan.webp"
         />
-      </slide>
-      <slide>
+      </swiper-slide>
+      <swiper-slide>
         <NaviImage
           href="https://arkw.net/products/pc_game/hiragana_erase/"
           src="hiragana_erase.webp"
         />
-      </slide>
-      <slide>
+      </swiper-slide>
+      <swiper-slide>
         <NaviImage
           href="https://play.google.com/store/apps/details?id=jp.arkw.swarmskytox"
           src="swarmskytox.webp"
         />
-      </slide>
-      <slide>
+      </swiper-slide>
+      <swiper-slide>
         <NaviImage
           href="https://arkw.net/products/web/prohaya/"
           src="prohaya.webp"
         />
-      </slide>
-    </hooper>
+      </swiper-slide>
+    </swiper-container>
   </div>
 </template>
 
-<script>
-import { Hooper, Slide } from "hooper"
+<script setup>
 import NaviImage from "./NaviImage.vue"
 import "../assets/sass/hooper.scss"
-export default {
-  components: {
-    Hooper,
-    Slide,
-    NaviImage,
+const containerRef = ref(null)
+const swiper = useSwiper(containerRef, {
+  loop: true,
+  autoplay: {
+    delay: 4000,
   },
-}
+})
+onMounted(() => {
+  console.log(swiper.instance)
+})
 </script>
