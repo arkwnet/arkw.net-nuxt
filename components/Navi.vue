@@ -2,6 +2,9 @@
   <div class="navi">
     <swiper-container ref="containerRef" :init="false">
       <swiper-slide>
+        <NaviImage href="https://arkw.work/doujin/" src="c108.webp" />
+      </swiper-slide>
+      <swiper-slide>
         <NaviImage src="arkw_lab.webp" />
       </swiper-slide>
       <swiper-slide>
@@ -9,9 +12,6 @@
           href="https://arkw.net/products/pc_game/more_subway_nagoya/"
           src="more_subway_nagoya.webp"
         />
-      </swiper-slide>
-      <swiper-slide>
-        <NaviImage href="https://arkw.work/doujin/" src="doujin.webp" />
       </swiper-slide>
       <swiper-slide>
         <NaviImage
