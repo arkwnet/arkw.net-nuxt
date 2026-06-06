@@ -514,6 +514,10 @@
           SHARP Brain PW-HC4
           <br />
           SII DAYFILER DF-X8000
+          <br />
+          Hannuri Biz NURIAN TX3
+          <br />
+          Hannuri Biz NURIAN X45
         </td>
       </tr>
       <tr>
@@ -538,6 +542,14 @@
           <br />
           SCE PlayStation
           <span class="spec">(SCPH-7500)</span>
+        </td>
+      </tr>
+      <tr>
+        <th>{{ $t("profile.equipment.smartspeaker") }}</th>
+        <td>
+          Amazon Echo Show 5 2nd Generation
+          <br />
+          ANKER Eufy Genie
         </td>
       </tr>
       <tr>
