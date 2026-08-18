@@ -488,6 +488,12 @@
       <h2>M5Stack</h2>
       <div class="box">
         <Card
+          href="https://www.hackster.io/arkw/pomodoro-eyes-f02a68"
+          src="products/pomodoro_eyes"
+          title="Pomodoro Eyes"
+          description="美少女キャラクターが作業を見守ってくれるゲームを高度に抽象化したポモドーロタイマー"
+        />
+        <Card
           href="https://www.hackster.io/arkw/sake-meter-4801f7"
           src="products/sakemeter"
           title="酒メーター"
@@ -514,6 +520,12 @@
           src="products/slimdot"
           title="SlimDot"
           description="ソフトウェア開発や旅行など幅広い記事を収録した、自称・日本一「薄い」技術系同人誌"
+        />
+        <Card
+          href="https://arkw.work/doujin/index.html"
+          src="products/public_transport_hardoff"
+          title="公共交通で巡る ハードオフ全店ガイド"
+          description="ハードオフの日本国内全店舗を対象に、鉄道・路線バス・徒歩を組み合わせたアクセス経路など情報が満載の非公式本"
         />
         <Card
           href="https://arkw.work/doujin/index.html#enginner-cn"
