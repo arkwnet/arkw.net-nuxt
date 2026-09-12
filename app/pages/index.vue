@@ -315,6 +315,11 @@
         <td>
           Panasonic Let's note CF-SZ5
           <span class="spec">
+            (Intel Core i5-6300U, 8GB RAM, 256GB SSD, Windows 11)
+          </span>
+          <br />
+          Panasonic Let's note CF-SZ5
+          <span class="spec">
             (Intel Core i5-6300U, 8GB RAM, 256GB SSD, Windows 10)
           </span>
           <br />
