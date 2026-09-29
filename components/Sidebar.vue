@@ -342,6 +342,12 @@
           description="文章を検査し、「日本語の使い方」や「読みやすさ」をチェックするツール"
         />
         <Card
+          href="https://arkw.net/products/web/mimerge/"
+          src="products/mimerge"
+          title="MiMerge"
+          description="1～2つのMisskeyユーザのフォローやフォロワーを一覧比較できるウェブアプリ"
+        />
+        <Card
           href="https://arkw.net/products/web/missdui/"
           src="products/missdui"
           title="密斯対 (MissDui)"
