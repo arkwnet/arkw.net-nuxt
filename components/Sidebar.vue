@@ -80,6 +80,12 @@
           title="Dualverse"
           description="究極のSNS廃人向けウェブブラウザ、誕生。"
         />
+        <Card
+          href="https://arkw.net/products/win/sumikko_ai/"
+          src="products/sumikko"
+          title="すみっコAI"
+          description="画面の隅に生成AIチャットボットを常駐できるソフトウェア"
+        />
       </div>
       <br />
       <h2>
