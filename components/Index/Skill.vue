@@ -1,6 +1,6 @@
 <template>
   <div class="box" :title="title">
-    <nuxt-img :src="`/img/skills/${src}.png`" format="webp" />
+    <nuxt-img :src="`/img/skills/${src}.png`" format="webp" loading="lazy" />
     <div class="progress-background"></div>
     <div :class="`progress lv-${lv}`"></div>
   </div>

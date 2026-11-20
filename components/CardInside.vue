@@ -1,6 +1,8 @@
 <template>
   <div :class="[heightAuto == true ? 'topics height-auto' : 'topics']">
-    <div class="icon"><nuxt-img :src="`/img/${src}.png`" format="webp" /></div>
+    <div class="icon">
+      <nuxt-img :src="`/img/${src}.png`" format="webp" loading="lazy" />
+    </div>
     <div class="main">
       <h1>{{ title }}</h1>
       <p>{{ description }}</p>

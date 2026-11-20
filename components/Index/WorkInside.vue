@@ -1,5 +1,13 @@
 <template>
-  <div class="box" :style="style">
+  <div class="box">
+    <img
+      class="background"
+      :src="`/img/works/${src}.webp`"
+      :style="{ objectPosition: `center ${position}` }"
+      alt=""
+      loading="lazy"
+      decoding="async"
+    />
     <div class="text">
       <h2>{{ date }}</h2>
       <h1>{{ title }}</h1>
@@ -38,18 +46,6 @@ export default {
       type: String,
       default: "top",
     },
-  },
-  data() {
-    return {
-      style: "",
-    }
-  },
-  mounted() {
-    this.style =
-      "background-image: url('img/works/" +
-      this.src +
-      ".webp'); background-position: center " +
-      this.position
   },
 }
 </script>

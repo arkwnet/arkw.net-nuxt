@@ -8,7 +8,7 @@ async function main() {
   for (let i = 0; i < dir.length; i++) {
     await imagemin(["./public/img/" + dir[i] + "/*.{jpg,png}"], {
       destination: "./public/img/" + dir[i] + "/",
-      plugins: [imageminWebp({ quality: 100 })],
+      plugins: [imageminWebp({ quality: 85 })],
     })
   }
   const data = JSON.parse(await readFile("./public/history.json", "utf-8"))

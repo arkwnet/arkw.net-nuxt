@@ -45,13 +45,10 @@
 import NaviImage from "./NaviImage.vue"
 import "../assets/sass/hooper.scss"
 const containerRef = ref(null)
-const swiper = useSwiper(containerRef, {
+useSwiper(containerRef, {
   loop: true,
   autoplay: {
     delay: 4000,
   },
-})
-onMounted(() => {
-  console.log(swiper.instance)
 })
 </script>
